@@ -1,0 +1,86 @@
+type,name,occurrences,sourceCount,sources
+DEPARTMENT,অভ্যন্তরীণ সম্পদ বিভাগ,1,1,scraped_contacts/rti_officers_all.json
+DEPARTMENT,অর্থ বিভাগ,2,1,scraped_contacts/rti_officers_all.json
+DEPARTMENT,অর্থনৈতিক সম্পর্ক বিভাগ,2,1,scraped_contacts/rti_officers_all.json
+DEPARTMENT,আইন ও বিচার বিভাগ,2,1,scraped_contacts/rti_officers_all.json
+DEPARTMENT,আর্থিক প্রতিষ্ঠান বিভাগ,2,1,scraped_contacts/rti_officers_all.json
+DEPARTMENT,কারিগরি ও মাদ্রাসা শিক্ষা বিভাগ,2,1,scraped_contacts/rti_officers_all.json
+DEPARTMENT,জননিরাপত্তা বিভাগ,2,1,scraped_contacts/rti_officers_all.json
+DEPARTMENT,জ্বালানি ও খনিজ সম্পদ বিভাগ,2,1,scraped_contacts/rti_officers_all.json
+DEPARTMENT,ডাক ও টেলিযোগাযোগ বিভাগ,2,1,scraped_contacts/rti_officers_all.json
+DEPARTMENT,তথ্য ও যোগাযোগ প্রযুক্তি বিভাগ,1,1,scraped_contacts/rti_officers_all.json
+DEPARTMENT,পরিকল্পনা বিভাগ,2,1,scraped_contacts/rti_officers_all.json
+DEPARTMENT,পরিসংখ্যান ও তথ্য ব্যবস্থাপনা বিভাগ,2,1,scraped_contacts/rti_officers_all.json
+DEPARTMENT,পল্লী উন্নয়ন ও সমবায় বিভাগ,2,1,RTI officers - Sheet3.csv
+DEPARTMENT,বাংলাদেশ বিশ্ববিদ্যালয় মঞ্জুরী কমিশন,2,1,scraped_contacts/rti_officers_all.json
+DEPARTMENT,বাংলাদেশ সরকারী কর্মকমিশন সচিবালয়,2,1,RTI officers - Sheet3.csv
+DEPARTMENT,বাস্তবায়ন পরিবীক্ষণ ও মূল্যায়ন বিভাগ,2,1,scraped_contacts/rti_officers_all.json
+DEPARTMENT,বিদ্যুৎ বিভাগ,2,1,scraped_contacts/rti_officers_all.json
+DEPARTMENT,মন্ত্রিপরিষদ বিভাগ,2,1,scraped_contacts/rti_officers_all.json
+DEPARTMENT,মাধ্যমিক ও উচ্চ শিক্ষা বিভাগ,1,1,scraped_contacts/rti_officers_all.json
+DEPARTMENT,লেজিসলেটিভ ও সংসদ বিষয়ক বিভাগ,2,1,scraped_contacts/rti_officers_all.json
+DEPARTMENT,সড়ক পরিবহন ও মহাসড়ক বিভাগ,1,1,scraped_contacts/rti_officers_all.json
+DEPARTMENT,সুরক্ষা সেবা বিভাগ,2,1,scraped_contacts/rti_officers_all.json
+DEPARTMENT,সেতু বিভাগ,2,1,scraped_contacts/rti_officers_all.json
+DEPARTMENT,স্থানীয় সরকার বিভাগ,2,1,scraped_contacts/rti_officers_all.json
+DEPARTMENT,স্বাস্থ্য শিক্ষা ও পরিবার কল্যাণ বিভাগ,2,1,scraped_contacts/rti_officers_all.json
+DEPARTMENT,স্বাস্থ্য সেবা বিভাগ,2,1,RTI officers - Sheet3.csv
+MINISTRY,অভ্যন্তরীণ সম্পদ বিভাগ,1,1,scraped_contacts/rti_officers_all.json
+MINISTRY,অর্থ মন্ত্রণালয়,2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,অর্থনৈতিক সম্পর্ক বিভাগ,2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,"আইন, বিচার ও সংসদ বিষয়ক মন্ত্রণালয়",2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,আর্থিক প্রতিষ্ঠান বিভাগ,2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,কারিগরি ও মাদ্রাসা শিক্ষা বিভাগ,2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,কৃষি মন্ত্রণালয়,2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,কৃষি মন্ত্রণালয়,9,1,https://moa.gov.bd/pages/officers/
+MINISTRY,খাদ্য মন্ত্রণালয়,2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,গৃহায়ন ও গণপূর্ত মন্ত্রণালয়,2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,জনপ্রশাসন মন্ত্রণালয়,11,2,RTI officers - Sheet3.csv | https://mopa.gov.bd/pages/officers/
+MINISTRY,জ্বালানি ও খনিজ সম্পদ বিভাগ,2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,"ডাক, টেলিযোগাযোগ ও তথ্যপ্রযুক্তি মন্ত্রণালয়",2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,তথ্য ও যোগাযোগ প্রযুক্তি বিভাগ,2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,তথ্য ও সম্প্রচার মন্ত্রণালয়,2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,তথ্য ও সম্প্রচার মন্ত্রণালয়,9,1,https://moi.gov.bd/pages/officers/
+MINISTRY,দুর্যোগ ব্যবস্থাপনা ও ত্রাণ মন্ত্রণালয়,2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,ধর্ম বিষয়ক মন্ত্রণালয়,2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,নৌ-পরিবহন মন্ত্রণালয়,2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,পররাষ্ট্র মন্ত্রণালয়,2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,পররাষ্ট্র মন্ত্রণালয়,9,1,https://mofa.gov.bd/pages/officers/
+MINISTRY,পরিকল্পনা মন্ত্রণালয়,2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,"পরিবেশ, বন ও জলবায়ু পরিবর্তন মন্ত্রণালয়",2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,পরিসংখ্যান ও তথ্য ব্যবস্থাপনা বিভাগ,2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,পানি সম্পদ মন্ত্রণালয়,2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,পার্বত্য চট্টগ্রাম বিষয়ক মন্ত্রণালয়,2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,প্রতিরক্ষা মন্ত্রণালয়,2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,প্রধান উপদেষ্টার কার্যালয়,2,1,RTI officers - Sheet3.csv
+MINISTRY,প্রবাসী কল্যাণ ও বৈদেশিক কর্মসংস্থান মন্ত্রণালয়,2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,প্রাথমিক ও গণশিক্ষা মন্ত্রণালয়,2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,বস্ত্র ও পাট মন্ত্রণালয়,2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,বাণিজ্য মন্ত্রণালয়,2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,বাংলাদেশ বিশ্ববিদ্যালয় মঞ্জুরী কমিশন,2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,বাস্তবায়ন পরিবীক্ষণ ও মূল্যায়ন বিভাগ,2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,বিজ্ঞান ও প্রযুক্তি মন্ত্রণালয়,2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,"বিদ্যুৎ, জ্বালানি ও খনিজ সম্পদ মন্ত্রণালয়",2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,বেসামরিক বিমান পরিবহন ও পর্যটন মন্ত্রণালয়,2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,ভূমি মন্ত্রণালয়,2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,মৎস্য ও প্রাণিসম্পদ মন্ত্রণালয়,2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,মন্ত্রিপরিষদ বিভাগ,11,2,https://cabinet.gov.bd/pages/officers/ | scraped_contacts/rti_officers_all.json
+MINISTRY,মহিলা ও শিশু বিষয়ক মন্ত্রণালয়,2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,মুক্তিযুদ্ধ বিষয়ক মন্ত্রণালয়,2,2,RTI officers - Sheet3.csv | scraped_contacts/rti_officers_all.json
+MINISTRY,যুব ও ক্রীড়া মন্ত্রণালয়,2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,রেলপথ মন্ত্রণালয়,2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,লেজিসলেটিভ ও সংসদ বিষয়ক বিভাগ,2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,শিক্ষা মন্ত্রণালয়,2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,শিল্প মন্ত্রণালয়,2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,শ্রম ও কর্মসংস্থান মন্ত্রণালয়,2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,সড়ক পরিবহন ও সেতু মন্ত্রণালয়,1,1,scraped_contacts/rti_officers_all.json
+MINISTRY,সমাজকল্যাণ মন্ত্রণালয়,2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,সংস্কৃতি বিষয়ক মন্ত্রণালয়,2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,সুরক্ষা সেবা বিভাগ,2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,সেতু বিভাগ,2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,"স্থানীয় সরকার, পল্লী উন্নয়ন ও সমবায় মন্ত্রণালয়",2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,স্বরাষ্ট্র মন্ত্রণালয়,2,1,scraped_contacts/rti_officers_all.json
+MINISTRY,স্বরাষ্ট্র মন্ত্রণালয়,9,1,https://moha.gov.bd/pages/officers/
+MINISTRY,স্বাস্থ্য ও পরিবার কল্যাণ মন্ত্রণালয়,9,1,https://mohfw.gov.bd/pages/officers/
+MINISTRY,স্বাস্থ্য ও পরিবার কল্যাণ মন্ত্রণালয়,2,1,RTI officers - Sheet3.csv
+MINISTRY,স্বাস্থ্য শিক্ষা ও পরিবার কল্যাণ বিভাগ,2,1,scraped_contacts/rti_officers_all.json

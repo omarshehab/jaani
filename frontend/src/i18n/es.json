@@ -1,0 +1,133 @@
+{
+  "app": {
+    "title": "X_Files - Plataforma Global de Responsabilidad",
+    "subtitle": "Exige transparencia de las estructuras de poder en todo el mundo",
+    "description": "Plataforma inspirada en WikiLeaks para analizar noticias, extraer entidades y enviar demandas de responsabilidad"
+  },
+  "navigation": {
+    "home": "Inicio",
+    "analysis": "Análisis",
+    "action": "Acción",
+    "language": "Idioma"
+  },
+  "home": {
+    "title": "Enviar URL de Noticia",
+    "subtitle": "Ingresa una URL de noticia para analizar y extraer entidades clave",
+    "enterUrl": "Ingresa URL de Noticia",
+    "urlPlaceholder": "https://example.com/news-article",
+    "submit": "Enviar",
+    "analyzing": "Analizando...",
+    "invalidUrl": "Por favor ingresa una URL válida",
+    "error": "Error analizando URL. Por favor intenta de nuevo."
+  },
+  "analysis": {
+    "title": "Resultados del Análisis",
+    "subtitle": "Palabras clave y entidades extraídas del artículo de noticias",
+    "keywords": "Palabras Clave",
+    "entities": "Entidades",
+    "confidence": "Confianza",
+    "type": "Tipo",
+    "text": "Texto",
+    "proceedToAction": "Proceder a la Acción",
+    "noResults": "No se encontraron resultados de análisis",
+    "loading": "Cargando análisis..."
+  },
+  "action": {
+    "title": "Tomar Acción",
+    "subtitle": "Enviar demandas de responsabilidad a entidades relevantes",
+    "contacts": "Contactos",
+    "template": "Plantilla de Mensaje",
+    "send": "Enviar Mensaje",
+    "channels": "Enviar vía",
+    "email": "Email",
+    "sms": "SMS",
+    "whatsapp": "WhatsApp",
+    "tone": "Tono",
+    "formal": "Formal",
+    "neutral": "Neutral",
+    "urgent": "Urgente",
+    "generateTemplate": "Generar Plantilla",
+    "customTemplate": "Plantilla Personalizada",
+    "selectContacts": "Selecciona contactos para enviar mensajes",
+    "noContacts": "No se encontraron contactos para esta región",
+    "messageSent": "Mensaje enviado exitosamente",
+    "messageFailed": "Error al enviar mensaje",
+    "sending": "Enviando..."
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "close": "Cerrar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "retry": "Reintentar",
+    "refresh": "Actualizar",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "sort": "Ordenar",
+    "export": "Exportar",
+    "import": "Importar",
+    "settings": "Configuración",
+    "help": "Ayuda",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "language": "Idioma",
+    "region": "Región"
+  },
+  "languages": {
+    "en": "English",
+    "bn": "বাংলা",
+    "hi": "हिन्दी",
+    "ur": "اردو",
+    "ar": "العربية",
+    "es": "Español"
+  },
+  "regions": {
+    "BD": "Bangladesh",
+    "US": "Estados Unidos",
+    "EU": "Unión Europea",
+    "Global": "Global"
+  },
+  "errors": {
+    "networkError": "Error de red. Por favor verifica tu conexión.",
+    "serverError": "Error del servidor. Por favor intenta más tarde.",
+    "invalidInput": "Entrada inválida. Por favor verifica tus datos.",
+    "unauthorized": "Acceso no autorizado.",
+    "forbidden": "Acceso prohibido.",
+    "notFound": "Recurso no encontrado.",
+    "timeout": "Tiempo de espera agotado. Por favor intenta de nuevo.",
+    "unknown": "Error desconocido ocurrió."
+  },
+  "slogans": [
+    "Sunlight is the best disinfectant.",
+    "সূর্যালোকই সর্বোত্তম জীবাণুনাশক।",
+    "सूर्य का प्रकाश सर्वोत्तम कीटाणुनाशक है।",
+    "سورج کی روشنی بہترین جراثیم کش ہے۔",
+    "الشمس خير مطهر.",
+    "La luz solar es el mejor desinfectante.",
+    "சூரிய ஒளி சிறந்த கிருமிநாசினி.",
+    "ਸੂਰਜ ਦੀ ਰੌਸ਼ਨੀ ਸਭ ਤੋਂ ਵਧੀਆ ਕੀਟਾਣੂਨਾਸ਼ਕ ਹੈ।",
+    "సూర్యకాంతి ఉత్తమ జీవాణునాశకం.",
+    "സൂര്യപ്രകാശം ഏറ്റവും നല്ല അണുനാശിനി."
+  ],
+  "footer": {
+    "poweredBy": "Desarrollado por X_Files",
+    "inspiredBy": "Inspirado por WikiLeaks",
+    "builtFor": "Construido para la transparencia global",
+    "copyright": "© 2025 X_Files. Todos los derechos reservados.",
+    "privacyPolicy": "Política de Privacidad",
+    "termsOfService": "Términos de Servicio",
+    "contactUs": "Contáctanos",
+    "github": "GitHub",
+    "twitter": "Twitter",
+    "linkedin": "LinkedIn"
+  }
+}

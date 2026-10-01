@@ -1,0 +1,11 @@
+# Legacy (ANSI) Bengali font families, lower-case prefixes. Unicode families are NOT listed here.
+sutonny
+bijoy
+adarsha
+sulekha
+sunetra
+shree
+nikoshban
+chandrabati
+kongsho
+# unicode (never legacy): kalpurush nikosh solaimanlipi siyamrupali vrinda shonarbangla notosansbengali lohit

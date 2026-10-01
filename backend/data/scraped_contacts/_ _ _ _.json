@@ -1,0 +1,43 @@
+[
+  {
+    "office_name": "তথ্য কমিশন",
+    "Office_Name": "Information Commission",
+    "Website_Link": "https://www.infocom.gov.bd",
+    "Ministry": "তথ্য কমিশন",
+    "_source": "web_search_rti",
+    "confidence": "high",
+    "Primary_Photo": "",
+    "Alternate_Photo": "",
+    "Appellate_Photo": "",
+    "Discovered_Office_Links": [],
+    "photo": ""
+  },
+  {
+    "office_name": "???? ? ????????? ???????????",
+    "Office_Name": "???? ? ????????? ???????????",
+    "Website_Link": "https://www.mopa.gov.bd/",
+    "Ministry": "???? ? ????????? ???????????",
+    "_source": "web_search",
+    "confidence": "high",
+    "_llm_provider_requested": "auto",
+    "_llm_provider_used": "cerebras",
+    "reasoning_details": null,
+    "Primary_Officer": "রিপন চাকমা",
+    "Primary_Designation": "উপসচিব",
+    "Primary_Phone": "9540682",
+    "Primary_Mobile": "01715250219",
+    "Primary_Email": "adminfa@mopa.gov.bd",
+    "Primary_Address": "প্রশাসন-৩ শাখা, কক্ষ নং-১১৫, ভবন নং-৩, জনপ্রশাসন মন্ত্রণালয়",
+    "Appellate_Officer": "কে এম আলী আজম",
+    "Appellate_Designation": "সিনিয়র সচিব",
+    "Appellate_Phone": "9570100",
+    "Appellate_Mobile": "01556321793",
+    "Appellate_Email": "secretary@mopa.gov.bd",
+    "Appellate_Address": "সচিবের দপ্তর, ভবন নং-১, কক্ষ নং-২১২, ৩য় তলা, জনপ্রশাসন মন্ত্রণালয়",
+    "Primary_Photo": "/shared/image data from link/c52c23960316ef8f609c42c2db2d30a7.png",
+    "Alternate_Photo": "/shared/image data from link/c26f65c03e6049b8e37cd77e06e363ae.jpg",
+    "Appellate_Photo": "/shared/image data from link/29411fcd5269fcae396b4ef6a1c79147.jpeg",
+    "Discovered_Office_Links": [],
+    "photo": "/shared/image data from link/c52c23960316ef8f609c42c2db2d30a7.png"
+  }
+]

@@ -1,0 +1,1045 @@
+{
+ "about": "Shared by scraper/tests (Python) and backend/tests/textIntegrity.test.js (Node). Do not edit one side only.",
+ "bijoy_to_unicode": [
+  {
+   "bijoy": "evsjv‡`k †M‡RU",
+   "unicode": "বাংলাদেশ গেজেট",
+   "kind": "line",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, brief 6A.7",
+   "verified": "by eye against the rendered page header"
+  },
+  {
+   "bijoy": "AwZwi³ msL¨v",
+   "unicode": "অতিরিক্ত সংখ্যা",
+   "kind": "line",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, brief 6A.7",
+   "verified": "by eye against the rendered page header"
+  },
+  {
+   "bijoy": "KZ…©c¶ KZ…©K cÖKvwkZ",
+   "unicode": "কর্তৃপক্ষ কর্তৃক প্রকাশিত",
+   "kind": "line",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, brief 6A.7",
+   "verified": "by eye against the rendered page header"
+  },
+  {
+   "bijoy": "MYcÖRvZš¿x evsjv‡`k miKvi",
+   "unicode": "গণপ্রজাতন্ত্রী বাংলাদেশ সরকার",
+   "kind": "line",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, brief 6A.7",
+   "verified": "by eye against the rendered page header"
+  },
+  {
+   "bijoy": "AvBb, wePvi I msm` welqK gš¿Yvjq",
+   "unicode": "আইন, বিচার ও সংসদ বিষয়ক মন্ত্রণালয়",
+   "kind": "line",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, brief 6A.7",
+   "verified": "by eye against the rendered page header"
+  },
+  {
+   "bijoy": "gy`ªY I cÖKvkbv kvLv",
+   "unicode": "মুদ্রণ ও প্রকাশনা শাখা",
+   "kind": "line",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, brief 6A.7",
+   "verified": "by eye against the rendered page header"
+  },
+  {
+   "bijoy": "e„n¯úwZevi, A‡±vei 29, 2009",
+   "unicode": "বৃহস্পতিবার, অক্টোবর ২৯, ২০০৯",
+   "kind": "line",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, brief 6A.7",
+   "verified": "by eye against the rendered page header"
+  },
+  {
+   "bijoy": "†gvt Av‡bvqvi †nv‡mb",
+   "unicode": "মোঃ আনোয়ার হোসেন",
+   "kind": "line",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, brief 6A.7",
+   "verified": "by eye against the rendered page header"
+  },
+  {
+   "bijoy": "mnKvix mwPe|",
+   "unicode": "সহকারী সচিব।",
+   "kind": "line",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, brief 6A.7",
+   "verified": "by eye against the rendered page header"
+  },
+  {
+   "bijoy": "†iwR÷vW© bs wW G-1",
+   "unicode": "রেজিস্টার্ড নং ডি এ-১",
+   "kind": "line",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, brief 6A.7",
+   "verified": "by eye against the rendered page header"
+  },
+  {
+   "bijoy": "cÖÁvcb",
+   "unicode": "প্রজ্ঞাপন",
+   "kind": "line",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, brief 6A.7",
+   "verified": "by eye against the rendered page header"
+  },
+  {
+   "bijoy": "g~j¨ t UvKv 14.00",
+   "unicode": "মূল্য ঃ টাকা ১৪.০০",
+   "kind": "line",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, brief 6A.7",
+   "verified": "by eye against the rendered page header"
+  },
+  {
+   "bijoy": "†iwR÷vW©",
+   "unicode": "রেজিস্টার্ড",
+   "kind": "word",
+   "font": "HKMNBE+SutonnyMJ-Bold",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=97pt x=126pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "bs",
+   "unicode": "নং",
+   "kind": "word",
+   "font": "HKMNBE+SutonnyMJ-Bold",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=97pt x=172pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "wW",
+   "unicode": "ডি",
+   "kind": "word",
+   "font": "HKMNBE+SutonnyMJ-Bold",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=97pt x=186pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "G-1",
+   "unicode": "এ-১",
+   "kind": "word",
+   "font": "HKMNBE+SutonnyMJ-Bold",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=97pt x=200pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "evsjv‡`k",
+   "unicode": "বাংলাদেশ",
+   "kind": "word",
+   "font": "HKMNBE+SutonnyMJ-Bold",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=145pt x=138pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "†M‡RU",
+   "unicode": "গেজেট",
+   "kind": "word",
+   "font": "HKMNBE+SutonnyMJ-Bold",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=145pt x=366pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "AwZwi³",
+   "unicode": "অতিরিক্ত",
+   "kind": "word",
+   "font": "HKMNBE+SutonnyMJ-Bold",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=213pt x=273pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "msL¨v",
+   "unicode": "সংখ্যা",
+   "kind": "word",
+   "font": "HKMNBE+SutonnyMJ-Bold",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=213pt x=314pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "KZ…©c¶",
+   "unicode": "কর্তৃপক্ষ",
+   "kind": "word",
+   "font": "HKMNBE+SutonnyMJ-Bold",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=232pt x=256pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "KZ…©K",
+   "unicode": "কর্তৃক",
+   "kind": "word",
+   "font": "HKMNBE+SutonnyMJ-Bold",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=232pt x=292pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "cÖKvwkZ",
+   "unicode": "প্রকাশিত",
+   "kind": "word",
+   "font": "HKMNBE+SutonnyMJ-Bold",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=232pt x=320pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "e„n¯úwZevi,",
+   "unicode": "বৃহস্পতিবার,",
+   "kind": "word",
+   "font": "HKMNBE+SutonnyMJ-Bold",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=263pt x=234pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "A‡±vei",
+   "unicode": "অক্টোবর",
+   "kind": "word",
+   "font": "HKMNBE+SutonnyMJ-Bold",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=263pt x=292pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "29,",
+   "unicode": "২৯,",
+   "kind": "word",
+   "font": "HKMNBE+SutonnyMJ-Bold",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=263pt x=330pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "2009",
+   "unicode": "২০০৯",
+   "kind": "word",
+   "font": "HKMNBE+SutonnyMJ-Bold",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=263pt x=351pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "MYcÖRvZš¿x",
+   "unicode": "গণপ্রজাতন্ত্রী",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=311pt x=251pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "miKvi",
+   "unicode": "সরকার",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=311pt x=335pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "AvBb,",
+   "unicode": "আইন,",
+   "kind": "word",
+   "font": "HKMNBE+SutonnyMJ-Bold",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=335pt x=234pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "wePvi",
+   "unicode": "বিচার",
+   "kind": "word",
+   "font": "HKMNBE+SutonnyMJ-Bold",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=335pt x=261pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "I",
+   "unicode": "ও",
+   "kind": "word",
+   "font": "HKMNBE+SutonnyMJ-Bold",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=335pt x=284pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "msm`",
+   "unicode": "সংসদ",
+   "kind": "word",
+   "font": "HKMNBE+SutonnyMJ-Bold",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=335pt x=294pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "welqK",
+   "unicode": "বিষয়ক",
+   "kind": "word",
+   "font": "HKMNBE+SutonnyMJ-Bold",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=335pt x=318pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "gš¿Yvjq",
+   "unicode": "মন্ত্রণালয়",
+   "kind": "word",
+   "font": "HKMNBE+SutonnyMJ-Bold",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=335pt x=347pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "gy`ªY",
+   "unicode": "মুদ্রণ",
+   "kind": "word",
+   "font": "HKMNBE+SutonnyMJ-Bold",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=359pt x=266pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "cÖKvkbv",
+   "unicode": "প্রকাশনা",
+   "kind": "word",
+   "font": "HKMNBE+SutonnyMJ-Bold",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=359pt x=296pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "kvLv",
+   "unicode": "শাখা",
+   "kind": "word",
+   "font": "HKMNBE+SutonnyMJ-Bold",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=359pt x=329pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "ZvwiL,",
+   "unicode": "তারিখ,",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=413pt x=256pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "27",
+   "unicode": "২৭",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=413pt x=285pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "58-(Avtgt)",
+   "unicode": "৫৮-(আঃমঃ)",
+   "kind": "word",
+   "font": "HKMNBE+SutonnyMJ-Bold",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=440pt x=168pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "(gytcÖt)-Zg/†cÖm-2/ZK-1/2008",
+   "unicode": "(মুঃপ্রঃ)-তম/প্রেস-২/তক-১/২০০৮",
+   "kind": "word",
+   "font": "HKMNBE+SutonnyMJ-Bold",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=440pt x=225pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "(Ask)",
+   "unicode": "(অংশ)",
+   "kind": "word",
+   "font": "HKMNBE+SutonnyMJ-Bold",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=440pt x=361pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "miKvi,",
+   "unicode": "সরকার,",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=440pt x=398pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "Kvh©wewagvjv,",
+   "unicode": "কার্যবিধিমালা,",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=440pt x=436pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "1996",
+   "unicode": "১৯৯৬",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=458pt x=126pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "Gi",
+   "unicode": "এর",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=458pt x=153pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "cÖ_g",
+   "unicode": "প্রথম",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=458pt x=169pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "Zdwmj",
+   "unicode": "তফসিল",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=458pt x=191pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "(wewfbœ",
+   "unicode": "(বিভিন্ন",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=458pt x=224pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "Ges",
+   "unicode": "এবং",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=458pt x=290pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "wefv‡Mi",
+   "unicode": "বিভাগের",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=458pt x=310pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "g‡a¨",
+   "unicode": "মধ্যে",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=458pt x=345pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "Kvh©e›Ub)",
+   "unicode": "কার্যবন্টন)",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=458pt x=366pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "AvB‡Ug",
+   "unicode": "আইটেম",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=458pt x=424pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "30",
+   "unicode": "৩০",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=458pt x=458pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "µwgK",
+   "unicode": "ক্রমিক",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=476pt x=126pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "7",
+   "unicode": "৭",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=476pt x=155pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "10",
+   "unicode": "১০",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=476pt x=181pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "gwš¿cwil‡`i",
+   "unicode": "মন্ত্রিপরিষদের",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=476pt x=220pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "weMZ",
+   "unicode": "বিগত",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=476pt x=274pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "3-7-2000",
+   "unicode": "৩-৭-২০০০",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=476pt x=301pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "Bs",
+   "unicode": "ইং",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=476pt x=351pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "Zvwi‡Li",
+   "unicode": "তারিখের",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=476pt x=367pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "mfvq",
+   "unicode": "সভায়",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=476pt x=404pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "M„nxZ",
+   "unicode": "গৃহীত",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=476pt x=431pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "wbwgË",
+   "unicode": "নিমিত্ত",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=494pt x=177pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "(2009",
+   "unicode": "(২০০৯",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=494pt x=373pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "m‡bi",
+   "unicode": "সনের",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=494pt x=406pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "20",
+   "unicode": "২০",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=494pt x=431pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "AvBb)",
+   "unicode": "আইন)",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=494pt x=461pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "wbgœiƒc",
+   "unicode": "নিম্নরূপ",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=512pt x=126pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "Bs‡iRx",
+   "unicode": "ইংরেজী",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=512pt x=155pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "Abyev`",
+   "unicode": "অনুবাদ",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=512pt x=186pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "me©mvavi‡Yi",
+   "unicode": "সর্বসাধারণের",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=512pt x=215pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "ÁvZv‡_©",
+   "unicode": "জ্ঞাতার্থে",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=512pt x=265pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "cÖKvk",
+   "unicode": "প্রকাশ",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=512pt x=298pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "Kwij|",
+   "unicode": "করিল।",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=512pt x=323pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "†gvt",
+   "unicode": "মোঃ",
+   "kind": "word",
+   "font": "HKMNBE+SutonnyMJ-Bold",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=588pt x=373pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "Av‡bvqvi",
+   "unicode": "আনোয়ার",
+   "kind": "word",
+   "font": "HKMNBE+SutonnyMJ-Bold",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=588pt x=392pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "†nv‡mb",
+   "unicode": "হোসেন",
+   "kind": "word",
+   "font": "HKMNBE+SutonnyMJ-Bold",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=588pt x=429pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "mnKvix",
+   "unicode": "সহকারী",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=604pt x=386pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "mwPe|",
+   "unicode": "সচিব।",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=604pt x=418pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "(",
+   "unicode": "(",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=640pt x=287pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "7137",
+   "unicode": "৭১৩৭",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=640pt x=294pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": ")",
+   "unicode": ")",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=640pt x=321pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "g~j¨",
+   "unicode": "মূল্য",
+   "kind": "word",
+   "font": "HKMNBE+SutonnyMJ-Bold",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=652pt x=270pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "t",
+   "unicode": "ঃ",
+   "kind": "word",
+   "font": "HKMNBE+SutonnyMJ-Bold",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=652pt x=288pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "UvKv",
+   "unicode": "টাকা",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=652pt x=295pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  },
+  {
+   "bijoy": "14.00",
+   "unicode": "১৪.০০",
+   "kind": "word",
+   "font": "HKMNBG+SutonnyMJ",
+   "source": "RTI Act 2009 gazette PDF (2021-11-17-11-22-38-37.-The-Right-to-Information-Act-2009.pdf), page 1, y=652pt x=315pt",
+   "verified": "by eye against a 300 dpi render of the same page, 2026-09-29"
+  }
+ ],
+ "render_mismatch": [
+  {
+   "bijoy": "ev¯—evq‡bi",
+   "unicode": "বাস্তবায়নের",
+   "note": "The PDF renders the — glyph as a ড়-like shape (font substitution in the PDF itself); the text layer and the standard Sutonny map give ্ত. Excluded from the exact set."
+  },
+  {
+   "bijoy": "wm×vš—",
+   "unicode": "সিদ্ধান্ত",
+   "note": "The PDF renders the — glyph as a ড়-like shape (font substitution in the PDF itself); the text layer and the standard Sutonny map give ্ত. Excluded from the exact set."
+  }
+ ],
+ "classify": [
+  {
+   "text": "evsjv‡`k †M‡RU",
+   "font_hint": null,
+   "expected": "BIJOY_ANSI",
+   "note": "statistics only"
+  },
+  {
+   "text": "AwZwi³ msL¨v",
+   "font_hint": null,
+   "expected": "BIJOY_ANSI",
+   "note": "statistics only"
+  },
+  {
+   "text": "KZ…©c¶ KZ…©K cÖKvwkZ",
+   "font_hint": null,
+   "expected": "BIJOY_ANSI",
+   "note": "statistics only"
+  },
+  {
+   "text": "MYcÖRvZš¿x evsjv‡`k miKvi",
+   "font_hint": null,
+   "expected": "BIJOY_ANSI",
+   "note": "statistics only"
+  },
+  {
+   "text": "AvBb, wePvi I msm` welqK gš¿Yvjq",
+   "font_hint": null,
+   "expected": "BIJOY_ANSI",
+   "note": "statistics only"
+  },
+  {
+   "text": "gy`ªY I cÖKvkbv kvLv",
+   "font_hint": null,
+   "expected": "BIJOY_ANSI",
+   "note": "statistics only"
+  },
+  {
+   "text": "e„n¯úwZevi, A‡±vei 29, 2009",
+   "font_hint": null,
+   "expected": "BIJOY_ANSI",
+   "note": "statistics only"
+  },
+  {
+   "text": "†gvt Av‡bvqvi †nv‡mb",
+   "font_hint": null,
+   "expected": "BIJOY_ANSI",
+   "note": "statistics only"
+  },
+  {
+   "text": "mnKvix mwPe|",
+   "font_hint": null,
+   "expected": "BIJOY_ANSI",
+   "note": "statistics only"
+  },
+  {
+   "text": "†iwR÷vW© bs wW G-1",
+   "font_hint": null,
+   "expected": "BIJOY_ANSI",
+   "note": "statistics only"
+  },
+  {
+   "text": "cÖÁvcb",
+   "font_hint": null,
+   "expected": "BIJOY_ANSI",
+   "note": "statistics only"
+  },
+  {
+   "text": "g~j¨ t UvKv 14.00",
+   "font_hint": null,
+   "expected": "BIJOY_ANSI",
+   "note": "statistics only"
+  },
+  {
+   "text": "bs",
+   "font_hint": "HKMNBG+SutonnyMJ",
+   "expected": "BIJOY_ANSI",
+   "note": "short token: only the font name can tell"
+  },
+  {
+   "text": "Gi",
+   "font_hint": "HKMNBG+SutonnyMJ",
+   "expected": "BIJOY_ANSI",
+   "note": "short token: only the font name can tell"
+  },
+  {
+   "text": "I",
+   "font_hint": "HKMNBG+SutonnyMJ",
+   "expected": "BIJOY_ANSI",
+   "note": "short token: only the font name can tell"
+  },
+  {
+   "text": "27",
+   "font_hint": "HKMNBG+SutonnyMJ",
+   "expected": "BIJOY_ANSI",
+   "note": "short token: only the font name can tell"
+  },
+  {
+   "text": "Ges",
+   "font_hint": "HKMNBG+SutonnyMJ",
+   "expected": "BIJOY_ANSI",
+   "note": "short token: only the font name can tell"
+  },
+  {
+   "text": "Deputy Secretary",
+   "font_hint": null,
+   "expected": "ENGLISH_OK",
+   "note": "must stay unchanged"
+  },
+  {
+   "text": "admin1@moha.gov.bd",
+   "font_hint": null,
+   "expected": "ENGLISH_OK",
+   "note": "must stay unchanged"
+  },
+  {
+   "text": "+৮৮-০২-২২৩৩৫৪৫২১",
+   "font_hint": null,
+   "expected": "UNICODE_OK",
+   "note": "must stay unchanged"
+  },
+  {
+   "text": "মো: তোফায়েল হোসেন (১৬২৯৪)",
+   "font_hint": null,
+   "expected": "UNICODE_OK",
+   "note": "must stay unchanged"
+  },
+  {
+   "text": "উপসচিব ( প্রশাসন-১ শাখা)",
+   "font_hint": null,
+   "expected": "UNICODE_OK",
+   "note": "must stay unchanged"
+  },
+  {
+   "text": "Md. Tofayel Hossain",
+   "font_hint": null,
+   "expected": "ENGLISH_OK",
+   "note": "must stay unchanged"
+  },
+  {
+   "text": "Deputy Secretary (Admin-1 Branch)",
+   "font_hint": null,
+   "expected": "ENGLISH_OK",
+   "note": "must stay unchanged"
+  },
+  {
+   "text": "+880-2-223354521",
+   "font_hint": null,
+   "expected": "ENGLISH_OK",
+   "note": "must stay unchanged"
+  },
+  {
+   "text": "https://moha.gov.bd/views/info-officers",
+   "font_hint": null,
+   "expected": "ENGLISH_OK",
+   "note": "must stay unchanged"
+  },
+  {
+   "text": "secretary@moha.gov.bd; police4@moha.gov.bd",
+   "font_hint": null,
+   "expected": "ENGLISH_OK",
+   "note": "must stay unchanged"
+  },
+  {
+   "text": "নাসরীন সুলতানা (১৬২১৮)",
+   "font_hint": null,
+   "expected": "UNICODE_OK",
+   "note": "must stay unchanged"
+  },
+  {
+   "text": "র‍্যাব সদর দপ্তর",
+   "font_hint": null,
+   "expected": "UNICODE_OK",
+   "note": "must stay unchanged"
+  },
+  {
+   "text": "সিনিয়র সচিব",
+   "font_hint": null,
+   "expected": "UNICODE_OK",
+   "note": "must stay unchanged"
+  },
+  {
+   "text": "স্বরাষ্ট্র মন্ত্রণালয়, বাংলাদেশ সচিবালয়, ঢাকা",
+   "font_hint": null,
+   "expected": "UNICODE_OK",
+   "note": "must stay unchanged"
+  },
+  {
+   "text": "মূল্য ঃ টাকা ১৪.০০",
+   "font_hint": null,
+   "expected": "UNICODE_OK",
+   "note": "must stay unchanged"
+  },
+  {
+   "text": "",
+   "font_hint": null,
+   "expected": "EMPTY",
+   "note": ""
+  },
+  {
+   "text": "উপসচিব",
+   "font_hint": "Kalpurush, SolaimanLipi, sans-serif",
+   "expected": "UNICODE_OK",
+   "note": "Unicode font family is not legacy"
+  },
+  {
+   "text": "দোভিত্বপ্রোপ্ত কর্ মকিমো",
+   "font_hint": null,
+   "expected": "VISUAL_ORDER_BROKEN",
+   "note": "brief 6A.7: never converted or stored"
+  },
+  {
+   "text": "ািকর্মকর্তা",
+   "font_hint": null,
+   "expected": "VISUAL_ORDER_BROKEN",
+   "note": "leading vowel sign"
+  },
+  {
+   "text": "তথ্য �কর্মকর্তা",
+   "font_hint": null,
+   "expected": "VISUAL_ORDER_BROKEN",
+   "note": "U+FFFD"
+  },
+  {
+   "text": "মো: তোফায়েল evsjv‡`k",
+   "font_hint": null,
+   "expected": "MIXED",
+   "note": "Unicode and Bijoy in one value"
+  },
+  {
+   "text": "মোঃ শাহ্ রিয়াজ",
+   "font_hint": null,
+   "expected": "UNICODE_OK",
+   "note": "real officer name from the 2026-09-25 dataset: explicit final hasanta / nukta are valid"
+  },
+  {
+   "text": "মিজ্ সেহেলী সাবরীন",
+   "font_hint": null,
+   "expected": "UNICODE_OK",
+   "note": "real officer name from the 2026-09-25 dataset: explicit final hasanta / nukta are valid"
+  },
+  {
+   "text": "মোহাম্মদ ফিজ়নূর রহমান",
+   "font_hint": null,
+   "expected": "UNICODE_OK",
+   "note": "real officer name from the 2026-09-25 dataset: explicit final hasanta / nukta are valid"
+  },
+  {
+   "text": "Attachment (jpg, jpeg, png, pdf • max 2 MB)",
+   "font_hint": null,
+   "expected": "ENGLISH_OK",
+   "note": "English UI text on moha.gov.bd (false positive before tuning)"
+  },
+  {
+   "text": "Invalid file. Allowed: JPG, JPEG, PNG, PDF up to 2MB",
+   "font_hint": null,
+   "expected": "ENGLISH_OK",
+   "note": "English UI text on moha.gov.bd"
+  },
+  {
+   "text": "PABX 7154, Ext. 312",
+   "font_hint": null,
+   "expected": "ENGLISH_OK",
+   "note": "acronyms are English"
+  },
+  {
+   "text": "bs",
+   "font_hint": null,
+   "expected": "UNKNOWN",
+   "note": "a lone short Bijoy token without a font hint cannot be decided: never stored"
+  },
+  {
+   "text": "জননিরাপত্তা বিভাগ (পুুরাতন)",
+   "font_hint": null,
+   "expected": "VISUAL_ORDER_BROKEN",
+   "note": "real typo on moha.gov.bd: doubled u-kar; correctly refused"
+  },
+  {
+   "text": "it is hereby enacted as follows :",
+   "font_hint": null,
+   "expected": "ENGLISH_OK",
+   "note": "RTI Act PDF p.2 English (false positive before tuning)"
+  },
+  {
+   "text": "immovable, and shall by its own name sue and be sued.",
+   "font_hint": null,
+   "expected": "ENGLISH_OK",
+   "note": "RTI Act PDF p.12"
+  },
+  {
+   "text": "make necessary laws and administrative directives for preservation",
+   "font_hint": null,
+   "expected": "ENGLISH_OK",
+   "note": "RTI Act PDF p.14"
+  },
+  {
+   "text": "(b) lists of all laws, Acts, Ordinance, rules, regulations, notifications,",
+   "font_hint": "TimesNewRomanPSMT",
+   "expected": "ENGLISH_OK",
+   "note": "named non-legacy font"
+  },
+  {
+   "text": "myGov",
+   "font_hint": null,
+   "expected": "UNKNOWN",
+   "note": "live menu brand word (ict.gov.bd, moca.gov.bd): never converted"
+  },
+  {
+   "text": "iBAS++",
+   "font_hint": null,
+   "expected": "UNKNOWN",
+   "note": "live menu brand word (ict.gov.bd, moca.gov.bd): never converted"
+  },
+  {
+   "text": "iPhone",
+   "font_hint": null,
+   "expected": "UNKNOWN",
+   "note": "live menu brand word (ict.gov.bd, moca.gov.bd): never converted"
+  }
+ ]
+}

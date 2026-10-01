@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+html{
+--color-primary-bg:#97d3f2;
+--color-primary-light:#EFFAFF;
+--color-primary-dark:#14AFFF;
+--color-primary-text:#ffffff;
+--color-secondary-bg:#268bff;
+--color-secondary-light:#E0F0F8;
+--color-secondary-dark:#0067DA;
+--color-secondary-text:#ffffff;
+--color-normal-bg:#ffffff;
+--color-normal-light:#f0f0f0;
+--color-normal-dark:#e0e0e0;
+--color-normal-text:#000000;
+--color-dark-bg:#000000;
+--color-dark-light:#202020;
+--color-dark-dark:#404040;
+--color-dark-text:#ffffff;
+--color-success-bg:#28a745;
+--color-success-text:#ffffff;
+--color-danger-bg:#dc3545;
+--color-danger-text:#dc3545;
+--color-warning-bg:#FF6600;
+--color-warning-text:#FF6600;
+--color-info-bg:#17a2b8;
+--color-info-text:#ffffff;
+--color-link-normal:#1568b2;
+--color-link-dark:#1b81dd;
+--color-border-normal:#d0d0d0;
+--color-border-dark:#909090;
+--color-text-normal:#202B5D;
+--color-text-dark:#393B5C;
+--background-primary-image:url(/site-assets/images/bg.png);
+--background-primary-repeat:repeat;
+--background-primary-position:center center;
+--background-primary-color:#ffffff;
+--background-secondary-image:url(/site-assets/images/bg.png);
+--background-secondary-repeat:repeat;
+--background-secondary-position:center center;
+--background-secondary-color:#ffffff;
+--container-small:600px;
+--container-medium:900px;
+--container-large:1200px;
+--spacing-small:8px;
+--spacing-medium:16px;
+--spacing-large:24px;
+--radius-small:4px;
+--radius-medium:8px;
+--radius-large:16px;
+--shadow-small:0px 2px 4px rgba(0, 0, 0, 0.1);
+--shadow-medium:0px 4px 8px rgba(0, 0, 0, 0.1);
+--shadow-large:0px 8px 16px rgba(0, 0, 0, 0.1);
+--text-small:0.75rem;
+--text-medium:0.9rem;
+--text-large:1.25rem;
+--font-heading-en:Roboto-Regular, sans-serif;
+--font-heading-bn:NotoSansBengali-Regular, sans-serif;
+--font-primary-en:Roboto-Regular, sans-serif;
+--font-primary-bn:NotoSansBengali-Regular, sans-serif;
+--font-secondary-en:Roboto-Regular, sans-serif;
+--font-secondary-bn:NotoSansBengali-Regular, sans-serif;
+--typography-h1-font-family:var(--font-heading);
+--typography-h1-font-weight:700;
+--typography-h1-font-size:32px;
+--typography-h1-line-height:1.2;
+--typography-h2-font-family:var(--font-heading);
+--typography-h2-font-weight:700;
+--typography-h2-font-size:28px;
+--typography-h2-line-height:1.2;
+--typography-h3-font-family:var(--font-heading);
+--typography-h3-font-weight:600;
+--typography-h3-font-size:24px;
+--typography-h3-line-height:1.5;
+--typography-h4-font-family:var(--font-heading);
+--typography-h4-font-weight:500;
+--typography-h4-font-size:20px;
+--typography-h4-line-height:1.5;
+--typography-h5-font-family:var(--font-heading);
+--typography-h5-font-weight:500;
+--typography-h5-font-size:18px;
+--typography-h5-line-height:1.5;
+--typography-h6-font-family:var(--font-heading);
+--typography-h6-font-weight:400;
+--typography-h6-font-size:16px;
+--typography-h6-line-height:1.5;
+--typography-body-font-family:var(--font-primary);
+--typography-body-font-weight:400;
+--typography-body-font-size:14px;
+--typography-body-line-height:1.2;
+--typography-p-font-family:var(--font-primary);
+--typography-p-font-weight:400;
+--typography-p-font-size:14px;
+--typography-p-line-height:1.2;
+--typography-a-font-family:var(--font-secondary);
+--typography-a-font-weight:400;
+--typography-a-font-size:14px;
+--typography-a-line-height:1.2;
+}
+html,html[lang="en"]{
+--font-heading:Roboto-Regular, sans-serif;
+--font-primary:Roboto-Regular, sans-serif;
+--font-secondary:Roboto-Regular, sans-serif;
+}
+html[lang="bn"]{
+--font-heading:NotoSansBengali-Regular, sans-serif;
+--font-primary:NotoSansBengali-Regular, sans-serif;
+--font-secondary:NotoSansBengali-Regular, sans-serif;
+}
+
+/* ===== CONTAINER ===== */
+body{overflow-x:hidden;}
+.col{flex:0 0 auto;}
+.container-row,.widget-container-row{
+  --col-gutter-x: var(--spacing-medium);
+  --col-gutter-y:0;
+  /*
+  --col-gutter-y: var(--spacing-medium);
+  */
+  display:flex;
+  flex-wrap:wrap;
+  margin-top:calc(-1 * var(--col-gutter-y));
+  margin-right:calc(-.5 * var(--col-gutter-x));
+  margin-left:calc(-.5 * var(--col-gutter-x))
+  /*
+  width:calc(100% + var(--col-gutter-x));
+  margin-top:calc(-1 * var(--col-gutter-y));
+  margin-left:calc(-1 * var(--col-gutter-x));
+  */
+}
+.container-row>*,.widget-container-row>*{
+  box-sizing:border-box;
+  flex-shrink:0;
+  width:100%;
+  max-width:100%;
+  padding-right:calc(var(--col-gutter-x) * .5);
+  padding-left:calc(var(--col-gutter-x) * .5);
+  margin-top:var(--col-gutter-y)
+  /*
+  width:calc(100% - var(--col-gutter-x));
+  max-width:calc(100% - var(--col-gutter-x));
+  margin-top:var(--col-gutter-y);
+  margin-left:var(--col-gutter-x);
+  */
+}
+
+@media (min-width:600px) {
+  .container-col-1{width:8.3333%;}
+  .container-col-2{width:16.666%;}
+  .container-col-3{width:25%;}
+  .container-col-4{width:33.333%;}
+  .container-col-5{width:41.666%;}
+  .container-col-6{width:50%;}
+  .container-col-7{width:58.333%;}
+  .container-col-8{width:66.666%;}
+  .container-col-9{width:75%;}
+  .container-col-10{width:83.333%;}
+  .container-col-11{width:91.666%;}
+  .container-col-12{width:100%;}
+}
+
+  </style>
+  <!-- analytics script -->
+  <!-- Matomo Id n/a -->
+  <script defer data-domain="jashore.gov.bd" src="https://analytics-plausible.portal.gov.bd/js/script.file-downloads.hash.outbound-links.pageview-props.tagged-events.js"></script>
+  <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+  <link rel="stylesheet" href="/site-assets/css/phosphor.css">
+  <link rel="stylesheet" href="/site-assets/css/phosphor-fill.css">
+  <link rel="stylesheet" href="/site-assets/css/index.css">
+  <link rel="stylesheet" href="/widget-assets/css/HeaderVersionFourWidget">
+  <link rel="stylesheet" href="/widget-assets/css/OfficeFindThreeWidget">
+  <link rel="stylesheet" href="/widget-assets/css/GlobalSearchWidget">
+  <link rel="stylesheet" href="/widget-assets/css/MenusExpandableWidget">
+  <link rel="stylesheet" href="/widget-assets/css/MenusWidget">
+  <link rel="stylesheet" href="/widget-assets/css/OfficeTitleWidget">
+  <link rel="stylesheet" href="/widget-assets/css/SocialContentShareWidget">
+  <link rel="stylesheet" href="/widget-assets/css/EParticipationOpinionPopupWidget">
+  <link rel="stylesheet" href="/widget-assets/css/EParticipationOpinionFormWidget">
+  <link rel="stylesheet" href="/widget-assets/css/InfoOfficersViewWidget">
+  <link rel="stylesheet" href="/widget-assets/css/AccessibilityWidget">
+  <link rel="stylesheet" href="/widget-assets/css/GoToTopWidget">
+  <link rel="stylesheet" href="/widget-assets/css/NewLandingFooterWidget">
+  <style>/* END */</style>
+  <link rel="stylesheet" href="/assets/css/index.css">
+
+  <!-- RENDERING 691c1d78fc1d906b4e8ea0fd : 1790671340205 -->
+  <title>তথ্য কর্মকর্তা | যশোর জেলা</title>
+  <meta name="description" content=""/>
+  <meta name="keywords" content="তথ্য কর্মকর্তা, যশোর জেলা, http://jashore.gov.bd, Bangladesh, Bangladesh National Portal, Government of the People's Republic of Bangladesh, গণপ্রজাতন্ত্রী বাংলাদেশ সরকার"/>
+  <link rel="canonical" href="http://jashore.gov.bd/views/info-officers"/>
+  <link rel="icon" type="image/x-icon" href="/site-assets/images/favicon.ico"/>
+  <link rel="shortcut icon" type="image/x-icon" href="/site-assets/images/favicon.ico"/>
+  <link rel="shortcut icon" type="image/png" href="/site-assets/images/favicon.png"/>
+  <link rel="shortcut icon" type="image/png" href="http://jashore.gov.bd/site-assets/images/favicon.png"/>
+  <meta name="author" content="যশোর জেলা"/>
+  <meta property="fb:app_id" content="..............."/>
+  <meta property="og:url" content="http://jashore.gov.bd/views/info-officers"/>
+  <meta property="og:site_name" content="যশোর জেলা"/>
+  <meta property="og:type" content="article"/>
+  <meta property="og:article:section" content="তথ্য কর্মকর্তা | যশোর জেলা"/>
+  <meta property="og:article:author" content="যশোর জেলা"/>
+  <meta property="og:article:tag" content="যশোর জেলা"/>
+  <meta property="og:article:tag" content="Bangladesh"/>
+  <meta property="og:article:tag" content="Bangladesh National Portal"/>
+  <meta property="og:article:tag" content="Government of the People's Republic of Bangladesh"/>
+  <meta property="og:article:tag" content="গণপ্রজাতন্ত্রী বাংলাদেশ সরকার"/>
+  <meta property="og:title" content="তথ্য কর্মকর্তা | যশোর জেলা"/>
+  <meta property="og:description" content=""/>
+  <meta property="og:image:type" content="image/jpeg"/>
+  <meta property="og:image:width" content="687"/>
+  <meta property="og:image:height" content="570"/>
+  <meta property="og:image:secure_url" content="http://jashore.gov.bd/site-assets/images/portal_banner.jpg"/>
+  <meta property="og:image" content="http://jashore.gov.bd/site-assets/images/portal_banner.jpg"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+<div class="container">
+  <div class="header"><div data-section_type="header" class="droppable">
+        <div class="container-row">
+            <div class="container-col container-col-12" data-widget_type="layout">
+                 <section data-widget_type="widget" data-widget_name="HeaderVersionFourWidget" class="widget header-version-four-widget-section"> <div class="header-left-section"> <img class="office-logo" src="/site-assets/images/logo.png" alt="Office Logo"> </div> <div class="header-left-section"> <a class="header-title" href="/" title="বাংলাদেশ জাতীয় তথ্য বাতায়ন"> <span> বাংলাদেশ জাতীয় তথ্য বাতায়ন </span> <!-- <span class="slogan"> তথ্য ও সেবা উইন্ডো </span> --> </a> <div class="widget header-dropdown custom-items-center top-menu office-findthree-widget office-findv2-widget" data-widget-id="i7258874254" data-preselect='{&#34;officeTypeId&#34;:&#34;6915c8c02d68425160fc40ef&#34;,&#34;officeLevelId&#34;:&#34;626a41e552093d4768e64b13&#34;,&#34;divisionId&#34;:&#34;66648869fbd77af96fdf18a4&#34;,&#34;districtId&#34;:&#34;66648888fbd77af96fdf18cf&#34;,&#34;upazilaId&#34;:&#34;6abb76fe816951f962c5b3df&#34;,&#34;unionId&#34;:&#34;6abb76fe816951f962c5b3e0&#34;,&#34;officeId&#34;:&#34;691c1d78fc1d906b4e8ea0fd&#34;}'> <div class="office-group"> <select name="officeType" id="officeType_i7258874254" data-lang="bn" title="জেলা পোর্টাল" onchange="this.title = this.options[this.selectedIndex].text; window.handleOfficeTypeChangeV3('i7258874254', this, 'i608195633', 'i8107310532')" > <option value="">অফিসের ধরণ নির্বাচন করুন</option> <option value="6915c8c02d68425160fc40ec" title="স্বায়ত্তশাসিত" data-allow-levels='{&#34;head_office&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b10&#34;,&#34;sort_order&#34;:2},&#34;regional_office&#34;:{&#34;id&#34;:&#34;68ef33e2b74cbf429ba5968c&#34;,&#34;sort_order&#34;:3},&#34;divisional_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b11&#34;,&#34;sort_order&#34;:4},&#34;district_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b13&#34;,&#34;sort_order&#34;:5},&#34;city_corporation_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b24&#34;,&#34;sort_order&#34;:6},&#34;upazila_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b14&#34;,&#34;sort_order&#34;:7},&#34;pourashava_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b34&#34;,&#34;sort_order&#34;:8}}' data-geo-depth="0" > স্বায়ত্তশাসিত </option> <option value="626a41e552093d4768e64b12" title="মন্ত্রণালয়" data-allow-levels='{&#34;ministry_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b09&#34;,&#34;sort_order&#34;:1}}' data-geo-depth="0" > মন্ত্রণালয় </option> <option value="687df048256c87dc78f1a064" title="মন্ত্রণালয় বিভাগ" data-allow-levels='{&#34;ministry_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b09&#34;,&#34;sort_order&#34;:1}}' data-geo-depth="0" > মন্ত্রণালয় বিভাগ </option> <option value="6915c8c02d68425160fc40f1" title="অধিদপ্তর" data-allow-levels='{&#34;head_office&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b10&#34;,&#34;sort_order&#34;:2}}' data-geo-depth="0" > অধিদপ্তর </option> <option value="6a55df7c7e4bf711c06b81ef" title="কর্পোরেশন" data-allow-levels='{&#34;head_office&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b10&#34;,&#34;sort_order&#34;:2},&#34;regional_office&#34;:{&#34;id&#34;:&#34;68ef33e2b74cbf429ba5968c&#34;,&#34;sort_order&#34;:3}}' data-geo-depth="0" > কর্পোরেশন </option> <option value="6a55e0197e4bf711c06b81f2" title="কমিশন" data-allow-levels='{&#34;head_office&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b10&#34;,&#34;sort_order&#34;:2},&#34;regional_office&#34;:{&#34;id&#34;:&#34;68ef33e2b74cbf429ba5968c&#34;,&#34;sort_order&#34;:3},&#34;divisional_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b11&#34;,&#34;sort_order&#34;:4},&#34;district_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b13&#34;,&#34;sort_order&#34;:5},&#34;upazila_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b14&#34;,&#34;sort_order&#34;:7}}' data-geo-depth="0" > কমিশন </option> <option value="6a55dfbd7e4bf711c06b81f0" title="কোম্পানি" data-allow-levels='{&#34;head_office&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b10&#34;,&#34;sort_order&#34;:2},&#34;regional_office&#34;:{&#34;id&#34;:&#34;68ef33e2b74cbf429ba5968c&#34;,&#34;sort_order&#34;:3},&#34;divisional_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b11&#34;,&#34;sort_order&#34;:4},&#34;district_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b13&#34;,&#34;sort_order&#34;:5},&#34;upazila_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b14&#34;,&#34;sort_order&#34;:7}}' data-geo-depth="0" > কোম্পানি </option> <option value="6a55dfeb7e4bf711c06b81f1" title="কর্তৃপক্ষ/অথরিটি" data-allow-levels='{&#34;head_office&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b10&#34;,&#34;sort_order&#34;:2},&#34;regional_office&#34;:{&#34;id&#34;:&#34;68ef33e2b74cbf429ba5968c&#34;,&#34;sort_order&#34;:3},&#34;divisional_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b11&#34;,&#34;sort_order&#34;:4},&#34;district_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b13&#34;,&#34;sort_order&#34;:5},&#34;upazila_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b14&#34;,&#34;sort_order&#34;:7}}' data-geo-depth="0" > কর্তৃপক্ষ/অথরিটি </option> <option value="6a55e03e7e4bf711c06b81f3" title="এজেন্সী" data-allow-levels='{&#34;head_office&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b10&#34;,&#34;sort_order&#34;:2},&#34;regional_office&#34;:{&#34;id&#34;:&#34;68ef33e2b74cbf429ba5968c&#34;,&#34;sort_order&#34;:3},&#34;divisional_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b11&#34;,&#34;sort_order&#34;:4},&#34;district_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b13&#34;,&#34;sort_order&#34;:5},&#34;upazila_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b14&#34;,&#34;sort_order&#34;:7}}' data-geo-depth="0" > এজেন্সী </option> <option value="6a95444bb86e0265f77d9c28" title="কাউন্সিল" data-allow-levels='{&#34;head_office&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b10&#34;,&#34;sort_order&#34;:2},&#34;regional_office&#34;:{&#34;id&#34;:&#34;68ef33e2b74cbf429ba5968c&#34;,&#34;sort_order&#34;:3},&#34;divisional_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b11&#34;,&#34;sort_order&#34;:4},&#34;district_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b13&#34;,&#34;sort_order&#34;:5},&#34;upazila_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b14&#34;,&#34;sort_order&#34;:7}}' data-geo-depth="0" > কাউন্সিল </option> <option value="6a95447ab86e0265f77d9c29" title="ট্রাস্ট" data-allow-levels='{&#34;head_office&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b10&#34;,&#34;sort_order&#34;:2},&#34;regional_office&#34;:{&#34;id&#34;:&#34;68ef33e2b74cbf429ba5968c&#34;,&#34;sort_order&#34;:3},&#34;divisional_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b11&#34;,&#34;sort_order&#34;:4},&#34;district_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b13&#34;,&#34;sort_order&#34;:5},&#34;upazila_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b14&#34;,&#34;sort_order&#34;:7}}' data-geo-depth="0" > ট্রাস্ট </option> <option value="6a95448bb86e0265f77d9c2a" title="জাদুঘর" data-allow-levels='{&#34;head_office&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b10&#34;,&#34;sort_order&#34;:2},&#34;regional_office&#34;:{&#34;id&#34;:&#34;68ef33e2b74cbf429ba5968c&#34;,&#34;sort_order&#34;:3},&#34;divisional_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b11&#34;,&#34;sort_order&#34;:4},&#34;district_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b13&#34;,&#34;sort_order&#34;:5},&#34;upazila_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b14&#34;,&#34;sort_order&#34;:7}}' data-geo-depth="0" > জাদুঘর </option> <option value="6a9544a1b86e0265f77d9c2b" title="ফাউন্ডেশন" data-allow-levels='{&#34;head_office&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b10&#34;,&#34;sort_order&#34;:2},&#34;regional_office&#34;:{&#34;id&#34;:&#34;68ef33e2b74cbf429ba5968c&#34;,&#34;sort_order&#34;:3},&#34;divisional_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b11&#34;,&#34;sort_order&#34;:4},&#34;district_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b13&#34;,&#34;sort_order&#34;:5},&#34;upazila_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b14&#34;,&#34;sort_order&#34;:7}}' data-geo-depth="0" > ফাউন্ডেশন </option> <option value="6a9544b3b86e0265f77d9c2c" title="একাডেমি" data-allow-levels='{&#34;head_office&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b10&#34;,&#34;sort_order&#34;:2},&#34;regional_office&#34;:{&#34;id&#34;:&#34;68ef33e2b74cbf429ba5968c&#34;,&#34;sort_order&#34;:3},&#34;divisional_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b11&#34;,&#34;sort_order&#34;:4},&#34;district_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b13&#34;,&#34;sort_order&#34;:5},&#34;upazila_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b14&#34;,&#34;sort_order&#34;:7}}' data-geo-depth="0" > একাডেমি </option> <option value="6a9545e1b86e0265f77d9c2d" title="দপ্তর/সংস্থা" data-allow-levels='{&#34;head_office&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b10&#34;,&#34;sort_order&#34;:2},&#34;regional_office&#34;:{&#34;id&#34;:&#34;68ef33e2b74cbf429ba5968c&#34;,&#34;sort_order&#34;:3},&#34;divisional_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b11&#34;,&#34;sort_order&#34;:4},&#34;district_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b13&#34;,&#34;sort_order&#34;:5},&#34;upazila_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b14&#34;,&#34;sort_order&#34;:7}}' data-geo-depth="0" > দপ্তর/সংস্থা </option> <option value="6a9545edb86e0265f77d9c2e" title="বোর্ড" data-allow-levels='{&#34;head_office&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b10&#34;,&#34;sort_order&#34;:2},&#34;regional_office&#34;:{&#34;id&#34;:&#34;68ef33e2b74cbf429ba5968c&#34;,&#34;sort_order&#34;:3},&#34;divisional_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b11&#34;,&#34;sort_order&#34;:4},&#34;district_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b13&#34;,&#34;sort_order&#34;:5},&#34;upazila_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b14&#34;,&#34;sort_order&#34;:7}}' data-geo-depth="0" > বোর্ড </option> <option value="6a9545fcb86e0265f77d9c2f" title="ইনস্টিটিউট" data-allow-levels='{&#34;head_office&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b10&#34;,&#34;sort_order&#34;:2},&#34;regional_office&#34;:{&#34;id&#34;:&#34;68ef33e2b74cbf429ba5968c&#34;,&#34;sort_order&#34;:3},&#34;divisional_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b11&#34;,&#34;sort_order&#34;:4},&#34;district_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b13&#34;,&#34;sort_order&#34;:5},&#34;upazila_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b14&#34;,&#34;sort_order&#34;:7}}' data-geo-depth="0" > ইনস্টিটিউট </option> <option value="6a95460bb86e0265f77d9c30" title="ফেডারেশন" data-allow-levels='{&#34;head_office&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b10&#34;,&#34;sort_order&#34;:2},&#34;regional_office&#34;:{&#34;id&#34;:&#34;68ef33e2b74cbf429ba5968c&#34;,&#34;sort_order&#34;:3},&#34;divisional_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b11&#34;,&#34;sort_order&#34;:4},&#34;district_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b13&#34;,&#34;sort_order&#34;:5},&#34;upazila_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b14&#34;,&#34;sort_order&#34;:7}}' data-geo-depth="0" > ফেডারেশন </option> <option value="6a95461db86e0265f77d9c31" title="ব্যুরো" data-allow-levels='{&#34;head_office&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b10&#34;,&#34;sort_order&#34;:2},&#34;regional_office&#34;:{&#34;id&#34;:&#34;68ef33e2b74cbf429ba5968c&#34;,&#34;sort_order&#34;:3},&#34;divisional_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b11&#34;,&#34;sort_order&#34;:4},&#34;district_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b13&#34;,&#34;sort_order&#34;:5},&#34;upazila_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b14&#34;,&#34;sort_order&#34;:7}}' data-geo-depth="0" > ব্যুরো </option> <option value="6a95462cb86e0265f77d9c32" title="এডুকেশন বোর্ড" data-allow-levels='{&#34;head_office&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b10&#34;,&#34;sort_order&#34;:2},&#34;regional_office&#34;:{&#34;id&#34;:&#34;68ef33e2b74cbf429ba5968c&#34;,&#34;sort_order&#34;:3},&#34;divisional_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b11&#34;,&#34;sort_order&#34;:4},&#34;district_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b13&#34;,&#34;sort_order&#34;:5},&#34;upazila_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b14&#34;,&#34;sort_order&#34;:7}}' data-geo-depth="0" > এডুকেশন বোর্ড </option> <option value="68ef52c26939cf029f3bb06b" title="ব্যাংক / বীমা / আর্থিক প্রতিষ্ঠান" data-allow-levels='{&#34;head_office&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b10&#34;,&#34;sort_order&#34;:2},&#34;regional_office&#34;:{&#34;id&#34;:&#34;68ef33e2b74cbf429ba5968c&#34;,&#34;sort_order&#34;:3},&#34;divisional_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b11&#34;,&#34;sort_order&#34;:4},&#34;district_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b13&#34;,&#34;sort_order&#34;:5},&#34;city_corporation_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b24&#34;,&#34;sort_order&#34;:6},&#34;upazila_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b14&#34;,&#34;sort_order&#34;:7},&#34;pourashava_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b34&#34;,&#34;sort_order&#34;:8}}' data-geo-depth="0" > ব্যাংক / বীমা / আর্থিক প্রতিষ্ঠান </option> <option value="6915c8c02d68425160fc40ed" title="বিভাগীয় পোর্টাল" data-allow-levels='{&#34;divisional_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b11&#34;,&#34;sort_order&#34;:4}}' data-geo-depth="1" > বিভাগীয় পোর্টাল </option> <option value="6915c8c02d68425160fc40ef" title="জেলা পোর্টাল" data-allow-levels='{&#34;district_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b13&#34;,&#34;sort_order&#34;:5}}' data-geo-depth="2" selected> জেলা পোর্টাল </option> <option value="626a41e552093d4768e64b20" title="পৌরসভা পোর্টাল" data-allow-levels='{&#34;pourashava_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b34&#34;,&#34;sort_order&#34;:8}}' data-geo-depth="3" > পৌরসভা পোর্টাল </option> <option value="626a41e552093d4768e64b16" title="উপজেলা পোর্টাল" data-allow-levels='{&#34;upazila_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b14&#34;,&#34;sort_order&#34;:7}}' data-geo-depth="3" > উপজেলা পোর্টাল </option> <option value="6915c8c02d68425160fc40ee" title="ইউনিয়ন পোর্টাল" data-allow-levels='{&#34;union_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b15&#34;,&#34;sort_order&#34;:9}}' data-geo-depth="4" > ইউনিয়ন পোর্টাল </option> <option value="687df048256c87dc78f1a066" title="রেজাল্ট" data-allow-levels='{&#34;head_office&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b10&#34;,&#34;sort_order&#34;:2},&#34;regional_office&#34;:{&#34;id&#34;:&#34;68ef33e2b74cbf429ba5968c&#34;,&#34;sort_order&#34;:3},&#34;divisional_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b11&#34;,&#34;sort_order&#34;:4},&#34;district_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b13&#34;,&#34;sort_order&#34;:5},&#34;city_corporation_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b24&#34;,&#34;sort_order&#34;:6},&#34;upazila_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b14&#34;,&#34;sort_order&#34;:7},&#34;pourashava_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b34&#34;,&#34;sort_order&#34;:8}}' data-geo-depth="0" > রেজাল্ট </option> <option value="687df048256c87dc78f1a067" title="প্রকল্প/কর্মসূচী" data-allow-levels='{&#34;head_office&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b10&#34;,&#34;sort_order&#34;:2},&#34;regional_office&#34;:{&#34;id&#34;:&#34;68ef33e2b74cbf429ba5968c&#34;,&#34;sort_order&#34;:3},&#34;divisional_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b11&#34;,&#34;sort_order&#34;:4},&#34;district_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b13&#34;,&#34;sort_order&#34;:5},&#34;city_corporation_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b24&#34;,&#34;sort_order&#34;:6},&#34;upazila_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b14&#34;,&#34;sort_order&#34;:7},&#34;pourashava_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b34&#34;,&#34;sort_order&#34;:8}}' data-geo-depth="0" > প্রকল্প/কর্মসূচী </option> <option value="68ef63ed4aea2e96873533f9" title="বিদেশী দূতাবাস/মিশন" data-allow-levels='{&#34;embassy&#34;:{&#34;id&#34;:&#34;68ef394bec5fb394776a34fd&#34;,&#34;sort_order&#34;:16},&#34;high_commission&#34;:{&#34;id&#34;:&#34;68ef396f6c37f3c4fc8f72fd&#34;,&#34;sort_order&#34;:17},&#34;permanent_mission&#34;:{&#34;id&#34;:&#34;68ef39aa946f997b55bbdfd3&#34;,&#34;sort_order&#34;:18},&#34;consulate_general&#34;:{&#34;id&#34;:&#34;68ef39aa946f997b55bbdfd3&#34;,&#34;sort_order&#34;:19},&#34;consulate&#34;:{&#34;id&#34;:&#34;68ef3aead613d2f8d33344e7&#34;,&#34;sort_order&#34;:20},&#34;legation&#34;:{&#34;id&#34;:&#34;68ef3b2942c4aed96ee13c0f&#34;,&#34;sort_order&#34;:21},&#34;honorary_consul&#34;:{&#34;id&#34;:&#34;68ef3b2942c4aed96ee13c0f&#34;,&#34;sort_order&#34;:22}}' data-geo-depth="0" > বিদেশী দূতাবাস/মিশন </option> <option value="68ef64f9d5ac0d4ed289703f" title="জেলা পরিষদ পোর্টাল" data-allow-levels='{&#34;district_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b13&#34;,&#34;sort_order&#34;:5}}' data-geo-depth="2" > জেলা পরিষদ পোর্টাল </option> <option value="6680e6f177db1f8cd71d07d2" title="সিটি কর্পোরেশন পোর্টাল" data-allow-levels='{&#34;city_corporation_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b24&#34;,&#34;sort_order&#34;:6}}' data-geo-depth="3" > সিটি কর্পোরেশন পোর্টাল </option> <option value="687df048256c87dc78f1a069" title="প্রশিক্ষণ" data-allow-levels='{&#34;head_office&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b10&#34;,&#34;sort_order&#34;:2},&#34;regional_office&#34;:{&#34;id&#34;:&#34;68ef33e2b74cbf429ba5968c&#34;,&#34;sort_order&#34;:3},&#34;divisional_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b11&#34;,&#34;sort_order&#34;:4},&#34;district_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b13&#34;,&#34;sort_order&#34;:5},&#34;city_corporation_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b24&#34;,&#34;sort_order&#34;:6},&#34;upazila_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b14&#34;,&#34;sort_order&#34;:7},&#34;pourashava_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b34&#34;,&#34;sort_order&#34;:8}}' data-geo-depth="0" > প্রশিক্ষণ </option> <option value="6915c8c02d68425160fc40f0" title="শিক্ষা প্রতিষ্ঠান" data-allow-levels='{&#34;school_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b17&#34;,&#34;sort_order&#34;:10},&#34;college&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b18&#34;,&#34;sort_order&#34;:11},&#34;university&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b19&#34;,&#34;sort_order&#34;:12},&#34;madrasha&#34;:{&#34;id&#34;:&#34;68ef389234cf7ce9b5508e1c&#34;,&#34;sort_order&#34;:13},&#34;nursing&#34;:{&#34;id&#34;:&#34;68ef38c7d4a2b15e5259b6a7&#34;,&#34;sort_order&#34;:14},&#34;ploytech&#34;:{&#34;id&#34;:&#34;68ef391c0e99a31ecfa0a2ed&#34;,&#34;sort_order&#34;:15}}' data-geo-depth="0" > শিক্ষা প্রতিষ্ঠান </option> <option value="687df048256c87dc78f1a068" title="সরকারি মাঠ পর্যায়ের অফিস" data-allow-levels='{&#34;regional_office&#34;:{&#34;id&#34;:&#34;68ef33e2b74cbf429ba5968c&#34;,&#34;sort_order&#34;:3},&#34;divisional_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b11&#34;,&#34;sort_order&#34;:4},&#34;district_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b13&#34;,&#34;sort_order&#34;:5},&#34;city_corporation_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b24&#34;,&#34;sort_order&#34;:6},&#34;upazila_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b14&#34;,&#34;sort_order&#34;:7},&#34;pourashava_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b34&#34;,&#34;sort_order&#34;:8},&#34;union_level&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b15&#34;,&#34;sort_order&#34;:9}}' data-geo-depth="0" > সরকারি মাঠ পর্যায়ের অফিস </option> <option value="6a954674b86e0265f77d9c33" title="অন্যান্য" data-allow-levels='{&#34;head_office&#34;:{&#34;id&#34;:&#34;626a41e552093d4768e64b10&#34;,&#34;sort_order&#34;:2}}' data-geo-depth="0" > অন্যান্য </option> </select> <div id="i608195633" class='dynamic-dropdowns'></div> <button id="i8107310532" onclick="window.handleGoClickV3('i608195633')" disabled>দেখুন</button> </div> </div> </div> <div class="header-right-section "> <div class='widget global-search-widget'> <input class="input-search" id="939688496" name="key" placeholder="এখানে খুঁজুন..." onkeypress="window.handleSearchEnter('939688496', arguments[0])"/> <button type="button" class="btn-search" onclick="window.handleSearchClick('939688496')"> অনুসন্ধান </button> </div> <div class="bangladesh-header-widget-dropdown"> <button type="button" class="bangladesh-header-widget-dropdown-toggle"> <span id="bangladesh-header-widget-current-lang">BN</span> <img src="/site-assets/images/down-arrow.svg" class="bangladesh-header-widget-arrow" width="10" height="10" alt="Arrow" /> </button> <div class="bangladesh-header-widget-dropdown-menu"> <a href="#" class="bangladesh-header-widget-dropdown-item" data-value="bn" data-lang="BN">বাংলা (BN)</a> <a href="#" class="bangladesh-header-widget-dropdown-item" data-value="en" data-lang="EN">English (EN)</a> </div> </div> </div> </section> 
+            </div>
+        </div>
+        <div class="container-row">
+            <div class="container-col container-col-12" data-widget_type="layout">
+                <section data-widget_type="widget" data-widget_name="MenusExpandableWidget" class="widget menus-expandable-widget max-view"> <div class="menus-widget-container" style="--home-label:'হোম';"> <section class="widget menu-widget"> <span id="menu-toggle" class="hamburger-menu-block"> <icon class="hamburger-menu ph ph-list"></icon> <span>মেনু নির্বাচন করুন</span> </span> <ul class="menu-list menu-parent-unordered-list custom-items-center"> <li class="megamenu-link "> <a class="menu-parent-list-link home-link" href="/"> </a> </li> <li class="megamenu-link menu-parent-list"> <a title=" জেলা সম্পর্কিত" href="#" class="menu-parent-list-link"> জেলা সম্পর্কিত <icon class="menu-parent-list-link-icon ph ph-caret-double-down"></icon> </a> <div class="mega-menu-dropdown megaMenu"> <div class="menu-child-box "> <h6 title=" জেলা পরিচিতি" class="menu-child-title"> <a title="জেলা পরিচিতি" href="#"> <div>জেলা পরিচিতি</div> </a> </h6> <ul class="menu-sub-child-unordered-list" aria-labelledby="mega-menu-dropdown-button"> <li class="menu-sub-child-list"> <a title=" এক নজরে যশোর" class="menu-sub-child-link" href="/pages/static-pages/6981417735ce18e1c0701fcb" > <div>এক নজরে যশোর</div> </a> </li> <li class="menu-sub-child-list"> <a title=" যশোর জেলার পটভূমি" class="menu-sub-child-link" href="/pages/static-pages/6981417735ce18e1c0701fcd" > <div>যশোর জেলার পটভূমি</div> </a> </li> <li class="menu-sub-child-list"> <a title=" উপজেলার তালিকা" class="menu-sub-child-link" href="/pages/static-pages/6981087fa31054345f1d8571" > <div>উপজেলার তালিকা</div> </a> </li> <li class="menu-sub-child-list"> <a title=" ইউনিয়নের তালিকা" class="menu-sub-child-link" href="/pages/static-pages/6980ee35a31054345f1ccbbe" > <div>ইউনিয়নের তালিকা</div> </a> </li> <li class="menu-sub-child-list"> <a title=" মানচিত্রে জেলা" class="menu-sub-child-link" href="/pages/static-pages/6981459835ce18e1c0702b7d" > <div>মানচিত্রে জেলা</div> </a> </li> </ul> </div> <div class="menu-child-box "> <h6 title=" ইতিহাস-ঐতিহ্য" class="menu-child-title"> <a title="ইতিহাস-ঐতিহ্য" href="nolink/19875"> <div>ইতিহাস-ঐতিহ্য</div> </a> </h6> <ul class="menu-sub-child-unordered-list" aria-labelledby="mega-menu-dropdown-button"> <li class="menu-sub-child-list"> <a title=" জেলার ঐতিহ্য" class="menu-sub-child-link" href="/pages/static-pages/6981417735ce18e1c0701fbd" > <div>জেলার ঐতিহ্য</div> </a> </li> <li class="menu-sub-child-list"> <a title=" পুরাকীর্তির সংক্ষিপ্ত বর্ণনা" class="menu-sub-child-link" href="/pages/static-pages/6981417535ce18e1c0701ed2" > <div>পুরাকীর্তির সংক্ষিপ্ত বর্ণনা</div> </a> </li> <li class="menu-sub-child-list"> <a title=" প্রখ্যাত ব্যক্তিত্ব" class="menu-sub-child-link" href="/pages/static-pages/6981417735ce18e1c0701fc0" > <div>প্রখ্যাত ব্যক্তিত্ব</div> </a> </li> <li class="menu-sub-child-list"> <a title=" ভাষা ও সংস্কৃতি" class="menu-sub-child-link" href="/pages/static-pages/6981417735ce18e1c0701fc9" > <div>ভাষা ও সংস্কৃতি</div> </a> </li> <li class="menu-sub-child-list"> <a title=" খেলাধুলা ও বিনোদন" class="menu-sub-child-link" href="/pages/static-pages/6981417735ce18e1c0701fca" > <div>খেলাধুলা ও বিনোদন</div> </a> </li> </ul> </div> <div class="menu-child-box "> <h6 title=" ভৌগলিক ও অর্থনৈতিক" class="menu-child-title"> <a title="ভৌগলিক ও অর্থনৈতিক" href="nolink/19890"> <div>ভৌগলিক ও অর্থনৈতিক</div> </a> </h6> <ul class="menu-sub-child-unordered-list" aria-labelledby="mega-menu-dropdown-button"> <li class="menu-sub-child-list"> <a title=" ভৌগোলিক পরিচিতি" class="menu-sub-child-link" href="/pages/static-pages/6981417735ce18e1c0701fcc" > <div>ভৌগোলিক পরিচিতি</div> </a> </li> <li class="menu-sub-child-list"> <a title=" নদ-নদী" class="menu-sub-child-link" href="/pages/static-pages/6981417735ce18e1c0701fd0" > <div>নদ-নদী</div> </a> </li> <li class="menu-sub-child-list"> <a title=" ব্যবসা বাণিজ্য" class="menu-sub-child-link" href="/pages/static-pages/69813c8335ce18e1c06fdd8b" > <div>ব্যবসা বাণিজ্য</div> </a> </li> <li class="menu-sub-child-list"> <a title=" হাট-বাজার" class="menu-sub-child-link" href="#" > <div>হাট-বাজার</div> </a> </li> <li class="menu-sub-child-list"> <a title=" যোগাযোগ ব্যবস্থা" class="menu-sub-child-link" href="/pages/static-pages/6981417735ce18e1c0701fd1" > <div>যোগাযোগ ব্যবস্থা</div> </a> </li> <li class="menu-sub-child-list"> <a title=" হোটেল ও আবাসন" class="menu-sub-child-link" href="/pages/static-pages/6980e575a31054345f1ca2a7" > <div>হোটেল ও আবাসন</div> </a> </li> </ul> </div> <div class="menu-child-box "> <h6 title=" অন্যান্য" class="menu-child-title"> <a title="অন্যান্য" href="nolink/20503"> <div>অন্যান্য</div> </a> </h6> <ul class="menu-sub-child-unordered-list" aria-labelledby="mega-menu-dropdown-button"> <li class="menu-sub-child-list"> <a title=" পত্রপত্রিকা" class="menu-sub-child-link" href="/pages/static-pages/6981417735ce18e1c0701fd4" > <div>পত্রপত্রিকা</div> </a> </li> </ul> </div> </div> </li> <li class="megamenu-link menu-parent-list"> <a title=" জেলা প্রশাসন" href="#" class="menu-parent-list-link"> জেলা প্রশাসন <icon class="menu-parent-list-link-icon ph ph-caret-double-down"></icon> </a> <div class="mega-menu-dropdown megaMenu"> <div class="menu-child-box "> <h6 title=" জেলা প্রশাসক" class="menu-child-title"> <a title="জেলা প্রশাসক" href="#"> <div>জেলা প্রশাসক</div> </a> </h6> <ul class="menu-sub-child-unordered-list" aria-labelledby="mega-menu-dropdown-button"> <li class="menu-sub-child-list"> <a title=" বার্তা" class="menu-sub-child-link" href="/pages/static-pages/6980e593a31054345f1cb158" > <div>বার্তা</div> </a> </li> <li class="menu-sub-child-list"> <a title=" প্রোফাইল" class="menu-sub-child-link" href="/pages/static-pages/deputy-commissioner-and-district-magistrate-69zmhj-6a587e27079f3a9be2d2fc79" > <div>প্রোফাইল</div> </a> </li> <li class="menu-sub-child-list"> <a title=" দৈনন্দিন কর্মসূচি" class="menu-sub-child-link" href="/pages/static-pages/69810852a31054345f1d6f9b" > <div>দৈনন্দিন কর্মসূচি</div> </a> </li> <li class="menu-sub-child-list"> <a title=" সাধারণ দায়িত্বাবলী" class="menu-sub-child-link" href="/pages/static-pages/general-responsibilities-zyhb9l-6a780b6d112d0b7ffdd5817a" > <div>সাধারণ দায়িত্বাবলী</div> </a> </li> <li class="menu-sub-child-list"> <a title=" প্রাক্তন জেলা প্রশাসকবৃন্দ" class="menu-sub-child-link" href="/pages/static-pages/6981417735ce18e1c0701fd7" > <div>প্রাক্তন জেলা প্রশাসকবৃন্দ</div> </a> </li> </ul> </div> <div class="menu-child-box "> <h6 title=" জেলা প্রশাসকের কার্যালয়" class="menu-child-title"> <a title="জেলা প্রশাসকের কার্যালয়" href="nolink/20231"> <div>জেলা প্রশাসকের কার্যালয়</div> </a> </h6> <ul class="menu-sub-child-unordered-list" aria-labelledby="mega-menu-dropdown-button"> <li class="menu-sub-child-list"> <a title=" জেলা প্রশাসনের পটভূমি" class="menu-sub-child-link" href="/pages/static-pages/6981417735ce18e1c0701fd8" > <div>জেলা প্রশাসনের পটভূমি</div> </a> </li> <li class="menu-sub-child-list"> <a title=" সাংগঠনিক কাঠামো" class="menu-sub-child-link" href="/pages/static-pages/সাংগঠনিক-কাঠামো-ef9555-69811b2fa31054345f1df2fe" > <div>সাংগঠনিক কাঠামো</div> </a> </li> <li class="menu-sub-child-list"> <a title=" সার্কিট হাউস" class="menu-sub-child-link" href="/pages/static-pages/6981412f35ce18e1c070008a" > <div>সার্কিট হাউস</div> </a> </li> </ul> </div> <div class="menu-child-box "> <h6 title=" উপ-পরিচালক/অতিরিক্ত জেলা প্রশাসক" class="menu-child-title"> <a title="উপ-পরিচালক/অতিরিক্ত জেলা প্রশাসক" href="#"> <div>উপ-পরিচালক/অতিরিক্ত জেলা প্রশাসক</div> </a> </h6> <ul class="menu-sub-child-unordered-list" aria-labelledby="mega-menu-dropdown-button"> <li class="menu-sub-child-list"> <a title=" উপপরিচালক, স্থানীয় সরকার" class="menu-sub-child-link" href="/pages/officers/6980cc5dc4774958d7c52b75" > <div>উপপরিচালক, স্থানীয় সরকার</div> </a> </li> <li class="menu-sub-child-list"> <a title=" অতিরিক্ত জেলা প্রশাসক (সার্বিক)" class="menu-sub-child-link" href="/pages/officers/6980cdd4c4774958d7c5a735" > <div>অতিরিক্ত জেলা প্রশাসক (সার্বিক)</div> </a> </li> <li class="menu-sub-child-list"> <a title=" অতিরিক্ত জেলা প্রশাসক (রাজস্ব)" class="menu-sub-child-link" href="/pages/officers/6980cc07c4774958d7c50fb0" > <div>অতিরিক্ত জেলা প্রশাসক (রাজস্ব)</div> </a> </li> <li class="menu-sub-child-list"> <a title=" অতিরিক্ত জেলা প্রশাসক (শিক্ষা ও আইসিটি)" class="menu-sub-child-link" href="/pages/officers/6980cd28c4774958d7c56c6a" > <div>অতিরিক্ত জেলা প্রশাসক (শিক্ষা ও আইসিটি)</div> </a> </li> <li class="menu-sub-child-list"> <a title=" অতিরিক্ত জেলা ম্যাজিষ্ট্রেট" class="menu-sub-child-link" href="/pages/officers/6980cbc7c4774958d7c4f866" > <div>অতিরিক্ত জেলা ম্যাজিষ্ট্রেট</div> </a> </li> <li class="menu-sub-child-list"> <a title=" অতিরিক্ত জেলা প্রশাসক (উন্নয়ন ও মানবসম্পদ ব্যবস্থাপনা)" class="menu-sub-child-link" href="/pages/officers/6980cdd4c4774958d7c5a735" > <div>অতিরিক্ত জেলা প্রশাসক (উন্নয়ন ও মানবসম্পদ ব্যবস্থাপনা)</div> </a> </li> </ul> </div> <div class="menu-child-box "> <h6 title=" কর্মকর্তা ও কর্মচারী বৃন্দ" class="menu-child-title"> <a title="কর্মকর্তা ও কর্মচারী বৃন্দ" href="#"> <div>কর্মকর্তা ও কর্মচারী বৃন্দ</div> </a> </h6> <ul class="menu-sub-child-unordered-list" aria-labelledby="mega-menu-dropdown-button"> <li class="menu-sub-child-list"> <a title=" জেলা প্রশাসনের কর্মকর্তাবৃন্দ" class="menu-sub-child-link" href="/pages/officers" > <div>জেলা প্রশাসনের কর্মকর্তাবৃন্দ</div> </a> </li> <li class="menu-sub-child-list"> <a title=" উপজেলা নির্বাহী অফিসারবৃন্দ" class="menu-sub-child-link" href="/views/employee-list?designationId=7" > <div>উপজেলা নির্বাহী অফিসারবৃন্দ</div> </a> </li> <li class="menu-sub-child-list"> <a title=" সহকারী কমিশনার (ভূমি) বৃন্দ" class="menu-sub-child-link" href="/views/employee-list?designationId=8" > <div>সহকারী কমিশনার (ভূমি) বৃন্দ</div> </a> </li> <li class="menu-sub-child-list"> <a title=" জেলা প্রশাসনের কর্মচারীবৃন্দ" class="menu-sub-child-link" href="/pages/staff-profiles" > <div>জেলা প্রশাসনের কর্মচারীবৃন্দ</div> </a> </li> </ul> </div> <div class="menu-child-box "> <h6 title=" শাখা সম্পর্কিত" class="menu-child-title"> <a title="শাখা সম্পর্কিত" href="nolink/19897"> <div>শাখা সম্পর্কিত</div> </a> </h6> <ul class="menu-sub-child-unordered-list" aria-labelledby="mega-menu-dropdown-button"> <li class="menu-sub-child-list"> <a title=" শাখাসমূহ ও কার্যাবলী" class="menu-sub-child-link" href="/pages/dcoffice-section" > <div>শাখাসমূহ ও কার্যাবলী</div> </a> </li> <li class="menu-sub-child-list"> <a title=" শাখাভিত্তিক নাগরিক সেবার ফরমসসমূহ" class="menu-sub-child-link" href="#" > <div>শাখাভিত্তিক নাগরিক সেবার ফরমসসমূহ</div> </a> </li> <li class="menu-sub-child-list"> <a title=" ডিজিটাল গার্ড ফাইল" class="menu-sub-child-link" href="/pages/digital-guard-files-field-cluster" > <div>ডিজিটাল গার্ড ফাইল</div> </a> </li> </ul> </div> </div> </li> <li class="megamenu-link menu-parent-list"> <a title=" সরকারি অফিস" href="nolink/19871" class="menu-parent-list-link"> সরকারি অফিস <icon class="menu-parent-list-link-icon ph ph-caret-double-down"></icon> </a> <div class="mega-menu-dropdown megaMenu"> <div class="menu-child-box "> <h6 title=" আইন-শৃঙ্খলা ও নিরাপত্তা বিষয়ক" class="menu-child-title"> <a title="আইন-শৃঙ্খলা ও নিরাপত্তা বিষয়ক" href="nolink/20294"> <div>আইন-শৃঙ্খলা ও নিরাপত্তা বিষয়ক</div> </a> </h6> <ul class="menu-sub-child-unordered-list" aria-labelledby="mega-menu-dropdown-button"> <li class="menu-sub-child-list"> <a title=" পুলিশ সুপারের কার্যালয়" class="menu-sub-child-link" href="http://police.jessore.gov.bd/" > <div>পুলিশ সুপারের কার্যালয়</div> </a> </li> <li class="menu-sub-child-list"> <a title=" বিজিবি" class="menu-sub-child-link" href="https://bgb.gov.bd/pages/static-pages/6922e11a933eb65569e2a347" > <div>বিজিবি</div> </a> </li> <li class="menu-sub-child-list"> <a title=" আনসার ও গ্রাম প্রতিরক্ষা কার্যালয়" class="menu-sub-child-link" href="http://ansarvdp.jessore.gov.bd/" > <div>আনসার ও গ্রাম প্রতিরক্ষা কার্যালয়</div> </a> </li> <li class="menu-sub-child-list"> <a title=" ফায়ার সার্ভিস ও সিভিল ডিফেন্স" class="menu-sub-child-link" href="http://fireservice.jessore.gov.bd/" > <div>ফায়ার সার্ভিস ও সিভিল ডিফেন্স</div> </a> </li> <li class="menu-sub-child-list"> <a title=" জেলা কার্যালয়, মাদকদ্রব্য নিয়ন্ত্রন অধিদপ্তর" class="menu-sub-child-link" href="http://dnc.jessore.gov.bd/" > <div>জেলা কার্যালয়, মাদকদ্রব্য নিয়ন্ত্রন অধিদপ্তর</div> </a> </li> <li class="menu-sub-child-list"> <a title=" জেলা কারাগার" class="menu-sub-child-link" href="http://prison.jessore.gov.bd/" > <div>জেলা কারাগার</div> </a> </li> <li class="menu-sub-child-list"> <a title=" বাংলাদেশ স্ট্যান্ডার্ডস এন্ড টেস্টিং ইনস্টিটিউশন (বিএসটিআই)" class="menu-sub-child-link" href="https://bsti.jashore.gov.bd/" > <div>বাংলাদেশ স্ট্যান্ডার্ডস এন্ড টেস্টিং ইনস্টিটিউশন (বিএসটিআই)</div> </a> </li> </ul> </div> <div class="menu-child-box "> <h6 title=" শিক্ষা ও সংস্কৃতি" class="menu-child-title"> <a title="শিক্ষা ও সংস্কৃতি" href="nolink/20295"> <div>শিক্ষা ও সংস্কৃতি</div> </a> </h6> <ul class="menu-sub-child-unordered-list" aria-labelledby="mega-menu-dropdown-button"> <li class="menu-sub-child-list"> <a title=" জেলা প্রাথমিক শিক্ষা অফিস" class="menu-sub-child-link" href="http://dpe.jessore.gov.bd/" > <div>জেলা প্রাথমিক শিক্ষা অফিস</div> </a> </li> <li class="menu-sub-child-list"> <a title=" জেলা শিক্ষা অফিস" class="menu-sub-child-link" href="http://dshe.jessore.gov.bd/" > <div>জেলা শিক্ষা অফিস</div> </a> </li> <li class="menu-sub-child-list"> <a title=" জেলা উপানুষ্ঠানিক শিক্ষা ব্যুরো" class="menu-sub-child-link" href="http://bnfe.jessore.gov.bd/" > <div>জেলা উপানুষ্ঠানিক শিক্ষা ব্যুরো</div> </a> </li> <li class="menu-sub-child-list"> <a title=" জেলা শিল্পকলা একাডেমী" class="menu-sub-child-link" href="http://shilpakala.jessore.gov.bd/" > <div>জেলা শিল্পকলা একাডেমী</div> </a> </li> <li class="menu-sub-child-list"> <a title=" শিশু একাডেমী" class="menu-sub-child-link" href="http://shishuacademy.jessore.gov.bd/" > <div>শিশু একাডেমী</div> </a> </li> <li class="menu-sub-child-list"> <a title=" জেলা ক্রীড়া অফিস" class="menu-sub-child-link" href="http://sports.jessore.gov.bd/" > <div>জেলা ক্রীড়া অফিস</div> </a> </li> <li class="menu-sub-child-list"> <a title=" যশোর পিটিআই,যশোর" class="menu-sub-child-link" href="https://pti.jessore.gov.bd/" > <div>যশোর পিটিআই,যশোর</div> </a> </li> <li class="menu-sub-child-list"> <a title=" সরকারি টিচার্স ট্রেনিং কলেজ" class="menu-sub-child-link" href="https://ttc.jessore.gov.bd/" > <div>সরকারি টিচার্স ট্রেনিং কলেজ</div> </a> </li> <li class="menu-sub-child-list"> <a title=" জেলা সরকারি গণগ্রন্থাগার" class="menu-sub-child-link" href="https://publiclibrary.jessore.gov.bd/" > <div>জেলা সরকারি গণগ্রন্থাগার</div> </a> </li> <li class="menu-sub-child-list"> <a title=" কারিগরি প্রশিক্ষণ কেন্দ্র, যশোর" class="menu-sub-child-link" href="https://jattc.jessore.gov.bd/" > <div>কারিগরি প্রশিক্ষণ কেন্দ্র, যশোর</div> </a> </li> </ul> </div> <div class="menu-child-box "> <h6 title=" কৃষি ও খাদ্য" class="menu-child-title"> <a title="কৃষি ও খাদ্য" href="#"> <div>কৃষি ও খাদ্য</div> </a> </h6> <ul class="menu-sub-child-unordered-list" aria-labelledby="mega-menu-dropdown-button"> <li class="menu-sub-child-list"> <a title=" জেলা কার্যালয়, কৃষি সম্প্রসারণ অধিদপ্তর" class="menu-sub-child-link" href="http://dae.jessore.gov.bd/" > <div>জেলা কার্যালয়, কৃষি সম্প্রসারণ অধিদপ্তর</div> </a> </li> <li class="menu-sub-child-list"> <a title=" জেলা খাদ্য নিয়ন্ত্রকের কার্যালয়" class="menu-sub-child-link" href="http://food.jessore.gov.bd/" > <div>জেলা খাদ্য নিয়ন্ত্রকের কার্যালয়</div> </a> </li> <li class="menu-sub-child-list"> <a title=" জেলা মৎস্য অফিস" class="menu-sub-child-link" href="http://fisheries.jessore.gov.bd/" > <div>জেলা মৎস্য অফিস</div> </a> </li> <li class="menu-sub-child-list"> <a title=" বাংলাদেশ কৃষি উন্নয়ন কর্পোরেশন (সার) যশোর অঞ্চল , যশোর" class="menu-sub-child-link" href="https://badcfertilizer.jashore.gov.bd/" > <div>বাংলাদেশ কৃষি উন্নয়ন কর্পোরেশন (সার) যশোর অঞ্চল , যশোর</div> </a> </li> <li class="menu-sub-child-list"> <a title=" জেলা প্রাণিসম্পদ অফিস" class="menu-sub-child-link" href="http://dls.jessore.gov.bd/" > <div>জেলা প্রাণিসম্পদ অফিস</div> </a> </li> <li class="menu-sub-child-list"> <a title=" জেলা কার্যালয়, পাট অধিদপ্তর" class="menu-sub-child-link" href="http://dgjute.jessore.gov.bd/" > <div>জেলা কার্যালয়, পাট অধিদপ্তর</div> </a> </li> <li class="menu-sub-child-list"> <a title=" জেলা কার্যালয়, বীজ প্রত্যয়ন এজেন্সি" class="menu-sub-child-link" href="http://sca.jessore.gov.bd/" > <div>জেলা কার্যালয়, বীজ প্রত্যয়ন এজেন্সি</div> </a> </li> <li class="menu-sub-child-list"> <a title=" জেলা কার্যালয়, কৃষি বিপণন অধিদপ্তর" class="menu-sub-child-link" href="http://dam.jessore.gov.bd/" > <div>জেলা কার্যালয়, কৃষি বিপণন অধিদপ্তর</div> </a> </li> <li class="menu-sub-child-list"> <a title=" বাংলাদেশ নিরাপদ খাদ্য কর্তৃপক্ষ, যশোর" class="menu-sub-child-link" href="http://bfsa.jessore.gov.bd" > <div>বাংলাদেশ নিরাপদ খাদ্য কর্তৃপক্ষ, যশোর</div> </a> </li> <li class="menu-sub-child-list"> <a title=" আঞ্চলিক কৃষি গবেষণা কেন্দ্র, যশোর" class="menu-sub-child-link" href="#" > <div>আঞ্চলিক কৃষি গবেষণা কেন্দ্র, যশোর</div> </a> </li> <li class="menu-sub-child-list"> <a title=" জেলা কৃত্রিম প্রজনন কেন্দ্র" class="menu-sub-child-link" href="http://daic.jessore.gov.bd" > <div>জেলা কৃত্রিম প্রজনন কেন্দ্র</div> </a> </li> <li class="menu-sub-child-list"> <a title=" সরকারী হাঁস মুরগি খামার, যশোর" class="menu-sub-child-link" href="http://poultry.jessore.gov.bd/" > <div>সরকারী হাঁস মুরগি খামার, যশোর</div> </a> </li> <li class="menu-sub-child-list"> <a title=" আঞ্চলিক প্রশিক্ষণ কর্মকর্তার কার্যালয়, কৃষি বিপণন অধিদপ্তর" class="menu-sub-child-link" href="http://damrtc.jessore.gov.bd/" > <div>আঞ্চলিক প্রশিক্ষণ কর্মকর্তার কার্যালয়, কৃষি বিপণন অধিদপ্তর</div> </a> </li> <li class="menu-sub-child-list"> <a title=" বাংলাদেশ কৃষি উন্নয়ন কর্পোরেশন (বীজ), যশোর" class="menu-sub-child-link" href="http://badc.jessore.gov.bd/" > <div>বাংলাদেশ কৃষি উন্নয়ন কর্পোরেশন (বীজ), যশোর</div> </a> </li> <li class="menu-sub-child-list"> <a title=" জেলা তুলা উন্নয়ন বোর্ড" class="menu-sub-child-link" href="http://cdb.jessore.gov.bd/" > <div>জেলা তুলা উন্নয়ন বোর্ড</div> </a> </li> <li class="menu-sub-child-list"> <a title=" মৃত্তিকা সম্পদ উন্নয়ন ইন্সটিটিউট (এসআরডিআই), যশোর" class="menu-sub-child-link" href="http://srdi.jessore.gov.bd/" > <div>মৃত্তিকা সম্পদ উন্নয়ন ইন্সটিটিউট (এসআরডিআই), যশোর</div> </a> </li> <li class="menu-sub-child-list"> <a title=" তত্ত্ববধায়ক প্রকৌশলী কৃষি উন্নয়ন কর্পোরেশন" class="menu-sub-child-link" href="#" > <div>তত্ত্ববধায়ক প্রকৌশলী কৃষি উন্নয়ন কর্পোরেশন</div> </a> </li> <li class="menu-sub-child-list"> <a title=" মৃত্তিকা সম্পদ উন্নয়ন ইনস্টিটিউট, আঞ্চলিক গবেষণাগার, যশোর" class="menu-sub-child-link" href="https://srdilab.jessore.gov.bd/" > <div>মৃত্তিকা সম্পদ উন্নয়ন ইনস্টিটিউট, আঞ্চলিক গবেষণাগার, যশোর</div> </a> </li> <li class="menu-sub-child-list"> <a title=" আঞ্চলিক প্রাণিরোগ অনুসন্ধান গবেষণাগার (এফডিআইএল), যশোর" class="menu-sub-child-link" href="http://fdil.jessore.gov.bd/" > <div>আঞ্চলিক প্রাণিরোগ অনুসন্ধান গবেষণাগার (এফডিআইএল), যশোর</div> </a> </li> </ul> </div> <div class="menu-child-box "> <h6 title=" স্বাস্থ্য" class="menu-child-title"> <a title="স্বাস্থ্য" href="#"> <div>স্বাস্থ্য</div> </a> </h6> <ul class="menu-sub-child-unordered-list" aria-labelledby="mega-menu-dropdown-button"> <li class="menu-sub-child-list"> <a title=" সিভিল সার্জনের কার্যালয়" class="menu-sub-child-link" href="http://cs.jessore.gov.bd/" > <div>সিভিল সার্জনের কার্যালয়</div> </a> </li> <li class="menu-sub-child-list"> <a title=" জেলা পরিবার পরিকল্পনা কার্যালয়" class="menu-sub-child-link" href="http://fpo.jessore.gov.bd/" > <div>জেলা পরিবার পরিকল্পনা কার্যালয়</div> </a> </li> <li class="menu-sub-child-list"> <a title=" ঔষধ প্রশাসন অধিদপ্তর, যশোর" class="menu-sub-child-link" href="https://dgda.jashore.gov.bd/" > <div>ঔষধ প্রশাসন অধিদপ্তর, যশোর</div> </a> </li> </ul> </div> <div class="menu-child-box "> <h6 title=" ভূমি ও রাজস্ব" class="menu-child-title"> <a title="ভূমি ও রাজস্ব" href="#"> <div>ভূমি ও রাজস্ব</div> </a> </h6> <ul class="menu-sub-child-unordered-list" aria-labelledby="mega-menu-dropdown-button"> <li class="menu-sub-child-list"> <a title=" কর কমিশনারের কার্যালয়" class="menu-sub-child-link" href="http://tax.jessore.gov.bd/" > <div>কর কমিশনারের কার্যালয়</div> </a> </li> <li class="menu-sub-child-list"> <a title=" জেলা রেজিস্ট্রারের কার্যালয়" class="menu-sub-child-link" href="http://dr.jessore.gov.bd/" > <div>জেলা রেজিস্ট্রারের কার্যালয়</div> </a> </li> <li class="menu-sub-child-list"> <a title=" জেলা কাস্টমস, আবগারি ও ভ্যাট অফিস" class="menu-sub-child-link" href="http://customs.jessore.gov.bd/" > <div>জেলা কাস্টমস, আবগারি ও ভ্যাট অফিস</div> </a> </li> <li class="menu-sub-child-list"> <a title=" জোনাল সেটেলমেন্ট অফিস" class="menu-sub-child-link" href="http://zso.jessore.gov.bd/" > <div>জোনাল সেটেলমেন্ট অফিস</div> </a> </li> </ul> </div> <div class="menu-child-box "> <h6 title=" প্রকৌশল" class="menu-child-title"> <a title="প্রকৌশল" href="#"> <div>প্রকৌশল</div> </a> </h6> <ul class="menu-sub-child-unordered-list" aria-labelledby="mega-menu-dropdown-button"> <li class="menu-sub-child-list"> <a title=" উপ বিভাগীয় প্রকৌশলীর কার্যালয়, গণপূর্ত অধিদপ্তর" class="menu-sub-child-link" href="http://pwd.jessore.gov.bd/" > <div>উপ বিভাগীয় প্রকৌশলীর কার্যালয়, গণপূর্ত অধিদপ্তর</div> </a> </li> <li class="menu-sub-child-list"> <a title=" উপ বিভাগীয় প্রকৌশলীর কার্যালয়, সওজ" class="menu-sub-child-link" href="http://rhd.jessore.gov.bd/" > <div>উপ বিভাগীয় প্রকৌশলীর কার্যালয়, সওজ</div> </a> </li> <li class="menu-sub-child-list"> <a title=" নির্বাহী প্রকৌশলীর কার্যালয়, এলজিইডি" class="menu-sub-child-link" href="http://lged.jessore.gov.bd/" > <div>নির্বাহী প্রকৌশলীর কার্যালয়, এলজিইডি</div> </a> </li> <li class="menu-sub-child-list"> <a title=" উপ বিভাগীয় প্রকৌশলীর কার্যালয়, পাউবো" class="menu-sub-child-link" href="http://bwdb.jessore.gov.bd/" > <div>উপ বিভাগীয় প্রকৌশলীর কার্যালয়, পাউবো</div> </a> </li> <li class="menu-sub-child-list"> <a title=" বিক্রয় ও বিতরণ বিভাগ-১, ওজোপাডিকো, যশোর" class="menu-sub-child-link" href="http://wzpdcl.jessore.gov.bd/" > <div>বিক্রয় ও বিতরণ বিভাগ-১, ওজোপাডিকো, যশোর</div> </a> </li> <li class="menu-sub-child-list"> <a title=" বিক্রয় ও বিতরণ বিভাগ-২, ওজোপাডিকো, যশোর" class="menu-sub-child-link" href="http://wzpdcl2.jessore.gov.bd/" > <div>বিক্রয় ও বিতরণ বিভাগ-২, ওজোপাডিকো, যশোর</div> </a> </li> <li class="menu-sub-child-list"> <a title=" উপ বিভাগীয় প্রকৌশলীর কার্যালয়, ডিপিএইচই" class="menu-sub-child-link" href="http://dphe.jessore.gov.bd/" > <div>উপ বিভাগীয় প্রকৌশলীর কার্যালয়, ডিপিএইচই</div> </a> </li> <li class="menu-sub-child-list"> <a title=" উপ বিভাগীয় প্রকৌশলীর কার্যালয়, শিক্ষা প্রকৌশল অধিদপ্তর" class="menu-sub-child-link" href="http://eed.jessore.gov.bd/" > <div>উপ বিভাগীয় প্রকৌশলীর কার্যালয়, শিক্ষা প্রকৌশল অধিদপ্তর</div> </a> </li> <li class="menu-sub-child-list"> <a title=" যশোর পল্লী বিদ্যুৎ সমিতি-১" class="menu-sub-child-link" href="http://pbs1.jessore.gov.bd/" > <div>যশোর পল্লী বিদ্যুৎ সমিতি-১</div> </a> </li> <li class="menu-sub-child-list"> <a title=" যশোর পল্লী বিদ্যুৎ সমিতি ২" class="menu-sub-child-link" href="http://pbs2.jessore.gov.bd/" > <div>যশোর পল্লী বিদ্যুৎ সমিতি ২</div> </a> </li> <li class="menu-sub-child-list"> <a title=" কলকারখানা ও প্রতিষ্ঠান পরিদর্শন অধিদপ্তর, যশোর" class="menu-sub-child-link" href="https://dife.jessore.gov.bd/" > <div>কলকারখানা ও প্রতিষ্ঠান পরিদর্শন অধিদপ্তর, যশোর</div> </a> </li> <li class="menu-sub-child-list"> <a title=" নির্বাহী প্রকৌশলীর কার্যালয়, স্বাস্থ্য প্রকৌশল অধিদপ্তর(এইচইডি), যশোর বিভাগ" class="menu-sub-child-link" href="https://hed.jessore.gov.bd/" > <div>নির্বাহী প্রকৌশলীর কার্যালয়, স্বাস্থ্য প্রকৌশল অধিদপ্তর(এইচইডি), যশোর বিভাগ</div> </a> </li> <li class="menu-sub-child-list"> <a title=" নির্বাহী প্রকৌশলীর কার্যালয়, স্বাস্থ্য প্রকৌশল অধিদপ্তর(এইচইডি), যশোর বিভাগ" class="menu-sub-child-link" href="https://hed.jessore.gov.bd/" > <div>নির্বাহী প্রকৌশলীর কার্যালয়, স্বাস্থ্য প্রকৌশল অধিদপ্তর(এইচইডি), যশোর বিভাগ</div> </a> </li> <li class="menu-sub-child-list"> <a title=" নির্বাহী প্রকৌশলী (সওকা), বিএডিসি, যশোর রিজিয়ন, যশোর" class="menu-sub-child-link" href="https://badcsw.jashore.gov.bd/" > <div>নির্বাহী প্রকৌশলী (সওকা), বিএডিসি, যশোর রিজিয়ন, যশোর</div> </a> </li> <li class="menu-sub-child-list"> <a title=" পল্লী বিদ্যুতায়ন বোর্ড, যশোর" class="menu-sub-child-link" href="https://reb.jessore.gov.bd/" > <div>পল্লী বিদ্যুতায়ন বোর্ড, যশোর</div> </a> </li> </ul> </div> <div class="menu-child-box "> <h6 title=" তথ্য ও যোগাযোগ প্রযুক্তি" class="menu-child-title"> <a title="তথ্য ও যোগাযোগ প্রযুক্তি" href="#"> <div>তথ্য ও যোগাযোগ প্রযুক্তি</div> </a> </h6> <ul class="menu-sub-child-unordered-list" aria-labelledby="mega-menu-dropdown-button"> <li class="menu-sub-child-list"> <a title=" তথ্য ও যোগাযোগ প্রযুক্তি অধিদপ্তর, যশোর" class="menu-sub-child-link" href="http://doict.jessore.gov.bd/" > <div>তথ্য ও যোগাযোগ প্রযুক্তি অধিদপ্তর, যশোর</div> </a> </li> <li class="menu-sub-child-list"> <a title=" স্টেশন মাস্টারের কার্যালয়" class="menu-sub-child-link" href="https://railway.jessore.gov.bd/" > <div>স্টেশন মাস্টারের কার্যালয়</div> </a> </li> <li class="menu-sub-child-list"> <a title=" জেলা বিআরটিএ কার্যালয়" class="menu-sub-child-link" href="https://brta.jessore.gov.bd/" > <div>জেলা বিআরটিএ কার্যালয়</div> </a> </li> <li class="menu-sub-child-list"> <a title=" জেলা পোস্ট অফিস" class="menu-sub-child-link" href="https://post.jessore.gov.bd/" > <div>জেলা পোস্ট অফিস</div> </a> </li> <li class="menu-sub-child-list"> <a title=" জেলা বিটিসিএল কার্যালয়" class="menu-sub-child-link" href="http://btcl.jessore.gov.bd/" > <div>জেলা বিটিসিএল কার্যালয়</div> </a> </li> <li class="menu-sub-child-list"> <a title=" জেলা তথ্য অফিস" class="menu-sub-child-link" href="http://info.jessore.gov.bd/" > <div>জেলা তথ্য অফিস</div> </a> </li> </ul> </div> <div class="menu-child-box "> <h6 title=" মানব সম্পদ উন্নয়ন বিষয়ক" class="menu-child-title"> <a title="মানব সম্পদ উন্নয়ন বিষয়ক" href="nolink/20299"> <div>মানব সম্পদ উন্নয়ন বিষয়ক</div> </a> </h6> <ul class="menu-sub-child-unordered-list" aria-labelledby="mega-menu-dropdown-button"> <li class="menu-sub-child-list"> <a title=" জেলা সমাজসেবা কার্যালয়" class="menu-sub-child-link" href="http://dss.jessore.gov.bd/" > <div>জেলা সমাজসেবা কার্যালয়</div> </a> </li> <li class="menu-sub-child-list"> <a title=" কলকারখানা ও প্রতিষ্ঠান পরিদর্শন অধিদপ্তর, যশোর" class="menu-sub-child-link" href="https://dife.jessore.gov.bd/" > <div>কলকারখানা ও প্রতিষ্ঠান পরিদর্শন অধিদপ্তর, যশোর</div> </a> </li> <li class="menu-sub-child-list"> <a title=" জেলা যুব উন্নয়ন অধিদপ্তর কার্যালয়" class="menu-sub-child-link" href="http://youth.jessore.gov.bd/" > <div>জেলা যুব উন্নয়ন অধিদপ্তর কার্যালয়</div> </a> </li> <li class="menu-sub-child-list"> <a title=" জেলা কার্যালয়, মহিলা বিষয়ক অধিদপ্তর" class="menu-sub-child-link" href="http://dwa.jessore.gov.bd/" > <div>জেলা কার্যালয়, মহিলা বিষয়ক অধিদপ্তর</div> </a> </li> <li class="menu-sub-child-list"> <a title=" জেলা কার্যালয়, বাংলাদেশ পল্লী উন্নয়ন বোর্ড" class="menu-sub-child-link" href="http://brdb.jessore.gov.bd/" > <div>জেলা কার্যালয়, বাংলাদেশ পল্লী উন্নয়ন বোর্ড</div> </a> </li> <li class="menu-sub-child-list"> <a title=" জেলা সমবায় কার্যালয়" class="menu-sub-child-link" href="http://cooperative.jessore.gov.bd/" > <div>জেলা সমবায় কার্যালয়</div> </a> </li> <li class="menu-sub-child-list"> <a title=" জেলা কর্মসংস্থান ও জনশক্তি অফিস" class="menu-sub-child-link" href="http://bmet.jessore.gov.bd/" > <div>জেলা কর্মসংস্থান ও জনশক্তি অফিস</div> </a> </li> <li class="menu-sub-child-list"> <a title=" জেলা ইসলামিক ফাউন্ডেশন কার্যালয়" class="menu-sub-child-link" href="http://islamicfoundation.jessore.gov.bd/" > <div>জেলা ইসলামিক ফাউন্ডেশন কার্যালয়</div> </a> </li> <li class="menu-sub-child-list"> <a title=" সহকারী শ্রম পরিচালকের কার্যালয়" class="menu-sub-child-link" href="#" > <div>সহকারী শ্রম পরিচালকের কার্যালয়</div> </a> </li> <li class="menu-sub-child-list"> <a title=" বিসিক জেলা কার্যালয়" class="menu-sub-child-link" href="http://bscic.jessore.gov.bd/" > <div>বিসিক জেলা কার্যালয়</div> </a> </li> <li class="menu-sub-child-list"> <a title=" শহর সমাজসেবা কার্যালয়, যশোর" class="menu-sub-child-link" href="http://ucd.jessore.gov.bd" > <div>শহর সমাজসেবা কার্যালয়, যশোর</div> </a> </li> <li class="menu-sub-child-list"> <a title=" হাসপাতাল সমাজসেবা কার্যালয়, যশোর" class="menu-sub-child-link" href="http://dss-hsso.jessore.gov.bd/" > <div>হাসপাতাল সমাজসেবা কার্যালয়, যশোর</div> </a> </li> <li class="menu-sub-child-list"> <a title=" প্রতিবন্ধী সেবা ও সাহায্য কেন্দ্র, যশোর" class="menu-sub-child-link" href="http://dshc.jessore.gov.bd/" > <div>প্রতিবন্ধী সেবা ও সাহায্য কেন্দ্র, যশোর</div> </a> </li> <li class="menu-sub-child-list"> <a title=" প্রবেশন অফিসারের কার্যালয়, যশোর" class="menu-sub-child-link" href="http://po.jessore.gov.bd/" > <div>প্রবেশন অফিসারের কার্যালয়, যশোর</div> </a> </li> <li class="menu-sub-child-list"> <a title=" সরকারি শিশু পরিবার বালিকা, যশোর" class="menu-sub-child-link" href="http://sspg.jessore.gov.bd/" > <div>সরকারি শিশু পরিবার বালিকা, যশোর</div> </a> </li> <li class="menu-sub-child-list"> <a title=" জাতীয় মহিলা সংস্থা, জেলা অফিস, যশোর" class="menu-sub-child-link" href="http://jms.jessore.gov.bd/" > <div>জাতীয় মহিলা সংস্থা, জেলা অফিস, যশোর</div> </a> </li> </ul> </div> <div class="menu-child-box "> <h6 title=" অন্যান্য অফিস" class="menu-child-title"> <a title="অন্যান্য অফিস" href="nolink/20300"> <div>অন্যান্য অফিস</div> </a> </h6> <ul class="menu-sub-child-unordered-list" aria-labelledby="mega-menu-dropdown-button"> <li class="menu-sub-child-list"> <a title=" জেলা কার্যালয়, দুর্নীতি দমন কমিশন" class="menu-sub-child-link" href="https://acc.jessore.gov.bd/" > <div>জেলা কার্যালয়, দুর্নীতি দমন কমিশন</div> </a> </li> <li class="menu-sub-child-list"> <a title=" জেলা সঞ্চয় অফিস" class="menu-sub-child-link" href="http://savings.jessore.gov.bd/" > <div>জেলা সঞ্চয় অফিস</div> </a> </li> <li class="menu-sub-child-list"> <a title=" জেলা হিসাবরক্ষণ অফিস" class="menu-sub-child-link" href="http://dao.jessore.gov.bd" > <div>জেলা হিসাবরক্ষণ অফিস</div> </a> </li> <li class="menu-sub-child-list"> <a title=" জেলা নির্বাচন অফিস" class="menu-sub-child-link" href="http://ec.jessore.gov.bd/" > <div>জেলা নির্বাচন অফিস</div> </a> </li> <li class="menu-sub-child-list"> <a title=" আঞ্চলিক পাসপোর্ট অফিস" class="menu-sub-child-link" href="http://passport.jessore.gov.bd/" > <div>আঞ্চলিক পাসপোর্ট অফিস</div> </a> </li> <li class="menu-sub-child-list"> <a title=" আঞ্চলিক পরিসংখ্যান অফিস" class="menu-sub-child-link" href="http://bbs.jessore.gov.bd/" > <div>আঞ্চলিক পরিসংখ্যান অফিস</div> </a> </li> <li class="menu-sub-child-list"> <a title=" বিভাগীয় বন কর্মকর্তার কার্যালয়" class="menu-sub-child-link" href="https://forest.jessore.gov.bd/" > <div>বিভাগীয় বন কর্মকর্তার কার্যালয়</div> </a> </li> <li class="menu-sub-child-list"> <a title=" জেলা ত্রাণ ও পুনর্বাসন" class="menu-sub-child-link" href="https://drro.jessore.gov.bd/" > <div>জেলা ত্রাণ ও পুনর্বাসন</div> </a> </li> <li class="menu-sub-child-list"> <a title=" পাট অধিদপ্তর, যশোর" class="menu-sub-child-link" href="https://dgjute.jessore.gov.bd/" > <div>পাট অধিদপ্তর, যশোর</div> </a> </li> <li class="menu-sub-child-list"> <a title=" জেলা পরিবেশ অধিদপ্তর অফিস" class="menu-sub-child-link" href="https://doe.jessore.gov.bd/" > <div>জেলা পরিবেশ অধিদপ্তর অফিস</div> </a> </li> <li class="menu-sub-child-list"> <a title=" জেলা বন বিভাগ" class="menu-sub-child-link" href="https://forest.jessore.gov.bd/" > <div>জেলা বন বিভাগ</div> </a> </li> <li class="menu-sub-child-list"> <a title=" বাংলাদেশ বিনিয়োগ উন্নয়ন কর্তৃপক্ষ" class="menu-sub-child-link" href="#" > <div>বাংলাদেশ বিনিয়োগ উন্নয়ন কর্তৃপক্ষ</div> </a> </li> <li class="menu-sub-child-list"> <a title=" জোনাল অফিস যশোর" class="menu-sub-child-link" href="https://bhbfc.jashore.gov.bd/" > <div>জোনাল অফিস যশোর</div> </a> </li> <li class="menu-sub-child-list"> <a title=" জাতীয় ভোক্তা অধিকার সংরক্ষণ অধিদপ্তর, যশোর" class="menu-sub-child-link" href="https://dncrp.jessore.gov.bd/" > <div>জাতীয় ভোক্তা অধিকার সংরক্ষণ অধিদপ্তর, যশোর</div> </a> </li> <li class="menu-sub-child-list"> <a title=" বাংলাদেশ হাউস বিল্ডিং ফাইনান্স কর্পোরেশন, যশোর" class="menu-sub-child-link" href="https://bhbfc.jashore.gov.bd/" > <div>বাংলাদেশ হাউস বিল্ডিং ফাইনান্স কর্পোরেশন, যশোর</div> </a> </li> <li class="menu-sub-child-list"> <a title=" যশোর ক্যান্টনমেন্ট বোর্ড" class="menu-sub-child-link" href="http://canttboard.jashore.gov.bd" > <div>যশোর ক্যান্টনমেন্ট বোর্ড</div> </a> </li> </ul> </div> </div> </li> <li class="megamenu-link menu-parent-list"> <a title=" স্থানীয় সরকার" href="https://zpjashore.gov.bd/" class="menu-parent-list-link"> স্থানীয় সরকার <icon class="menu-parent-list-link-icon ph ph-caret-double-down"></icon> </a> <div class="mega-menu-dropdown megaMenu"> <div class="menu-child-box "> <h6 title=" জেলা পরিষদ" class="menu-child-title"> <a title="জেলা পরিষদ" href="https://zpjashore.gov.bd/"> <div>জেলা পরিষদ</div> </a> </h6> <ul class="menu-sub-child-unordered-list" aria-labelledby="mega-menu-dropdown-button"> <li class="menu-sub-child-list"> <a title=" জেলা পরিষদ, যশোর" class="menu-sub-child-link" href="https://zpjashore.gov.bd/" > <div>জেলা পরিষদ, যশোর</div> </a> </li> </ul> </div> <div class="menu-child-box "> <h6 title=" পৌরসভা" class="menu-child-title"> <a title="পৌরসভা" href="nolink/24014"> <div>পৌরসভা</div> </a> </h6> <ul class="menu-sub-child-unordered-list" aria-labelledby="mega-menu-dropdown-button"> <li class="menu-sub-child-list"> <a title=" যশোর পৌরসভার তালিকা" class="menu-sub-child-link" href="/pages/static-pages/69812031a31054345f1e0177" > <div>যশোর পৌরসভার তালিকা</div> </a> </li> </ul> </div> <div class="menu-child-box "> <h6 title=" উপজেলা পরিষদ" class="menu-child-title"> <a title="উপজেলা পরিষদ" href="#"> <div>উপজেলা পরিষদ</div> </a> </h6> <ul class="menu-sub-child-unordered-list" aria-labelledby="mega-menu-dropdown-button"> <li class="menu-sub-child-list"> <a title=" উপজেলা পরিষদের তালিকা" class="menu-sub-child-link" href="/pages/static-pages/6980e58ca31054345f1cad60" > <div>উপজেলা পরিষদের তালিকা</div> </a> </li> </ul> </div> <div class="menu-child-box "> <h6 title=" ইউনিয়ন পরিষদ" class="menu-child-title"> <a title="ইউনিয়ন পরিষদ" href="#"> <div>ইউনিয়ন পরিষদ</div> </a> </h6> <ul class="menu-sub-child-unordered-list" aria-labelledby="mega-menu-dropdown-button"> <li class="menu-sub-child-list"> <a title=" ইউনিয়ন পরিষদের তালিকা" class="menu-sub-child-link" href="/pages/static-pages/list-of-union-council-f4ffbd-6981413c35ce18e1c070070f" > <div>ইউনিয়ন পরিষদের তালিকা</div> </a> </li> </ul> </div> </div> </li> <li class="megamenu-link menu-parent-list"> <a title=" বিভিন্ন প্রতিষ্ঠান" href="#" class="menu-parent-list-link"> বিভিন্ন প্রতিষ্ঠান <icon class="menu-parent-list-link-icon ph ph-caret-double-down"></icon> </a> <div class="mega-menu-dropdown megaMenu"> <div class="menu-child-box "> <h6 title=" শিক্ষা প্রতিষ্ঠান" class="menu-child-title"> <a title="শিক্ষা প্রতিষ্ঠান" href="nolink/24041"> <div>শিক্ষা প্রতিষ্ঠান</div> </a> </h6> <ul class="menu-sub-child-unordered-list" aria-labelledby="mega-menu-dropdown-button"> <li class="menu-sub-child-list"> <a title=" বিশ্ববিদ্যালয়" class="menu-sub-child-link" href="http://just.edu.bd/" > <div>বিশ্ববিদ্যালয়</div> </a> <ul class="menu-sub-sub-child-unordered-list" aria-labelledby="mega-menu-dropdown-button"> <li class="menu-sub-sub-child-list"> <a title=" যশোর বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়" class="menu-sub-sub-child-link" href="https://just.edu.bd/" > <div>যশোর বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়</div> </a> </li> </ul> </li> <li class="menu-sub-child-list"> <a title=" মেডিকেল কলেজ" class="menu-sub-child-link" href="#" > <div>মেডিকেল কলেজ</div> </a> <ul class="menu-sub-sub-child-unordered-list" aria-labelledby="mega-menu-dropdown-button"> <li class="menu-sub-sub-child-list"> <a title=" যশোর মেডিকেল কলেজ" class="menu-sub-sub-child-link" href="https://jmc.college.gov.bd/" > <div>যশোর মেডিকেল কলেজ</div> </a> </li> </ul> </li> <li class="menu-sub-child-list"> <a title=" কলেজ" class="menu-sub-child-link" href="#" > <div>কলেজ</div> </a> <ul class="menu-sub-sub-child-unordered-list" aria-labelledby="mega-menu-dropdown-button"> <li class="menu-sub-sub-child-list"> <a title=" সরকারি মাইকেল মধুসূদন কলেজ, যশোর" class="menu-sub-sub-child-link" href="https://mmc.college.gov.bd/" > <div>সরকারি মাইকেল মধুসূদন কলেজ, যশোর</div> </a> </li> </ul> </li> <li class="menu-sub-child-list"> <a title=" মাধ্যমিক বিদ্যালয়" class="menu-sub-child-link" href="/pages/static-pages/secondary-school-0emi3u-6a7d555bb97f8b89c5cbeb81" > <div>মাধ্যমিক বিদ্যালয়</div> </a> </li> <li class="menu-sub-child-list"> <a title=" প্রাথমিক বিদ্যালয়" class="menu-sub-child-link" href="https://ipemis.dpe.gov.bd/search-school" > <div>প্রাথমিক বিদ্যালয়</div> </a> </li> <li class="menu-sub-child-list"> <a title=" কারিগরি বিদ্যালয়" class="menu-sub-child-link" href="#" > <div>কারিগরি বিদ্যালয়</div> </a> <ul class="menu-sub-sub-child-unordered-list" aria-labelledby="mega-menu-dropdown-button"> <li class="menu-sub-sub-child-list"> <a title=" যশোর সরকারি পলিটেকনিক ইনস্টিটিউট, যশোর" class="menu-sub-sub-child-link" href="https://jashore.polytech.gov.bd/" > <div>যশোর সরকারি পলিটেকনিক ইনস্টিটিউট, যশোর</div> </a> </li> </ul> </li> <li class="menu-sub-child-list"> <a title=" মাদ্রাসা" class="menu-sub-child-link" href="#" > <div>মাদ্রাসা</div> </a> </li> <li class="menu-sub-child-list"> <a title=" ভোকেশনাল ইনস্টিটিউট" class="menu-sub-child-link" href="#" > <div>ভোকেশনাল ইনস্টিটিউট</div> </a> <ul class="menu-sub-sub-child-unordered-list" aria-labelledby="mega-menu-dropdown-button"> <li class="menu-sub-sub-child-list"> <a title=" টেক্সটাইল ভোকেশনাল ইন্সটিটিউট, যশোর।" class="menu-sub-sub-child-link" href="https://tvi.jessore.gov.bd/" > <div>টেক্সটাইল ভোকেশনাল ইন্সটিটিউট, যশোর।</div> </a> </li> </ul> </li> <li class="menu-sub-child-list"> <a title=" অন্যান্য শিক্ষাপ্রতিষ্ঠান" class="menu-sub-child-link" href="#" > <div>অন্যান্য শিক্ষাপ্রতিষ্ঠান</div> </a> </li> </ul> </div> <div class="menu-child-box "> <h6 title=" সংস্থা/সংগঠন" class="menu-child-title"> <a title="সংস্থা/সংগঠন" href="nolink/20448"> <div>সংস্থা/সংগঠন</div> </a> </h6> <ul class="menu-sub-child-unordered-list" aria-labelledby="mega-menu-dropdown-button"> <li class="menu-sub-child-list"> <a title=" গ্রন্থাগারের তালিকা" class="menu-sub-child-link" href="#" > <div>গ্রন্থাগারের তালিকা</div> </a> </li> <li class="menu-sub-child-list"> <a title=" জেলা ক্রীড়া সংস্থা" class="menu-sub-child-link" href="#" > <div>জেলা ক্রীড়া সংস্থা</div> </a> </li> <li class="menu-sub-child-list"> <a title=" যশোর রাইফেল ক্লাব" class="menu-sub-child-link" href="/pages/static-pages/698101a4a31054345f1d5523" > <div>যশোর রাইফেল ক্লাব</div> </a> </li> <li class="menu-sub-child-list"> <a title=" রেড ক্রিসেন্ট" class="menu-sub-child-link" href="#" > <div>রেড ক্রিসেন্ট</div> </a> </li> <li class="menu-sub-child-list"> <a title=" ফুটবল এসোসিয়েশন" class="menu-sub-child-link" href="/pages/static-pages/football-association-9dd5c1-6981417835ce18e1c0702015" > <div>ফুটবল এসোসিয়েশন</div> </a> </li> </ul> </div> <div class="menu-child-box "> <h6 title=" বেসরকারি প্রতিষ্ঠান" class="menu-child-title"> <a title="বেসরকারি প্রতিষ্ঠান" href="nolink/20449"> <div>বেসরকারি প্রতিষ্ঠান</div> </a> </h6> <ul class="menu-sub-child-unordered-list" aria-labelledby="mega-menu-dropdown-button"> <li class="menu-sub-child-list"> <a title=" এনজিও" class="menu-sub-child-link" href="/pages/static-pages/6981417835ce18e1c0702016" > <div>এনজিও</div> </a> </li> <li class="menu-sub-child-list"> <a title=" ব্যাংক" class="menu-sub-child-link" href="#" > <div>ব্যাংক</div> </a> </li> <li class="menu-sub-child-list"> <a title=" বীমা" class="menu-sub-child-link" href="/pages/static-pages/6981417835ce18e1c0702018" > <div>বীমা</div> </a> </li> </ul> </div> <div class="menu-child-box "> <h6 title=" ধর্মীয় প্রতিষ্ঠান" class="menu-child-title"> <a title="ধর্মীয় প্রতিষ্ঠান" href="nolink/20450"> <div>ধর্মীয় প্রতিষ্ঠান</div> </a> </h6> <ul class="menu-sub-child-unordered-list" aria-labelledby="mega-menu-dropdown-button"> <li class="menu-sub-child-list"> <a title=" মসজিদ" class="menu-sub-child-link" href="/pages/static-pages/6981417835ce18e1c0702019" > <div>মসজিদ</div> </a> </li> <li class="menu-sub-child-list"> <a title=" মন্দির" class="menu-sub-child-link" href="/pages/static-pages/6981417835ce18e1c070201b" > <div>মন্দির</div> </a> </li> <li class="menu-sub-child-list"> <a title=" গির্জা" class="menu-sub-child-link" href="#" > <div>গির্জা</div> </a> </li> <li class="menu-sub-child-list"> <a title=" প্যাগোডা" class="menu-sub-child-link" href="#" > <div>প্যাগোডা</div> </a> </li> <li class="menu-sub-child-list"> <a title=" ঈদগাহ" class="menu-sub-child-link" href="#" > <div>ঈদগাহ</div> </a> </li> <li class="menu-sub-child-list"> <a title=" এতিমখানা" class="menu-sub-child-link" href="#" > <div>এতিমখানা</div> </a> </li> <li class="menu-sub-child-list"> <a title=" মাজার" class="menu-sub-child-link" href="#" > <div>মাজার</div> </a> </li> <li class="menu-sub-child-list"> <a title=" আশ্রম" class="menu-sub-child-link" href="#" > <div>আশ্রম</div> </a> </li> <li class="menu-sub-child-list"> <a title=" কবরস্থান" class="menu-sub-child-link" href="#" > <div>কবরস্থান</div> </a> </li> <li class="menu-sub-child-list"> <a title=" শ্মশান" class="menu-sub-child-link" href="#" > <div>শ্মশান</div> </a> </li> </ul> </div> </div> </li> <li class="megamenu-link menu-parent-list"> <a title=" অনাপত্তি সনদ ও ছুটি সংক্রান্ত" href="/pages/static-pages/69810843a31054345f1d6853" class="menu-parent-list-link"> অনাপত্তি সনদ ও ছুটি সংক্রান্ত <icon class="menu-parent-list-link-icon ph ph-caret-double-down"></icon> </a> <div class="mega-menu-dropdown megaMenu"> <div class="menu-child-box "> <h6 title=" অনাপত্তি সনদ ও ছুটি সংক্রান্ত" class="menu-child-title"> <a title="অনাপত্তি সনদ ও ছুটি সংক্রান্ত" href="#"> <div>অনাপত্তি সনদ ও ছুটি সংক্রান্ত</div> </a> </h6> <ul class="menu-sub-child-unordered-list" aria-labelledby="mega-menu-dropdown-button"> <li class="menu-sub-child-list"> <a title=" অর্ডার সমূহ" class="menu-sub-child-link" href="/pages/static-pages/69810843a31054345f1d6853" > <div>অর্ডার সমূহ</div> </a> </li> </ul> </div> </div> </li> <li class="megamenu-link menu-parent-list"> <a title=" ই-সেবা" href="nolink/23412" class="menu-parent-list-link"> ই-সেবা <icon class="menu-parent-list-link-icon ph ph-caret-double-down"></icon> </a> <div class="mega-menu-dropdown megaMenu"> <div class="menu-child-box "> <h6 title=" জেলা ই সেবা কেন্দ্র" class="menu-child-title"> <a title="জেলা ই সেবা কেন্দ্র" href="https://www.mygov.bd/"> <div>জেলা ই সেবা কেন্দ্র</div> </a> </h6> <ul class="menu-sub-child-unordered-list" aria-labelledby="mega-menu-dropdown-button"> <li class="menu-sub-child-list"> <a title=" অনলাইনে আবেদন" class="menu-sub-child-link" href="https://www.mygov.bd/" > <div>অনলাইনে আবেদন</div> </a> </li> <li class="menu-sub-child-list"> <a title=" অনলাইনে ভূমি-সেবা" class="menu-sub-child-link" href="http://land.gov.bd/" > <div>অনলাইনে ভূমি-সেবা</div> </a> </li> <li class="menu-sub-child-list"> <a title=" অপরাধের তথ্য দিন" class="menu-sub-child-link" href="http://ecourt.gov.bd/citizen_public_view/new" > <div>অপরাধের তথ্য দিন</div> </a> </li> </ul> </div> <div class="menu-child-box "> <h6 title=" জাতীয় ই সেবা" class="menu-child-title"> <a title="জাতীয় ই সেবা" href="nolink/23414"> <div>জাতীয় ই সেবা</div> </a> </h6> <ul class="menu-sub-child-unordered-list" aria-labelledby="mega-menu-dropdown-button"> <li class="menu-sub-child-list"> <a title=" নথি" class="menu-sub-child-link" href="http://www.nothi.gov.bd/users/sslLogin" > <div>নথি</div> </a> </li> <li class="menu-sub-child-list"> <a title=" ই-মোবাইল কোর্ট" class="menu-sub-child-link" href="http://ecourt.gov.bd/" > <div>ই-মোবাইল কোর্ট</div> </a> </li> <li class="menu-sub-child-list"> <a title=" ভূমি সেবা" class="menu-sub-child-link" href="http://land.gov.bd/" > <div>ভূমি সেবা</div> </a> </li> <li class="menu-sub-child-list"> <a title=" বাংলাদেশ ফরম" class="menu-sub-child-link" href="http://www.forms.gov.bd/" > <div>বাংলাদেশ ফরম</div> </a> </li> <li class="menu-sub-child-list"> <a title=" সেবাকুঞ্জ" class="menu-sub-child-link" href="http://services.portal.gov.bd/" > <div>সেবাকুঞ্জ</div> </a> </li> <li class="menu-sub-child-list"> <a title=" অনলাইন আবেদন" class="menu-sub-child-link" href="http://nothi.gov.bd/dak_nagoriks/NagorikAbedon" > <div>অনলাইন আবেদন</div> </a> </li> <li class="menu-sub-child-list"> <a title=" উত্তরাধিকার ক্যালকুলেটর" class="menu-sub-child-link" href="http://xn--d5by7bap7cc3ici3m.xn--54b7fta0cc/" > <div>উত্তরাধিকার ক্যালকুলেটর</div> </a> </li> <li class="menu-sub-child-list"> <a title=" ই বুক" class="menu-sub-child-link" href="http://www.ebook.gov.bd" > <div>ই বুক</div> </a> </li> <li class="menu-sub-child-list"> <a title=" ই তথ্য কোষ" class="menu-sub-child-link" href="http://www.infokosh.gov.bd/krishokerjanala/home.html" > <div>ই তথ্য কোষ</div> </a> </li> <li class="menu-sub-child-list"> <a title=" সরকারি ফরম ডাউনলোড" class="menu-sub-child-link" href="http://www.forms.gov.bd/" > <div>সরকারি ফরম ডাউনলোড</div> </a> </li> <li class="menu-sub-child-list"> <a title=" কৃষি তথ্য সার্ভিস" class="menu-sub-child-link" href="https://ais.gov.bd/" > <div>কৃষি তথ্য সার্ভিস</div> </a> </li> <li class="menu-sub-child-list"> <a title=" বাংলাদেশ কোড" class="menu-sub-child-link" href="http://bdlaws.minlaw.gov.bd/index.php?page=html&amp;amp;language=bangla" > <div>বাংলাদেশ কোড</div> </a> </li> <li class="menu-sub-child-list"> <a title=" জাতীয় শিক্ষক বাতায়ন" class="menu-sub-child-link" href="https://www.teachers.gov.bd/" > <div>জাতীয় শিক্ষক বাতায়ন</div> </a> </li> </ul> </div> <div class="menu-child-box "> <h6 title=" মোবাইল অ্যাপ" class="menu-child-title"> <a title="মোবাইল অ্যাপ" href="#"> <div>মোবাইল অ্যাপ</div> </a> </h6> <ul class="menu-sub-child-unordered-list" aria-labelledby="mega-menu-dropdown-button"> <li class="menu-sub-child-list"> <a title=" নথি (এনড্রয়েড ফোন)" class="menu-sub-child-link" href="https://play.google.com/store/apps/details?id=com.tappware.nothipro" > <div>নথি (এনড্রয়েড ফোন)</div> </a> </li> <li class="menu-sub-child-list"> <a title=" নথি (আই ফোন)" class="menu-sub-child-link" href="https://itunes.apple.com/us/app/nothi/id1187955540?mt=8" > <div>নথি (আই ফোন)</div> </a> </li> <li class="menu-sub-child-list"> <a title=" বাংলাদেশ-ডিরেক্টরি (এনড্রয়েড)" class="menu-sub-child-link" href="https://play.google.com/store/apps/details?id=com.tappware.ned&amp;amp;hl=en" > <div>বাংলাদেশ-ডিরেক্টরি (এনড্রয়েড)</div> </a> </li> <li class="menu-sub-child-list"> <a title=" বাংলাদেশ পর্যটন (এনড্রয়েড)" class="menu-sub-child-link" href="https://play.google.com/store/apps/details?id=com.tappware.bts&amp;amp;hl=en" > <div>বাংলাদেশ পর্যটন (এনড্রয়েড)</div> </a> </li> <li class="menu-sub-child-list"> <a title=" উত্তরাধিকার ক্যালকুলেটর (এনড্রয়েড)" class="menu-sub-child-link" href="https://play.google.com/store/apps/details?id=com.landcalculation" > <div>উত্তরাধিকার ক্যালকুলেটর (এনড্রয়েড)</div> </a> </li> </ul> </div> <div class="menu-child-box "> <h6 title=" ইউনিয়ন ডিজিটাল সেন্টার" class="menu-child-title"> <a title="ইউনিয়ন ডিজিটাল সেন্টার" href="nolink/859984"> <div>ইউনিয়ন ডিজিটাল সেন্টার</div> </a> </h6> <ul class="menu-sub-child-unordered-list" aria-labelledby="mega-menu-dropdown-button"> <li class="menu-sub-child-list"> <a title=" উদ্যোক্তা ব্লগ" class="menu-sub-child-link" href="http://www.uiscbd.ning.com/" > <div>উদ্যোক্তা ব্লগ</div> </a> </li> </ul> </div> <div class="menu-child-box "> <h6 title=" অন্যান্য সেবা" class="menu-child-title"> <a title="অন্যান্য সেবা" href="nolink/878975"> <div>অন্যান্য সেবা</div> </a> </h6> <ul class="menu-sub-child-unordered-list" aria-labelledby="mega-menu-dropdown-button"> <li class="menu-sub-child-list"> <a title=" কর্মকর্তা/কর্মচারীদের অনাপত্তি সনদ NOC" class="menu-sub-child-link" href="/pages/static-pages/69813c8735ce18e1c06fdf81" > <div>কর্মকর্তা/কর্মচারীদের অনাপত্তি সনদ NOC</div> </a> </li> <li class="menu-sub-child-list"> <a title=" সার্ভিস ইনোভেশন ফাণ্ড" class="menu-sub-child-link" href="http://www.e-service.gov.bd/SIF/login" > <div>সার্ভিস ইনোভেশন ফাণ্ড</div> </a> </li> </ul> </div> </div> </li> <li class="megamenu-link menu-parent-list"> <a title=" গ্যালারি" href="#" class="menu-parent-list-link"> গ্যালারি <icon class="menu-parent-list-link-icon ph ph-caret-double-down"></icon> </a> <div class="mega-menu-dropdown megaMenu"> <div class="menu-child-box "> <h6 title=" গ্যালারি" class="menu-child-title"> <a title="গ্যালারি" href="#"> <div>গ্যালারি</div> </a> </h6> <ul class="menu-sub-child-unordered-list" aria-labelledby="mega-menu-dropdown-button"> <li class="menu-sub-child-list"> <a title=" ফটোগ্যালারি" class="menu-sub-child-link" href="/pages/photo-galleries" > <div>ফটোগ্যালারি</div> </a> </li> <li class="menu-sub-child-list"> <a title=" ভিডিও গ্যালারি" class="menu-sub-child-link" href="/pages/video-galleries" > <div>ভিডিও গ্যালারি</div> </a> </li> </ul> </div> </div> </li> <li class="megamenu-link menu-parent-list"> <a title=" যোগাযোগ" href="/pages/static-pages/69812f9535ce18e1c06fac7b" class="menu-parent-list-link"> যোগাযোগ <icon class="menu-parent-list-link-icon ph ph-caret-double-down"></icon> </a> <div class="mega-menu-dropdown megaMenu"> <div class="menu-child-box "> <h6 title=" যোগাযোগ" class="menu-child-title"> <a title="যোগাযোগ" href="#"> <div>যোগাযোগ</div> </a> </h6> <ul class="menu-sub-child-unordered-list" aria-labelledby="mega-menu-dropdown-button"> <li class="menu-sub-child-list"> <a title=" যোগাযোগের ঠিকানা" class="menu-sub-child-link" href="/pages/static-pages/69812f9535ce18e1c06fac7b" > <div>যোগাযোগের ঠিকানা</div> </a> </li> </ul> </div> </div> </li> </ul> </section> </div> <div class="expand-btn"> <span><i class="ph ph-list"></i> আরও</span> <span style="display:none;"><i class="ph ph-caret-up"></i> সংক্ষিপ্ত</span> </div> </section> 
+            </div>
+        </div>
+        <div data-widget_type="widget" data-widget_name="OfficeTitleWidget" class="widget office-title-widget"> <div class="office-title"> <h1 class="national-anthem-header"><a href="/">যশোর জেলা</a></h1> </div> </div> 
+    </div></div>
+  <div class="wrapper">
+    <div class="body"><div data-section_type="body" class="droppable">
+        <div class="container-row">
+            <div class="container-col container-col-12" data-widget_type="layout">
+                <section data-widget_type="widget" data-widget_name="SocialContentShareWidget" class="widget social-content-share-widget">
+    <div>
+        <p class="social-content-share-widget-title ">এই কনটেন্টটি শেয়ার করতে ক্লিক করুন</p>
+        <div class="social-content-share-widget-social-icons">
+            <a title="Facebook" class="social-content-share-widget-social-icons-link facebook-share" target="_blank" rel="noopener">
+                <i class="ph-fill ph-facebook-logo social-content-share-widget-fb-icon"></i>
+            </a>
+            <a title="X (Formerly Twitter)" class="social-content-share-widget-social-icons-link twitter-share" target="_blank" rel="noopener">
+                <i class="ph ph-x-logo social-content-share-widget-twitter-icon"></i>
+            </a>
+            <a title="WhatsApp" class="social-content-share-widget-social-icons-link whatsapp-share" target="_blank" rel="noopener">
+                <i class="ph-fill ph-whatsapp-logo social-content-share-widget-whatsapp-icon"></i>
+            </a>
+            <a title="LinkedIn" class="social-content-share-widget-social-icons-link linkedin-share" target="_blank" rel="noopener">
+                <i class="ph-fill ph-linkedin-logo social-content-share-widget-linkedin-icon"></i>
+            </a>
+            <a title="Viber" class="social-content-share-widget-social-icons-link viber-share" target="_blank" rel="noopener">
+                <!--<i class="ph-fill ph-chat-circle-text social-content-share-widget-viber-icon"></i>-->
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="256" height="256" viewBox="0 0 256 256" xml:space="preserve">
+                 <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"
+                    transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+                     <path d="M 63.357 24.877 c -1.243 -1.147 -6.264 -4.792 -17.448 -4.841 c 0 0 -13.189 -0.796 -19.618 5.102 c -3.579 3.58 -4.838 8.818 -4.97 15.312 c -0.133 6.494 -0.305 18.664 11.426 21.964 h 0.011 l -0.007 5.035 c 0 0 -0.075 2.038 1.267 2.454 c 1.624 0.504 2.577 -1.045 4.127 -2.716 c 0.851 -0.917 2.026 -2.264 2.911 -3.293 c 8.023 0.675 14.194 -0.868 14.894 -1.096 c 1.62 -0.525 10.787 -1.7 12.277 -13.869 C 69.766 36.387 67.483 28.453 63.357 24.877 z M 56.614 52.131 c 0 0.005 -0.004 0.014 -0.004 0.019 c -0.517 0.896 -1.172 1.703 -1.943 2.392 c -0.009 0.004 -0.009 0.009 -0.017 0.013 c -0.669 0.559 -1.327 0.877 -1.973 0.954 c -0.095 0.017 -0.192 0.023 -0.288 0.018 c -0.285 0.003 -0.568 -0.041 -0.839 -0.129 l -0.021 -0.031 c -0.995 -0.281 -2.656 -0.983 -5.423 -2.509 c -1.601 -0.873 -3.125 -1.879 -4.556 -3.009 c -0.717 -0.566 -1.401 -1.173 -2.049 -1.817 l -0.069 -0.069 l -0.069 -0.069 l -0.069 -0.069 c -0.023 -0.022 -0.046 -0.046 -0.069 -0.069 c -0.644 -0.648 -1.251 -1.332 -1.817 -2.049 c -1.13 -1.431 -2.137 -2.954 -3.009 -4.555 c -1.526 -2.767 -2.228 -4.427 -2.509 -5.423 l -0.031 -0.021 c -0.088 -0.271 -0.131 -0.554 -0.128 -0.839 c -0.005 -0.096 0.001 -0.193 0.017 -0.288 c 0.081 -0.645 0.399 -1.303 0.955 -1.974 c 0.004 -0.008 0.009 -0.008 0.013 -0.017 c 0.689 -0.771 1.497 -1.426 2.392 -1.942 c 0.004 0 0.013 -0.004 0.019 -0.004 c 0.901 -0.469 1.754 -0.31 2.335 0.375 c 0.004 0.004 1.209 1.451 1.726 2.157 c 0.532 0.749 1.027 1.523 1.481 2.322 c 0.593 1.063 0.221 2.152 -0.361 2.601 l -1.174 0.933 c -0.593 0.479 -0.514 1.368 -0.514 1.368 s 1.739 6.583 8.238 8.242 c 0 0 0.889 0.075 1.368 -0.515 l 0.933 -1.174 c 0.45 -0.582 1.537 -0.954 2.601 -0.361 c 0.797 0.454 1.571 0.949 2.319 1.481 c 0.706 0.519 2.152 1.726 2.156 1.726 C 56.924 50.376 57.083 51.23 56.614 52.131 z M 51.238 35.889 c -1.316 -1.436 -3.119 -2.219 -5.511 -2.394 c -0.348 -0.026 -0.61 -0.329 -0.584 -0.677 c 0.026 -0.348 0.33 -0.611 0.677 -0.584 c 2.692 0.197 4.829 1.14 6.352 2.802 c 1.526 1.668 2.273 3.765 2.219 6.233 c -0.007 0.344 -0.289 0.619 -0.632 0.619 c -0.004 0 -0.009 0 -0.014 0 c -0.349 -0.008 -0.626 -0.297 -0.619 -0.646 C 53.173 39.078 52.556 37.328 51.238 35.889 z M 51.145 40.135 c 0.017 0.349 -0.252 0.646 -0.601 0.663 c -0.011 0.001 -0.021 0.001 -0.032 0.001 c -0.335 0 -0.614 -0.263 -0.631 -0.601 c -0.107 -2.149 -1.117 -3.201 -3.181 -3.308 c -0.349 -0.018 -0.617 -0.316 -0.599 -0.664 c 0.018 -0.349 0.314 -0.618 0.664 -0.599 C 49.491 35.769 51.006 37.327 51.145 40.135 z M 57.086 43.186 c -0.002 0 -0.003 0 -0.005 0 c -0.347 0 -0.63 -0.28 -0.632 -0.628 c -0.029 -3.816 -1.174 -6.853 -3.404 -9.027 c -2.234 -2.178 -5.057 -3.294 -8.39 -3.317 c -0.349 -0.002 -0.631 -0.288 -0.628 -0.637 c 0.002 -0.348 0.285 -0.628 0.632 -0.628 c 0.002 0 0.003 0 0.004 0 c 3.672 0.026 6.789 1.262 9.264 3.676 c 2.481 2.418 3.754 5.757 3.786 9.923 C 57.715 42.898 57.434 43.183 57.086 43.186 z"
+                           style="stroke: none;stroke-width: 1;stroke-dasharray: none;stroke-linecap: butt;stroke-linejoin: miter;stroke-miterlimit: 10;fill:#665cac;fill-rule: nonzero;opacity:1;"
+                           transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                 </g>
+             </svg>
+            </a>
+            <a title="Copy Link" class="social-content-share-widget-social-icons-link link-share" target="_blank" rel="noopener" onclick="window.copyToClipboard(location.href);">
+                <i class="ph ph-link social-content-share-widget-link-icon"></i>
+            </a>
+            <a title="Messenger" class="social-content-share-widget-social-icons-link messenger-share" target="_blank" rel="noopener">
+                <i class="ph-fill ph-messenger-logo social-content-share-widget-messenger-icon"></i>
+            </a>
+        </div>
+    </div>
+    <div>
+        <div
+  class="widget eps-opinion-popup-widget"
+  data-widget="EParticipationOpinionPopupWidget"
+>
+  <!-- Trigger Button -->
+  <div class="eps-opinion-trigger-wrapper">
+    <p class="social-content-share-widget-title ">&nbsp;</p>
+    <!-- Removed ID to support multiple instances -->
+    <button type="button" class="eps-opinion-btn">
+      <span></span>
+      <span>আপনার মতামত প্রদান করুন</span>
+      <i class="ph ph-chat-circle-text"></i>
+    </button>
+  </div>
+
+  <!-- Modal -->
+  <!-- Removed ID to support multiple instances -->
+  <div class="eps-opinion-modal" aria-hidden="true">
+    <div class="eps-opinion-modal-overlay"></div>
+    <div class="eps-opinion-modal-container">
+      <div class="eps-opinion-modal-header">
+        <h3>আপনার মতামত প্রদান করুন</h3>
+        <button type="button" class="eps-opinion-close" aria-label="Close">
+          <i class="ph ph-x"></i>
+        </button>
+      </div>
+
+      <div class="eps-opinion-modal-body">
+        <div
+  class="widget eps-opinion-form-widget"
+  data-widget="EParticipationOpinionFormWidget"
+>
+  <div class="unique-category-container">
+    <form id="opinionForm" class="opinion-form" enctype="multipart/form-data">
+      <!-- We allow an external hidden input or radio group to set this, but default here -->
+      <input type="hidden" name="opinionType" value="suggestion" />
+
+      <div>
+        <label class="form-label">আপনার নাম</label>
+        <input
+          name="name"
+          type="text"
+          placeholder="আপনার নাম লিখুন"
+        />
+        <small class="error-message" hidden>
+          নাম অবশ্যই দিতে হবে
+        </small>
+      </div>
+
+      <div>
+        <label class="form-label">আপনার ইমেইল</label>
+        <input
+          name="email"
+          type="email"
+          placeholder="আপনার ইমেইল লিখুন"
+        />
+        <small class="error-message" hidden>
+          সঠিক ইমেইল দিন
+        </small>
+      </div>
+
+      <div>
+        <label class="form-label">আপনার যোগাযোগ নম্বর</label>
+        <input
+          name="phone"
+          type="tel"
+          placeholder="আপনার যোগাযোগ নম্বর লিখুন"
+        />
+        <small class="error-message" hidden>
+          সঠিক ফোন নম্বর দিন (যেমন 017XXXXXXXX)
+        </small>
+      </div>
+
+      <div>
+        <label class="form-label">আপনার মতামত</label>
+        <textarea name="body" id="popupEditor"></textarea>
+        <small class="error-message" hidden>
+          মতামত কমপক্ষে ২০ অক্ষরের হতে হবে
+        </small>
+      </div>
+
+      <div>
+        <label class="form-label"
+          >Attachment (jpg, jpeg, png, pdf • max 2 MB)</label
+        >
+        <input name="attachment" type="file" accept=".jpg,.jpeg,.png,.pdf" />
+        <small class="error-message" hidden>
+          Invalid file. Allowed: JPG, JPEG, PNG, PDF up to 2MB
+        </small>
+      </div>
+
+      <div>
+        <button type="submit" id="popupSubmitBtn">জমা দিন</button>
+      </div>
+    </form>
+  </div>
+
+  <!-- Ensure CKEditor is available if not loaded globally -->
+  <script src="https://cdn.ckeditor.com/ckeditor5/41.4.2/classic/ckeditor.js"></script>
+</div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+</section>
+
+                 <div data-widget_type="widget" data-widget_name="InfoOfficersViewWidget" class="widget info-officer-view-widget"> <h2>দায়িত্বপ্রাপ্ত কর্মকর্তাগণ</h2> <div class="info-officer-view"> <div class="widget info-officer-view-widget"> <div class="list-card-body"> <h3 class="info-officer-view-widget-heading">আপীল কর্তৃপক্ষ</h3> <div class="right-section"> <table class="info-officer-view-widget-table"> <tbody> <tr> <th class="info-officer-view-widget-th">নাম:</th> <td>মোঃ ফিরোজ সরকার (৬৪১২)</td> </tr> <tr> <th class="info-officer-view-widget-th">পদবি:</th> <td>বিভাগীয় কমিশনার (অতিরিক্ত সচিব)</td> </tr> <tr> <th class="info-officer-view-widget-th">ফোন:</th> <td>০২৪৭৮৮২৫০৩৫</td> </tr> <tr> <th class="info-officer-view-widget-th">মোবাইল:</th> <td>০১৭১৩৪০০৩৯৪</td> </tr> <tr> <th class="info-officer-view-widget-th">ইমেইল:</th> <td>divcomkhulna<wbr>@mopa.gov.bd</td> </tr> <tr> <th class="info-officer-view-widget-th">ঠিকানা :</th> <td>যশোর জেলা</td> </tr> </tbody> </table> </div> </div> </div> </div> </div>
+                <section data-widget_type="widget" data-widget_name="SocialContentShareWidget" class="widget social-content-share-widget">
+    <div>
+        <p class="social-content-share-widget-title ">এই কনটেন্টটি শেয়ার করতে ক্লিক করুন</p>
+        <div class="social-content-share-widget-social-icons">
+            <a title="Facebook" class="social-content-share-widget-social-icons-link facebook-share" target="_blank" rel="noopener">
+                <i class="ph-fill ph-facebook-logo social-content-share-widget-fb-icon"></i>
+            </a>
+            <a title="X (Formerly Twitter)" class="social-content-share-widget-social-icons-link twitter-share" target="_blank" rel="noopener">
+                <i class="ph ph-x-logo social-content-share-widget-twitter-icon"></i>
+            </a>
+            <a title="WhatsApp" class="social-content-share-widget-social-icons-link whatsapp-share" target="_blank" rel="noopener">
+                <i class="ph-fill ph-whatsapp-logo social-content-share-widget-whatsapp-icon"></i>
+            </a>
+            <a title="LinkedIn" class="social-content-share-widget-social-icons-link linkedin-share" target="_blank" rel="noopener">
+                <i class="ph-fill ph-linkedin-logo social-content-share-widget-linkedin-icon"></i>
+            </a>
+            <a title="Viber" class="social-content-share-widget-social-icons-link viber-share" target="_blank" rel="noopener">
+                <!--<i class="ph-fill ph-chat-circle-text social-content-share-widget-viber-icon"></i>-->
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="256" height="256" viewBox="0 0 256 256" xml:space="preserve">
+                 <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"
+                    transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+                     <path d="M 63.357 24.877 c -1.243 -1.147 -6.264 -4.792 -17.448 -4.841 c 0 0 -13.189 -0.796 -19.618 5.102 c -3.579 3.58 -4.838 8.818 -4.97 15.312 c -0.133 6.494 -0.305 18.664 11.426 21.964 h 0.011 l -0.007 5.035 c 0 0 -0.075 2.038 1.267 2.454 c 1.624 0.504 2.577 -1.045 4.127 -2.716 c 0.851 -0.917 2.026 -2.264 2.911 -3.293 c 8.023 0.675 14.194 -0.868 14.894 -1.096 c 1.62 -0.525 10.787 -1.7 12.277 -13.869 C 69.766 36.387 67.483 28.453 63.357 24.877 z M 56.614 52.131 c 0 0.005 -0.004 0.014 -0.004 0.019 c -0.517 0.896 -1.172 1.703 -1.943 2.392 c -0.009 0.004 -0.009 0.009 -0.017 0.013 c -0.669 0.559 -1.327 0.877 -1.973 0.954 c -0.095 0.017 -0.192 0.023 -0.288 0.018 c -0.285 0.003 -0.568 -0.041 -0.839 -0.129 l -0.021 -0.031 c -0.995 -0.281 -2.656 -0.983 -5.423 -2.509 c -1.601 -0.873 -3.125 -1.879 -4.556 -3.009 c -0.717 -0.566 -1.401 -1.173 -2.049 -1.817 l -0.069 -0.069 l -0.069 -0.069 l -0.069 -0.069 c -0.023 -0.022 -0.046 -0.046 -0.069 -0.069 c -0.644 -0.648 -1.251 -1.332 -1.817 -2.049 c -1.13 -1.431 -2.137 -2.954 -3.009 -4.555 c -1.526 -2.767 -2.228 -4.427 -2.509 -5.423 l -0.031 -0.021 c -0.088 -0.271 -0.131 -0.554 -0.128 -0.839 c -0.005 -0.096 0.001 -0.193 0.017 -0.288 c 0.081 -0.645 0.399 -1.303 0.955 -1.974 c 0.004 -0.008 0.009 -0.008 0.013 -0.017 c 0.689 -0.771 1.497 -1.426 2.392 -1.942 c 0.004 0 0.013 -0.004 0.019 -0.004 c 0.901 -0.469 1.754 -0.31 2.335 0.375 c 0.004 0.004 1.209 1.451 1.726 2.157 c 0.532 0.749 1.027 1.523 1.481 2.322 c 0.593 1.063 0.221 2.152 -0.361 2.601 l -1.174 0.933 c -0.593 0.479 -0.514 1.368 -0.514 1.368 s 1.739 6.583 8.238 8.242 c 0 0 0.889 0.075 1.368 -0.515 l 0.933 -1.174 c 0.45 -0.582 1.537 -0.954 2.601 -0.361 c 0.797 0.454 1.571 0.949 2.319 1.481 c 0.706 0.519 2.152 1.726 2.156 1.726 C 56.924 50.376 57.083 51.23 56.614 52.131 z M 51.238 35.889 c -1.316 -1.436 -3.119 -2.219 -5.511 -2.394 c -0.348 -0.026 -0.61 -0.329 -0.584 -0.677 c 0.026 -0.348 0.33 -0.611 0.677 -0.584 c 2.692 0.197 4.829 1.14 6.352 2.802 c 1.526 1.668 2.273 3.765 2.219 6.233 c -0.007 0.344 -0.289 0.619 -0.632 0.619 c -0.004 0 -0.009 0 -0.014 0 c -0.349 -0.008 -0.626 -0.297 -0.619 -0.646 C 53.173 39.078 52.556 37.328 51.238 35.889 z M 51.145 40.135 c 0.017 0.349 -0.252 0.646 -0.601 0.663 c -0.011 0.001 -0.021 0.001 -0.032 0.001 c -0.335 0 -0.614 -0.263 -0.631 -0.601 c -0.107 -2.149 -1.117 -3.201 -3.181 -3.308 c -0.349 -0.018 -0.617 -0.316 -0.599 -0.664 c 0.018 -0.349 0.314 -0.618 0.664 -0.599 C 49.491 35.769 51.006 37.327 51.145 40.135 z M 57.086 43.186 c -0.002 0 -0.003 0 -0.005 0 c -0.347 0 -0.63 -0.28 -0.632 -0.628 c -0.029 -3.816 -1.174 -6.853 -3.404 -9.027 c -2.234 -2.178 -5.057 -3.294 -8.39 -3.317 c -0.349 -0.002 -0.631 -0.288 -0.628 -0.637 c 0.002 -0.348 0.285 -0.628 0.632 -0.628 c 0.002 0 0.003 0 0.004 0 c 3.672 0.026 6.789 1.262 9.264 3.676 c 2.481 2.418 3.754 5.757 3.786 9.923 C 57.715 42.898 57.434 43.183 57.086 43.186 z"
+                           style="stroke: none;stroke-width: 1;stroke-dasharray: none;stroke-linecap: butt;stroke-linejoin: miter;stroke-miterlimit: 10;fill:#665cac;fill-rule: nonzero;opacity:1;"
+                           transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                 </g>
+             </svg>
+            </a>
+            <a title="Copy Link" class="social-content-share-widget-social-icons-link link-share" target="_blank" rel="noopener" onclick="window.copyToClipboard(location.href);">
+                <i class="ph ph-link social-content-share-widget-link-icon"></i>
+            </a>
+            <a title="Messenger" class="social-content-share-widget-social-icons-link messenger-share" target="_blank" rel="noopener">
+                <i class="ph-fill ph-messenger-logo social-content-share-widget-messenger-icon"></i>
+            </a>
+        </div>
+    </div>
+    <div>
+        <div
+  class="widget eps-opinion-popup-widget"
+  data-widget="EParticipationOpinionPopupWidget"
+>
+  <!-- Trigger Button -->
+  <div class="eps-opinion-trigger-wrapper">
+    <p class="social-content-share-widget-title ">&nbsp;</p>
+    <!-- Removed ID to support multiple instances -->
+    <button type="button" class="eps-opinion-btn">
+      <span></span>
+      <span>আপনার মতামত প্রদান করুন</span>
+      <i class="ph ph-chat-circle-text"></i>
+    </button>
+  </div>
+
+  <!-- Modal -->
+  <!-- Removed ID to support multiple instances -->
+  <div class="eps-opinion-modal" aria-hidden="true">
+    <div class="eps-opinion-modal-overlay"></div>
+    <div class="eps-opinion-modal-container">
+      <div class="eps-opinion-modal-header">
+        <h3>আপনার মতামত প্রদান করুন</h3>
+        <button type="button" class="eps-opinion-close" aria-label="Close">
+          <i class="ph ph-x"></i>
+        </button>
+      </div>
+
+      <div class="eps-opinion-modal-body">
+        <div
+  class="widget eps-opinion-form-widget"
+  data-widget="EParticipationOpinionFormWidget"
+>
+  <div class="unique-category-container">
+    <form id="opinionForm" class="opinion-form" enctype="multipart/form-data">
+      <!-- We allow an external hidden input or radio group to set this, but default here -->
+      <input type="hidden" name="opinionType" value="suggestion" />
+
+      <div>
+        <label class="form-label">আপনার নাম</label>
+        <input
+          name="name"
+          type="text"
+          placeholder="আপনার নাম লিখুন"
+        />
+        <small class="error-message" hidden>
+          নাম অবশ্যই দিতে হবে
+        </small>
+      </div>
+
+      <div>
+        <label class="form-label">আপনার ইমেইল</label>
+        <input
+          name="email"
+          type="email"
+          placeholder="আপনার ইমেইল লিখুন"
+        />
+        <small class="error-message" hidden>
+          সঠিক ইমেইল দিন
+        </small>
+      </div>
+
+      <div>
+        <label class="form-label">আপনার যোগাযোগ নম্বর</label>
+        <input
+          name="phone"
+          type="tel"
+          placeholder="আপনার যোগাযোগ নম্বর লিখুন"
+        />
+        <small class="error-message" hidden>
+          সঠিক ফোন নম্বর দিন (যেমন 017XXXXXXXX)
+        </small>
+      </div>
+
+      <div>
+        <label class="form-label">আপনার মতামত</label>
+        <textarea name="body" id="popupEditor"></textarea>
+        <small class="error-message" hidden>
+          মতামত কমপক্ষে ২০ অক্ষরের হতে হবে
+        </small>
+      </div>
+
+      <div>
+        <label class="form-label"
+          >Attachment (jpg, jpeg, png, pdf • max 2 MB)</label
+        >
+        <input name="attachment" type="file" accept=".jpg,.jpeg,.png,.pdf" />
+        <small class="error-message" hidden>
+          Invalid file. Allowed: JPG, JPEG, PNG, PDF up to 2MB
+        </small>
+      </div>
+
+      <div>
+        <button type="submit" id="popupSubmitBtn">জমা দিন</button>
+      </div>
+    </form>
+  </div>
+
+  <!-- Ensure CKEditor is available if not loaded globally -->
+  <script src="https://cdn.ckeditor.com/ckeditor5/41.4.2/classic/ckeditor.js"></script>
+</div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+</section>
+
+            </div>
+        </div>
+    <div data-widget_type="widget" data-widget_name="AccessibilityWidget" class="widget accessibility-widget"> <div class="accessibility-float fab-icon" id="accessibility-btn" title="এক্সেসিবিলিটি"> <i class="ph ph-wheelchair-motion"></i> </div> <div class="accessibility-card" id="accessibility-card"> <h3 id="accessibility-card-title" tabindex="0">এক্সেসিবিলিটি</h3> <div id="accessibility-close" tabindex="0" title="Close"> <icon class="ph ph-x-circle"></icon> </div> <div class="item"> <button id="font-increase">ফন্ট বৃদ্ধি</button> <button id="font-decrease">ফন্ট হ্রাস</button> </div> <div class="item"> <input type="checkbox" id="monochrome" title="মনোক্রোম" /> <label for="monochrome">মনোক্রোম</label> </div> <div class="item"> <input type="checkbox" id="inverted" title="ইনভার্ট" /> <label for="inverted">ইনভার্ট</label> </div> <div class="item"> <input type="checkbox" id="bigCursor" title="বড় কার্সর" /> <label for="bigCursor">বড় কার্সর</label> </div> <div class="item"> <input type="checkbox" id="highlightLinks" title="লিঙ্ক হাইলাইট" /> <label for="highlightLinks">লিঙ্ক হাইলাইট</label> </div> <div class="item"> <input type="checkbox" id="highlightHeadings" title="শিরোনাম হাইলাইট" /> <label for="highlightHeadings">শিরোনাম হাইলাইট</label> </div> <div class="item"> <input type="checkbox" id="readingGuideCheckbox" title="পড়ার গাইড" /> <label for="readingGuideCheckbox">পড়ার গাইড</label> </div> <div class="item"> <button class="accessibility-reset">রিসেট</button> </div> <a class='screen-reader' target="_blank" rel="noreferrer" href="https://www.nvaccess.org/files/nvda/releases/2020.4/nvda_2020.4.exe">স্ক্রিন রিডার ডাউনলোড করুন</a> </div> <!-- TODO: [naeemur] add some more tab navigate options --> <div class="tab-menu"> <a href="#main-content" class="skip-link">কন্টেন্টে চলে যান</a> <a href="#accessibility-card-title" class="skip-link menu-href">এক্সেসিবিলিটি মেনুতে যান</a> </div> </div> 
+<div data-widget_type="widget" data-widget_name="GoToTopWidget" class="widget go-to-top-widget"> <div class="go-to-top-float x-fab-icon" id="go-to-top-btn" title="উপরে যান"> <i class="ph ph-caret-up"></i> </div> </div> 
+</div></div>
+  </div>
+  <div class="footer"><div data-section_type="footer" class="droppable">
+         <footer data-widget_type="widget" data-widget_name="NewLandingFooterWidget" class="widget new-landing-footer-widget"> <div class="footer-decoration"> <div class="decorative-left"> <img src="/site-assets/images/left-footer.png" alt="Decorative Left"> </div> <div class="decorative-right"> <img src="/site-assets/images/right-footer.png" alt="Decorative Right"> </div> </div> <div class="footer-disclaimer"> এই ওয়েবসাইটে প্রকাশিত সকল তথ্য সংশ্লিষ্ট দপ্তর কর্তৃক নিয়মিত হালনাগাদ করা হয়। তথ্যের যথার্থতা, নির্ভুলতা ও নির্ভরযোগ্যতা নিশ্চিত করতে সংশ্লিষ্ট দপ্তর সর্বদা সচেষ্ট। </div> <div class="footer-content container"> <div class="footer-left"> <ul class="footer-links"> </ul> <div class="copyright"> <p> &copy; 2026 সর্বস্বত্ব সংরক্ষিত বাংলাদেশ.গভ.বিডি (জাতীয় পোর্টাল) </p> <p class="last-updated"> সাইটটি শেষ হাল-নাগাদ করা হয়েছে: মঙ্গলবার, ২৯ সেপ্টেম্বর, ২০২৬ এ ১১:১২:৫৮ </p> </div> </div> <div class="footer-right"> <div class="planning-section"> <p class="planning-title">পরিকল্পনা এবং বাস্তবায়ন</p> <div class="planning-logos"> <img src="/site-assets/images/a2iset.png" alt="a2i"> </div> </div> </div> </div> </footer> 
+    </div></div>
+</div>
+<script>const _window=window; const _document=document;</script>
+<script src="/site-assets/js/index.js"></script>
+<script src="/widget-assets/js/HeaderVersionFourWidget"></script>
+<script src="/widget-assets/js/OfficeFindThreeWidget"></script>
+<script src="/widget-assets/js/GlobalSearchWidget"></script>
+<script src="/widget-assets/js/MenusExpandableWidget"></script>
+<script src="/widget-assets/js/MenusWidget"></script>
+<script src="/widget-assets/js/OfficeTitleWidget"></script>
+<script src="/widget-assets/js/SocialContentShareWidget"></script>
+<script src="/widget-assets/js/EParticipationOpinionPopupWidget"></script>
+<script src="/widget-assets/js/EParticipationOpinionFormWidget"></script>
+<script src="/widget-assets/js/InfoOfficersViewWidget"></script>
+<script src="/widget-assets/js/AccessibilityWidget"></script>
+<script src="/widget-assets/js/GoToTopWidget"></script>
+<script src="/widget-assets/js/NewLandingFooterWidget"></script>
+
+<script src="/assets/js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+# Never fetched (rule R10). Only hosts named in the brief; other s.32 bodies are matched by name (deny_bodies.txt).
+dgfi.gov.bd
+ssf.portal.gov.bd
+mha.gov.bd
+mhapsd.gov.bd
+ssd.gov.bd

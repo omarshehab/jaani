@@ -1,0 +1,16 @@
+{
+ "status": 200,
+ "elapsed_s": 0.09,
+ "body": {
+  "success": true,
+  "imageUrl": "/shared/image data from link/772d0508cbe7bc2d1743866fc20ba0c1.jpg",
+  "images": [
+   "/shared/image data from link/772d0508cbe7bc2d1743866fc20ba0c1.jpg",
+   "/shared/image data from link/e1f2b3ab50356c5b7832d6d96ee27ccc.jpg",
+   "/shared/image data from link/dfcbd4bf4e448e02155e47d6a5893ca5.jpg"
+  ],
+  "primaryImage": "/shared/image data from link/772d0508cbe7bc2d1743866fc20ba0c1.jpg",
+  "alternateImage": "/shared/image data from link/e1f2b3ab50356c5b7832d6d96ee27ccc.jpg",
+  "appellateImage": "/shared/image data from link/dfcbd4bf4e448e02155e47d6a5893ca5.jpg"
+ }
+}

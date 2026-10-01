@@ -1,0 +1,28 @@
+[
+  {
+    "name": "মুহাম্মদ আবদুল্যাহ আল জাবেদ",
+    "designation": "উপসচিব",
+    "phone": "",
+    "email": "admin1@mhapsd.gov.bd",
+    "office_name": "জননিরাপত্তা বিভাগ",
+    "ministry": "স্বরাষ্ট্র মন্ত্রণালয়",
+    "entityType": "gov",
+    "verifyUrl": "https://mhapsd.gov.bd/site/view/information_officers",
+    "sourceUrl": "RTI Officers Database",
+    "photoUrl": "",
+    "lastChecked": ""
+  },
+  {
+    "name": "জাহাঙ্গীর আলম",
+    "designation": "উপসচিব",
+    "phone": "",
+    "email": "admin2@mhapsd.gov.bd",
+    "office_name": "জননিরাপত্তা বিভাগ",
+    "ministry": "স্বরাষ্ট্র মন্ত্রণালয়",
+    "entityType": "gov",
+    "verifyUrl": "https://mhapsd.gov.bd/site/view/information_officers",
+    "sourceUrl": "RTI Officers Database",
+    "photoUrl": "",
+    "lastChecked": ""
+  }
+]

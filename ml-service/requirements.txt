@@ -1,0 +1,98 @@
+# ============================================================================
+# JANI ML Service - 5-Phase NLP Pipeline (Inference Only)
+# ============================================================================
+# This requirements file is optimized for inference with pre-trained models.
+# No training libraries are included - only model loading and inference.
+# ============================================================================
+
+# ----------------------------------------------------------------------------
+# 1. Core Web Framework & API
+# ----------------------------------------------------------------------------
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+
+# ----------------------------------------------------------------------------
+# 2. Deep Learning Framework (Inference Only)
+# ----------------------------------------------------------------------------
+# PyTorch - Core ML framework for model inference
+# NOTE: Newer Python versions (e.g., 3.13) require torch 2.6+ wheels.
+torch>=2.1.0,<3.0.0
+# Hugging Face Transformers - Pre-trained model loading
+transformers>=4.36.0,<5.0.0
+# Model acceleration & optimization
+accelerate>=0.25.0
+# 4-bit quantization for memory efficiency (GPU only)
+# Optional: code falls back when unavailable.
+bitsandbytes>=0.41.0; sys_platform == 'linux'
+
+# ----------------------------------------------------------------------------
+# 3. NLP Models & Libraries
+# ----------------------------------------------------------------------------
+# Sentence embeddings for semantic similarity
+sentence-transformers>=2.2.2,<3.0.0
+# Zero-shot NER (GLiNER)
+gliner>=0.1.0,<1.0.0
+# Keyword extraction
+keybert>=0.8.3,<1.0.0
+# Language detection
+langdetect>=1.0.9
+
+# ----------------------------------------------------------------------------
+# 4. Core Scientific Computing
+# ----------------------------------------------------------------------------
+numpy>=1.24.0,<2.0.0
+scipy>=1.11.0,<2.0.0
+
+# ----------------------------------------------------------------------------
+# 5. Configuration & Data Validation
+# ----------------------------------------------------------------------------
+pydantic>=2.5.0,<3.0.0
+
+# ----------------------------------------------------------------------------
+# 6. Additional Dependencies for Stability
+# ----------------------------------------------------------------------------
+# For safe tokenizers
+tokenizers>=0.15.0
+# For model serialization
+safetensors>=0.4.0
+# For progress bars during model download
+tqdm>=4.66.0
+# For HTTP requests (model downloading)
+requests>=2.31.0
+# For file hashing (integrity checks)
+filelock>=3.13.0
+
+# ----------------------------------------------------------------------------
+# 6. Additional Dependencies for Model Download & Management
+# ----------------------------------------------------------------------------
+# Hugging Face Hub for model downloads
+huggingface-hub>=0.19.0,<1.0.0
+# Safe tensor format for model storage
+safetensors>=0.4.0,<1.0.0
+# Tokenizers backend
+tokenizers>=0.15.0,<1.0.0
+pydantic-settings>=2.1.0,<3.0.0
+python-dotenv>=1.0.0
+
+# ----------------------------------------------------------------------------
+# 6. Model Storage & Tokenization
+# ----------------------------------------------------------------------------
+# Fast model loading with safetensors
+safetensors>=0.4.0
+# Fast tokenization
+tokenizers>=0.15.0,<1.0.0
+
+# ----------------------------------------------------------------------------
+# 7. HTTP Clients & Async Support
+# ----------------------------------------------------------------------------
+httpx>=0.25.0
+aiohttp>=3.9.0
+
+# ----------------------------------------------------------------------------
+# 8. Legacy Dependencies (Backward Compatibility)
+# ----------------------------------------------------------------------------
+# Used for regex fallback and data processing
+scikit-learn>=1.2.0,<2.0.0
+pandas>=1.5.0,<3.0.0
+requests>=2.28.0

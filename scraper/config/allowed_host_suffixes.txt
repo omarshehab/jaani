@@ -1,0 +1,5 @@
+.gov.bd
+.org.bd
+.ac.bd
+.edu.bd
+# .mil.bd is listed for reference only: fetching it is not allowed

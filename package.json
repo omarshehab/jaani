@@ -1,0 +1,45 @@
+{
+  "name": "jaani",
+  "version": "1.0.0",
+  "description": "JAANI (জানি) — turns a Bangladeshi news article into a verified Right to Information (RTI) request, grounded in the RTI Act 2009.",
+  "main": "index.js",
+  "scripts": {
+    "start:all": "concurrently \"cd backend && npm start\" \"cd frontend && npm start\"",
+    "test:all": "npm test --workspace=backend",
+    "build": "npm run build --workspace=frontend",
+    "install:all": "npm install && cd frontend && npm install && cd ../backend && npm install"
+  },
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "node-geocoder": "^4.4.1",
+    "proper-lockfile": "^4.1.2",
+    "react-transition-group": "^4.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "rti",
+    "right-to-information",
+    "transparency",
+    "accountability",
+    "journalism",
+    "civic-tech",
+    "bangladesh",
+    "react",
+    "nodejs"
+  ],
+  "author": "JAANI contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/omarshehab/jaani.git"
+  }
+}

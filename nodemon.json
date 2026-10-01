@@ -1,0 +1,15 @@
+{
+  "watch": [
+    "backend"
+  ],
+  "ext": "js,json",
+  "ignore": [
+    "shared/image data from link/*",
+    "shared/image data from link/**/*",
+    "backend/data/*.csv",
+    "backend/data/**/*.csv",
+    "shared/activity_tracking/**",
+    "node_modules/**"
+  ],
+  "delay": "250"
+}

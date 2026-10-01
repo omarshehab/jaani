@@ -1,0 +1,330 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+**/.env
+**/.env.*
+!.env.example
+!**/env.example
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary folders
+tmp/
+temp/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ML Models (too large for git)
+ml-service/models/*.pt
+ml-service/models/*.bin
+ml-service/models/*.safetensors
+
+# Database dumps
+*.sql
+*.dump
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Activity tracking data: per-visitor analytics (IP-derived user IDs, page views, mouse
+# movement, session time) — sensitive and large (24,000+ files in practice), never committed
+shared/activity_tracking/
+shared/search_cache.json
+shared/search_history.json
+shared/active_sessions.json
+shared/activity_events.json
+
+# Gmail OAuth tokens (local dev)
+backend/data/gmail_tokens.json
+
+# ═════════════════════════════════════════════════════════════
+# SECURITY: CRITICAL FILES — NEVER COMMIT TO PUBLIC GITHUB
+# ═════════════════════════════════════════════════════════════
+
+# OAuth Credentials (Google client secrets)
+client_secret*.json
+**/client_secret*.json
+jaani gmail verify.json
+
+# RTI Database (25,759 officer records — too large and sensitive)
+ssss.csv
+RTI*.csv
+RTI*.CSV
+FINAL*.csv
+Ministry*.csv
+rti_database/
+
+# Ngrok executable
+ngrok.exe
+ngrok
+
+# Image cache (too large for git)
+image_cache/
+**/image_cache/
+
+# Webview cache
+webview/
+**/webview/
+
+# Generated PDFs and test artifacts
+*.pdf
+*_files/
+*.html
+!frontend/public/*.html
+!backend/views/*.html
+!backend/tests/fixtures/**/*.html
+!scraper/tests/fixtures/**/*.html
+
+# Python migration scripts (contain hardcoded paths) — but NOT the real scraper package
+*.py
+!scripts/*.py
+!scraper/**/*.py
+
+# Code dumps and analysis files
+code_dump.txt
+file_paths.txt
+file_path_output*.txt
+x_files_files.txt
+llms.txt
+cursor*.md
+*.CMD
+
+# Documentation flood (keep only essential docs in root)
+JAANI*.md
+!README.md
+!LICENSE
+MVP*.md
+GPS*.md
+NGROK*.md
+PIPELINE*.md
+REFACTOR*.md
+CACHING*.md
+BACKEND*.md
+FRONTEND*.md
+OPTIMIZATION*.md
+PERFORMANCE*.md
+PLAYWRIGHT*.md
+READ_THE_NEWS*.md
+TASK*.md
+TEST*.md
+VERIFY*.md
+INTEGRATION*.md
+INSTALLATION*.md
+GETTING_STARTED.md
+DEVELOPER_QUICK_REFERENCE.md
+SIMPLE*.md
+SERVICES_CHECKLIST.md
+DOCUMENTATION_INDEX.md
+COMPONENTS_SHOWCASE.md
+ENHANCED_FEATURES_SUMMARY.md
+COMPLETION_CHECKLIST.md
+PROJECT_COMPLETE_SUMMARY.md
+i18n_TRANSLATION_KEYS.md
+IMAGE_VIDEO_PDF_FIXES.md
+LOCATION_DISPLAY_FIX.md
+ACTIVITY_TRACKING_GUIDE.md
+
+# Test files
+test-*.js
+test-*.html
+test-*.ps1
+verify-*.js
+verify-*.ps1
+wait-for-*.ps1
+
+# Batch/PowerShell scripts (local dev tools)
+*.bat
+*.ps1
+!scripts/*.ps1
+
+# Workspace files
+files.zip
+files\ claude/
+docs/
+admin/
+
+# Root-level clutter: personal drafts, duplicate/backup datasets, scratch link lists,
+# one-off evidence test captures, pre-pivot ML/MVP docs, and a leaked API key note —
+# none of this is part of the shipped codebase (the canonical dataset is
+# JAANI_RTI_OFFICERS_COMPLETE.csv, kept; see README for the real architecture docs)
+/ENTITY_LOOKUP_API_DOCS.md
+/EXEC_SUMMARY.txt
+/FIRST ENTRY.csv
+/FRONTEND_CHANGES_DETAILED.js
+/IMPLEMENTATION_SUMMARY.js
+/JAANI_RTI_OFFICERS.csv
+/JAANI_RTI_OFFICERS_COMPLETE copy.csv
+/JAANI_RTI_OFFICERS_COMPLETE.backup.csv
+/JAANI_evidence_*/
+/JAANI_evidence_*.zip
+/ML_LOW_RAM_GUIDE.md
+/ML_PACKAGE_INSTALLATION.md
+/MVP_DEPLOYMENT_CARD.txt
+/Ministry and devision rti officers final/
+/Ministry and devision rti officers final.xlsx
+/Ministry and devision rti officers final.zip
+/PIPELINE_QUICK_REFERENCE.js
+/QUICK_TEST_CARD.md
+/README_MVP.md
+/RTI officers (2).xlsx
+/RTI officers.xlsx
+/build_output.txt
+/final_resolved_links.txt
+/gemini api key paid.md
+/generate-csv-reports.js
+/generate-text-reports.js
+/jyoti data.csv
+/links_only.txt
+/my.csv
+/my2.csv
+/news entity/
+/news entity.zip
+/newsinput responsive old.js
+/real_links_only.txt
+/scraped_office_links.csv
+/jaani banner.jpeg
+/নির্বাচন*
+
+# VCF files (contact cards)
+*.vcf
+
+# Bengali/HTML test artifacts
+*.pdf
+নির্বাচন*.html
+নির্বাচন*_files/
+তথ্য*.pdf
+মোঃ*.vcf
+স্নেহাশীষ*.vcf
+
+# Ghostery ad-block engine cache (downloaded filter lists, rebuilt at startup)
+backend/data/adblock/
+
+# Session chat logs: contain pasted API keys, never commit (P19)
+chat history/
+frontend/src/pages/final chat history from codex.md
+
+# Generated runtime data (evidence captures, fact-check feed index, evaluation outputs)
+backend/data/evidence_vault/
+backend/data/factcheck_index/
+backend/data/eval/
+
+# AI office-classification cache (regenerates on demand, grows locally — see s3_RTIod.md P10)
+backend/data/aiFallbackCache.json
+
+# Downloaded officer photos and scraped images (regenerated by the scraper/imageFetcher pipeline)
+shared/officer_photos/
+shared/image data from link/
+
+# Legacy local-ML service, superseded by the hosted-LLM pipeline (R14) — model weights and
+# a stray multi-GB source dump are never source control material; main.py/requirements.txt
+# (tracked) are kept only as a historical reference to the pre-pivot design
+ml-service/model_cache/
+ml-service/ml-service.txt
+ml-service/ml-service_files.txt
+ml-service/__pycache__/

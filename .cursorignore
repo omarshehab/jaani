@@ -1,0 +1,101 @@
+﻿# Cursor ignore file (similar to .gitignore): prevents indexing/searching in these paths.
+
+# VCS
+.git/
+
+# Dependencies
+node_modules/
+jspm_packages/
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+public/
+.storybook-out/
+
+# Python envs / caches
+__pycache__/
+*.py[cod]
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Caches / tooling
+.cache/
+.parcel-cache/
+.npm/
+.yarn/
+.pnp.*
+.eslintcache
+.nyc_output/
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+coverage/
+*.lcov
+
+# Logs / runtime
+logs/
+*.log
+pids/
+*.pid
+*.pid.lock
+*.seed
+
+# Temp
+tmp/
+temp/
+
+# IDE / editor
+.vscode/
+.idea/
+
+# OS noise
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Archives / big bundles
+*.tgz
+*.zip
+*.7z
+*.rar
+
+# Secrets / env files
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/env.example
+
+# DB dumps / backups
+*.sql
+*.dump
+*.bak
+*.backup
+*.old
+
+# Project-specific large/sensitive data (mirrors .gitignore intent)
+shared/activity_tracking/daily_logs/*.json
+shared/activity_tracking/daily_logs_csv/*.csv
+shared/activity_tracking/daily_text_reports/
+shared/activity_tracking/sessions/*.json
+shared/activity_tracking/visitors/
+shared/search_cache.json
+shared/search_history.json
+shared/active_sessions.json
+backend/data/gmail_tokens.json
+
+# ML models (large)
+ml-service/models/*.pt
+ml-service/models/*.bin
+ml-service/models/*.safetensors

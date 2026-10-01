@@ -1,0 +1,387 @@
+Here is the complete, self-contained solution for the Verification Database Section. This code implements the side-by-side comparison, live website embedding (with popup fallback), and database updating functionality exactly as requested.
+Phase 1: Backend Implementation
+First, install the required CSV handling library in your backend folder:
+
+Bash
+
+
+npm install fast-csv csv-parser
+
+
+1. Data Loader (backend/data/contactLoader.js)
+This script reads your specific Bengali CSV structure and makes it searchable.
+
+JavaScript
+
+
+const fs = require('fs');
+const csv = require('csv-parser');
+const path = require('path');
+
+let contacts = [];
+// Points to your specific file name
+const CSV_PATH = path.join(__dirname, '../data/RTI OFFICERS.csv');
+
+const loadContacts = () => {
+    const results = [];
+    if (fs.existsSync(CSV_PATH)) {
+        fs.createReadStream(CSV_PATH)
+            .pipe(csv())
+            .on('data', (data) => {
+                // Only add valid rows that have at least a Ministry
+                if (data['Ministry'] && data['Ministry'].trim() !== '') {
+                    // Normalize keys if needed, or keep as-is
+                    results.push(data);
+                }
+            })
+            .on('end', () => {
+                contacts = results;
+                console.log(`✅ Loaded ${contacts.length} officers for Verification Database`);
+            });
+    } else {
+        console.warn("⚠️ 'RTI OFFICERS.csv' not found in backend/data/");
+    }
+};
+
+// Initialize on start
+loadContacts();
+
+module.exports = { contacts, loadContacts };
+
+
+2. API Router (backend/routes/api.js)
+Add this specific route to handle saving updates back to your CSV file.
+
+JavaScript
+
+
+const express = require('express');
+const router = express.Router();
+const fs = require('fs');
+const path = require('path');
+const { writeToPath } = require('fast-csv');
+const { contacts, loadContacts } = require('../data/contactLoader');
+
+// ... existing routes ...
+
+// UPDATE Endpoint: Saves edits to CSV and updates memory
+router.post('/contacts/update', async (req, res) => {
+    const { original_mobile, updates } = req.body; // Use a unique field like Mobile to identify the row
+    const CSV_PATH = path.join(__dirname, '../data/RTI OFFICERS.csv');
+
+    try {
+        const rows = [];
+        let updated = false;
+
+        fs.createReadStream(CSV_PATH)
+            .pipe(csv())
+            .on('data', (row) => {
+                // Match the row to update (using Mobile or Email as ID)
+                // Note: Ensure your frontend sends the original identifier
+                if (row['Mobile'] === original_mobile || row['E-mail'] === updates['E-mail']) {
+                    rows.push({ ...row, ...updates }); // Merge new data
+                    updated = true;
+                } else {
+                    rows.push(row);
+                }
+            })
+            .on('end', () => {
+                if (!updated) {
+                    // If no match found (new entry?), logic could go here
+                    // For now, we assume we are updating existing records
+                }
+
+                writeToPath(CSV_PATH, rows, { headers: true })
+                    .on('finish', () => {
+                        loadContacts(); // Refresh backend memory
+                        res.json({ success: true, message: "Verification Database updated successfully" });
+                    })
+                    .on('error', (err) => {
+                        res.status(500).json({ success: false, error: err.message });
+                    });
+            });
+    } catch (error) {
+        res.status(500).json({ success: false, error: error.message });
+    }
+});
+
+module.exports = router;
+
+
+Phase 2: Frontend Component
+3. Verification Grid (frontend/src/components/VerificationGrid.js)
+This is the UI component. It features:
+Compact Card: Displays key info (Ministry, Officer, Mobile) concisely.
+Side-by-Side Dialog: Opens a full-screen modal.
+Live Browser Panel: Tries to load the site in an iframe. If blocked, provides a "Launch Live Tab" button.
+Bangla Labels: Maps your English CSV headers to Bengali labels.
+
+JavaScript
+
+
+import React, { useState, useEffect } from 'react';
+import {
+  Box, Card, CardContent, Typography, Stack, Avatar, Button,
+  TextField, Grid, Dialog, DialogTitle, DialogContent, DialogActions,
+  Alert, Paper, IconButton, Tooltip
+} from '@mui/material';
+import { 
+  Person as PersonIcon, 
+  Edit as EditIcon, 
+  Save as SaveIcon, 
+  Close as CloseIcon, 
+  Launch as LaunchIcon, 
+  VerifiedUser as VerifiedIcon,
+  Language as LanguageIcon
+} from '@mui/icons-material';
+
+const VerificationGrid = ({ databaseContact }) => {
+  const [open, setOpen] = useState(false);
+  const [editedData, setEditedData] = useState({});
+  const [hasChanges, setHasChanges] = useState(false);
+  const [saveStatus, setSaveStatus] = useState(null); // 'success', 'error', null
+
+  // Sync state with prop when it changes
+  useEffect(() => {
+    if (databaseContact) setEditedData({ ...databaseContact });
+  }, [databaseContact]);
+
+  // Extract URL safely
+  const govUrl = databaseContact?.['Website Link'] || databaseContact?.website_link || '';
+
+  // Smart Popup: Bypasses X-Frame-Options constraints
+  const openLivePopup = () => {
+    const w = window.screen.width * 0.5; // Half screen width
+    const h = window.screen.height * 0.9;
+    const left = window.screen.width - w; // Position on the right
+    window.open(govUrl, 'LiveVerify', `width=${w},height=${h},left=${left},top=0,scrollbars=yes,status=yes`);
+  };
+
+  const handleEdit = (key, val) => {
+    setEditedData(prev => ({ ...prev, [key]: val }));
+    setHasChanges(true);
+  };
+
+  const handleSave = async () => {
+    try {
+      const response = await fetch('/api/contacts/update', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          original_mobile: databaseContact['Mobile'], // Identifier
+          updates: editedData
+        })
+      });
+      const result = await response.json();
+      if (result.success) {
+        setSaveStatus('success');
+        setTimeout(() => setOpen(false), 1500); // Close after 1.5s
+      } else {
+        setSaveStatus('error');
+      }
+    } catch (err) {
+      console.error(err);
+      setSaveStatus('error');
+    }
+  };
+
+  // --- RENDERING HELPERS ---
+
+  // Map CSV headers to Bengali labels for display
+  const getLabel = (key) => {
+    const map = {
+      'Ministry': 'মন্ত্রণালয়',
+      'Department': 'বিভাগ',
+      'Duty Officer': 'দায়িত্বপ্রাপ্ত কর্মকর্তা',
+      'Designation': 'পদবি',
+      'Mobile': 'মোবাইল',
+      'E-mail': 'ইমেইল',
+      'Website Link': 'ওয়েবসাইট'
+    };
+    return map[key] || key;
+  };
+
+  // Fields to exclude from the edit form
+  const ignoredFields = ['_id', 'Last time checked'];
+
+  return (
+    <Box sx={{ my: 3, width: '100%' }}>
+      {/* 1. COMPACT SUMMARY CARD */}
+      <Card variant="outlined" sx={{ borderRadius: 2, border: '1px solid #ddd', maxWidth: 800 }}>
+        <Box sx={{ p: 1.5, bgcolor: '#f5f5f5', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+          <Stack direction="row" spacing={1} alignItems="center">
+            <VerifiedIcon color="success" fontSize="small" />
+            <Typography variant="subtitle2" fontWeight="bold" color="text.primary">
+              VERIFIED DATABASE (যাচাইকৃত তথ্য)
+            </Typography>
+          </Stack>
+          <Button 
+            size="small" 
+            variant="contained" 
+            color="primary" 
+            startIcon={<EditIcon />} 
+            onClick={() => setOpen(true)}
+            sx={{ textTransform: 'none' }}
+          >
+            Compare & Edit
+          </Button>
+        </Box>
+        
+        <CardContent sx={{ p: 2 }}>
+          <Grid container spacing={2} alignItems="center">
+            <Grid item xs={3} sm={2}>
+              <Avatar variant="rounded" sx={{ width: 70, height: 70, bgcolor: '#e0e0e0' }}>
+                <PersonIcon color="action" />
+              </Avatar>
+            </Grid>
+            <Grid item xs={9} sm={10}>
+              <Grid container spacing={1}>
+                <Grid item xs={6}>
+                  <Typography variant="caption" color="text.secondary">নাম</Typography>
+                  <Typography variant="body2" fontWeight="500" noWrap>
+                    {databaseContact?.['Duty Officer'] || 'N/A'}
+                  </Typography>
+                </Grid>
+                <Grid item xs={6}>
+                  <Typography variant="caption" color="text.secondary">পদবি</Typography>
+                  <Typography variant="body2" fontWeight="500" noWrap>
+                    {databaseContact?.['Designation'] || 'N/A'}
+                  </Typography>
+                </Grid>
+                <Grid item xs={12}>
+                  <Typography variant="caption" color="text.secondary">অফিস/মন্ত্রণালয়</Typography>
+                  <Typography variant="body2" noWrap>
+                    {databaseContact?.['Department'] || databaseContact?.['Ministry'] || 'N/A'}
+                  </Typography>
+                </Grid>
+              </Grid>
+            </Grid>
+          </Grid>
+        </CardContent>
+      </Card>
+
+      {/* 2. SIDE-BY-SIDE COMPARISON DIALOG */}
+      <Dialog 
+        open={open} 
+        fullWidth 
+        maxWidth="xl" 
+        onClose={() => setOpen(false)} 
+        PaperProps={{ sx: { height: '85vh' } }}
+      >
+        <DialogTitle sx={{ p: 2, borderBottom: '1px solid #eee', display: 'flex', justifyContent: 'space-between' }}>
+          <Typography variant="h6" fontWeight="bold">Verify & Update Contact</Typography>
+          <IconButton onClick={() => setOpen(false)} size="small"><CloseIcon /></IconButton>
+        </DialogTitle>
+
+        <DialogContent sx={{ p: 0, display: 'flex', height: '100%', overflow: 'hidden' }}>
+          <Grid container sx={{ height: '100%' }}>
+            
+            {/* LEFT PANEL: EDITABLE FORM */}
+            <Grid item xs={12} md={5} sx={{ p: 3, overflowY: 'auto', borderRight: '1px solid #ddd', bgcolor: '#fff' }}>
+              <Alert severity="info" sx={{ mb: 3, fontSize: '0.85rem' }}>
+                Update fields below to match the live website. Changes will modify the main database.
+              </Alert>
+              
+              <Stack spacing={2}>
+                {Object.keys(editedData).map(key => {
+                  if (ignoredFields.includes(key)) return null;
+                  const isChanged = editedData[key] !== databaseContact[key];
+                  
+                  return (
+                    <TextField
+                      key={key}
+                      label={getLabel(key)}
+                      value={editedData[key] || ''}
+                      size="small"
+                      fullWidth
+                      multiline={key === 'Ministry' || key === 'Department'} // Multiline for long names
+                      onChange={(e) => handleEdit(key, e.target.value)}
+                      sx={{ 
+                        '& .MuiInputBase-root': { 
+                          bgcolor: isChanged ? '#fff9c4' : 'transparent' // Highlight changes
+                        }
+                      }}
+                    />
+                  );
+                })}
+              </Stack>
+            </Grid>
+
+            {/* RIGHT PANEL: LIVE BROWSER PREVIEW */}
+            <Grid item xs={12} md={7} sx={{ display: 'flex', flexDirection: 'column', bgcolor: '#f4f6f8' }}>
+              {/* Browser Toolbar */}
+              <Box sx={{ p: 1.5, bgcolor: 'white', borderBottom: '1px solid #ddd', display: 'flex', gap: 1, alignItems: 'center' }}>
+                <Paper variant="outlined" sx={{ flexGrow: 1, px: 2, py: 0.5, bgcolor: '#f9f9f9', display: 'flex', alignItems: 'center' }}>
+                  <LanguageIcon sx={{ fontSize: 16, mr: 1, color: 'text.secondary' }} />
+                  <Typography variant="caption" noWrap sx={{ fontFamily: 'monospace' }}>
+                    {govUrl}
+                  </Typography>
+                </Paper>
+                <Tooltip title="Open in standalone window (Recommended)">
+                  <Button 
+                    variant="contained" 
+                    size="small" 
+                    onClick={openLivePopup} 
+                    startIcon={<LaunchIcon />}
+                    sx={{ textTransform: 'none' }}
+                  >
+                    Open Live Tab
+                  </Button>
+                </Tooltip>
+              </Box>
+
+              {/* Iframe Area */}
+              <Box sx={{ flexGrow: 1, position: 'relative', width: '100%', height: '100%' }}>
+                {govUrl ? (
+                  <iframe 
+                    src={govUrl} 
+                    style={{ width: '100%', height: '100%', border: 'none' }} 
+                    title="Gov Live Site"
+                  />
+                ) : (
+                  <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100%' }}>
+                    <Typography color="text.secondary">No Website Link Available</Typography>
+                  </Box>
+                )}
+
+                {/* Overlay Hint */}
+                <Box sx={{ 
+                  position: 'absolute', bottom: 20, left: '50%', transform: 'translateX(-50%)', 
+                  bgcolor: 'rgba(0,0,0,0.7)', color: 'white', px: 2, py: 0.5, borderRadius: 4, 
+                  pointerEvents: 'none', fontSize: '0.75rem'
+                }}>
+                  Seeing a blank page? Click "Open Live Tab" above.
+                </Box>
+              </Box>
+            </Grid>
+
+          </Grid>
+        </DialogContent>
+
+        <DialogActions sx={{ p: 2, borderTop: '1px solid #eee' }}>
+          <Button onClick={() => setOpen(false)} color="inherit">Cancel</Button>
+          <Button 
+            variant="contained" 
+            color="success" 
+            disabled={!hasChanges} 
+            startIcon={<SaveIcon />}
+            onClick={handleSave}
+          >
+            Save Updates
+          </Button>
+        </DialogActions>
+        
+        {/* Success Feedback */}
+        {saveStatus === 'success' && (
+          <Alert severity="success" sx={{ position: 'absolute', bottom: 20, left: 20 }}>
+            Saved successfully!
+          </Alert>
+        )}
+      </Dialog>
+    </Box>
+  );
+};
+
+export default VerificationGrid;
+
+

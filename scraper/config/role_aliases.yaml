@@ -1,0 +1,23 @@
+# Role heading rules (section 6.2). Matching is on squash(text): spaces, ':', '-', '–' removed, আপিল->আপীল,
+# দ্বায়িত্ব->দায়িত্ব folded. Extend these lists without code changes; unknown headings are logged, never guessed.
+max_heading_chars: 70          # longer text is prose, not a heading
+ignore_contains:               # plural container headings / page titles
+  - কর্মকর্তাগণ
+  - কর্মকর্তাবৃন্দ
+  - officers
+  - informationofficers
+primary:
+  any_of: [দায়িত্বপ্রাপ্তকর্মকর্তা, তথ্যপ্রদানকারীকর্মকর্তা, তথ্যকর্মকর্তা, designatedofficer, responsibleofficer]
+  none_of: [বিকল্প, alternat, আপীল, appellate]
+alternate:
+  all_of_groups:
+    - [বিকল্প, alternat]
+    - [দায়িত্বপ্রাপ্ত, তথ্যপ্রদানকারী, designated, responsible, তথ্যকর্মকর্তা, কর্মকর্তা, officer]   # "বিকল্প কর্মকর্তাঃ" (live, reb.gov.bd)
+appellate:
+  all_of_groups:
+    - [আপীল, appellate]
+    - [কর্তৃপক্ষ, authority, কর্মকর্তা, officer]   # "আপিল কর্মকর্তাঃ" (live); also the GRS title, so it is flagged
+# A title naming several roles ("দায়িত্বপ্রাপ্ত কর্মকর্তা, বিকল্প কর্মকর্তা ও আপিল কর্তৃপক্ষ") is a container, not a role.
+multi_role_separators: [',', ' ও ', ' and ', '/']
+unknown_contains: [কর্মকর্তা, কর্তৃপক্ষ, officer, authority]
+focal_point: [ফোকালপয়েন্ট, ফোকালপার্সন, focalpoint, focalperson]

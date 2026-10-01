@@ -1,0 +1,2245 @@
+{
+  "metadata": {
+    "scrapedAt": "2026-01-02T14:49:17.963Z",
+    "totalContacts": 173,
+    "sources": [
+      "scraped_contacts/rti_officers_all.json",
+      "https://cabinet.gov.bd/pages/officers/",
+      "https://mopa.gov.bd/pages/officers/",
+      "https://moi.gov.bd/pages/officers/",
+      "https://moha.gov.bd/pages/officers/",
+      "https://mofa.gov.bd/pages/officers/",
+      "https://mohfw.gov.bd/pages/officers/",
+      "https://moa.gov.bd/pages/officers/",
+      "RTI officers - Sheet3.csv"
+    ],
+    "errors": [],
+    "updatedAt": "2026-01-02T15:09:43.253Z"
+  },
+  "contacts": [
+    {
+      "name": "মুহাম্মদ সাদিকুর রহমান",
+      "designation": "উপসচিব",
+      "ministry": "মন্ত্রিপরিষদ বিভাগ",
+      "email": "rti_sec@cabinet.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.016Z",
+      "phone": "০১৯১৪২১০২৮৪",
+      "department": "মন্ত্রিপরিষদ বিভাগ",
+      "website": "https://cabinet.gov.bd/site/view/information_officers/Designated-Officer-&-Appellate-Author",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "মোহাম্মদ এনামুল আহসান",
+      "designation": "উপসচিব",
+      "ministry": "মন্ত্রিপরিষদ বিভাগ",
+      "email": "gg_sec@cabinet.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.024Z",
+      "phone": "০১৭১১২০২৮৪৭",
+      "department": "মন্ত্রিপরিষদ বিভাগ",
+      "website": "https://cabinet.gov.bd/site/view/information_officers/Designated-Officer-&-Appellate-Author",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "মুন্না রাণী বিশ্বাস",
+      "designation": "সহকারী সচিব",
+      "ministry": "পার্বত্য চট্টগ্রাম বিষয়ক মন্ত্রণালয়",
+      "email": "munnabs0586@gmail.com",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.024Z",
+      "phone": "০১৭১৬৪০২৪০৯",
+      "website": "https://mochta.gov.bd/site/view/information_officers/%E0%A6%A4%E0%A6%A5%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A6%E0%A6%BE%E0%A6%A8%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%80-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "মোঃ জাহাঙ্গীর আলম",
+      "designation": "সহকারী সচিব",
+      "ministry": "পার্বত্য চট্টগ্রাম বিষয়ক মন্ত্রণালয়",
+      "email": "jalammoa@yahoo.com",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.024Z",
+      "phone": "০১৭১৫৩৯২১১৮",
+      "website": "https://mochta.gov.bd/site/view/information_officers/%E0%A6%A4%E0%A6%A5%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A6%E0%A6%BE%E0%A6%A8%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%80-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "ইসরাত জাহান",
+      "designation": "উপসচিব (প্রশাসন-২)",
+      "ministry": "প্রাথমিক ও গণশিক্ষা মন্ত্রণালয়",
+      "email": "dssch1@mopme.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.024Z",
+      "phone": "০১৬৭৩২৯৯৭০৫",
+      "website": "https://mopme.gov.bd/site/view/information_officers/%E0%A6%A4%E0%A6%A5%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A6%E0%A6%BE%E0%A6%A8%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%80-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "মোঃ শামছুল আরিফ",
+      "designation": "উপসচিব (প্রশাসন-২)",
+      "ministry": "প্রাথমিক ও গণশিক্ষা মন্ত্রণালয়",
+      "email": "dsad2@mopme.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.024Z",
+      "phone": "০১৭২৬৩১০৬৬৫",
+      "website": "https://mopme.gov.bd/site/view/information_officers/%E0%A6%A4%E0%A6%A5%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A6%E0%A6%BE%E0%A6%A8%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%80-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "মুহাম্মদ শহিদ উল্লাহ",
+      "designation": "উপসচিব (প্রশাসন-২)",
+      "ministry": "কৃষি মন্ত্রণালয়",
+      "email": "admin3@moa.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.024Z",
+      "phone": "০১৭১১০০৯৫৮৫",
+      "website": "https://moa.gov.bd/site/view/information_officers/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "ড. মো: হাতেম আলী",
+      "designation": "উপসচিব (প্রশাসন-২)",
+      "ministry": "কৃষি মন্ত্রণালয়",
+      "email": "admin2@moa.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.024Z",
+      "phone": "০১৭১১১১৬৬০৫",
+      "website": "https://moa.gov.bd/site/view/information_officers/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "মোঃ হেলাল উদ্দিন",
+      "designation": "উপসচিব (প্রশাসন-২)",
+      "ministry": "বেসামরিক বিমান পরিবহন ও পর্যটন মন্ত্রণালয়",
+      "email": "jsbudget@mocat.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.024Z",
+      "phone": "০১৭১৪৭০২৯৭১",
+      "website": "https://mocat.gov.bd/site/view/information_officers/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE,-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "দীপক কুমার রায়",
+      "designation": "উপসচিব (প্রশাসন-২)",
+      "ministry": "বেসামরিক বিমান পরিবহন ও পর্যটন মন্ত্রণালয়",
+      "email": "dsadmin2@mocat.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.024Z",
+      "phone": "০১৭৬৩৩৩৪০৪৭",
+      "website": "https://mocat.gov.bd/site/view/information_officers/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE,-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "মোঃ সারোয়ার সালাম",
+      "designation": "উপসচিব",
+      "ministry": "বাণিজ্য মন্ত্রণালয়",
+      "email": "sas.law@mincom.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.024Z",
+      "phone": "৮৮ ০১৯১৩৭৯৭৭৬৬",
+      "website": "https://mincom.gov.bd/site/view/information_officers/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "মোতাকাব্বীর আহমেদ",
+      "designation": "উপসচিব",
+      "ministry": "বাণিজ্য মন্ত্রণালয়",
+      "email": "admn5@mincom.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.024Z",
+      "phone": "৮৮ ০১৭১২১৭৮৯৫৯",
+      "website": "https://mincom.gov.bd/site/view/information_officers/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "সুলতানা রাজিয়া",
+      "designation": "যুগ্মসচিব",
+      "ministry": "সড়ক পরিবহন ও সেতু মন্ত্রণালয়",
+      "email": "shilpihr1973@gmail.com",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৭১১-৭৮৪৫৭২",
+      "department": "সড়ক পরিবহন ও মহাসড়ক বিভাগ",
+      "website": "https://rthd.portal.gov.bd/site/view/information_officers/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "ড. ভেনিসা রড্রিক্স",
+      "designation": "উপসচিব",
+      "ministry": "সেতু বিভাগ",
+      "email": "dsadmin@bridgesdivision.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৭১৫৪৫৯৭৬১",
+      "department": "সেতু বিভাগ",
+      "website": "https://bridgesdivision.gov.bd/site/info_officers/54664e00-35dc-46cb-b370-95ca98859956/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A7%80%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7-",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "আবদুল্লাহ আল বাকী",
+      "designation": "উপসচিব",
+      "ministry": "সেতু বিভাগ",
+      "email": "dsdev@bridgesdivision.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৭৩১৮৪৬৮৯৯",
+      "department": "সেতু বিভাগ",
+      "website": "https://bridgesdivision.gov.bd/site/info_officers/54664e00-35dc-46cb-b370-95ca98859956/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A7%80%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7-",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "ড.মুনিরা সুলতানা",
+      "designation": "যুগ্মসচিব",
+      "ministry": "সংস্কৃতি বিষয়ক মন্ত্রণালয়",
+      "email": "js_planning@moca.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০২-৯৫১৪১৬০",
+      "website": "https://moca.gov.bd/site/view/information_officers/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "আইরীন ফারজানা",
+      "designation": "যুগ্মসচিব",
+      "ministry": "সংস্কৃতি বিষয়ক মন্ত্রণালয়",
+      "email": "event.section@moca.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৭১২২৯২৭৮৭",
+      "website": "https://moca.gov.bd/site/view/information_officers/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "নাহিদা পারভীন",
+      "designation": "সিনিয়র সহকারী সচিব",
+      "ministry": "প্রতিরক্ষা মন্ত্রণালয়",
+      "email": "d9@mod.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "৮৮০১৯২২৮৯৮৮৪৩",
+      "website": "https://mod.gov.bd/site/view/information_officers/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A7%80%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "শামীমা শরমিন",
+      "designation": "সিনিয়র সহকারী সচিব",
+      "ministry": "প্রতিরক্ষা মন্ত্রণালয়",
+      "email": "d25@mod.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "৮৮০১৭১৭১৫৭৪৮৪",
+      "website": "https://mod.gov.bd/site/view/information_officers/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A7%80%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "জনাব মোঃ রফিকুল ইসলাম",
+      "designation": "সহকারী সচিব",
+      "ministry": "খাদ্য মন্ত্রণালয়",
+      "email": "admin1@mofood.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "৮৮০১৭৯৬৫৮২৯৮০",
+      "website": "https://mofood.gov.bd/site/view/information_officers/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A7%80%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "জনাব মহিদুল ইসলাম খান",
+      "designation": "সহকারী সচিব",
+      "ministry": "খাদ্য মন্ত্রণালয়",
+      "email": "saslawcell@mofood.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৭১৬২৬৪৬০৩",
+      "website": "https://mofood.gov.bd/site/view/information_officers/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A7%80%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "জনাব তানজিলা খানম",
+      "designation": "সহকারী সচিব",
+      "ministry": "শিক্ষা মন্ত্রণালয়",
+      "email": "policy.reform@moedu.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৭৮৮-৫৯৪২১৯",
+      "department": "মাধ্যমিক ও উচ্চ শিক্ষা বিভাগ",
+      "website": "https://shed.gov.bd/site/page/40abb286-ed55-43a0-a1a9-6d895934ee2e/-%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "জনাব মো: রফিকুল ইসলাম",
+      "designation": "সহকারী সচিব",
+      "ministry": "শিক্ষা মন্ত্রণালয়",
+      "email": "policy.reform@moedu.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z"
+    },
+    {
+      "name": "জনাব মোঃ জহুরুল আলম চৌধুরী",
+      "designation": "সিনিয়র সহকারী সচিব",
+      "ministry": "কারিগরি ও মাদ্রাসা শিক্ষা বিভাগ",
+      "email": "jsadmin2@tmed.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৫৫০১৫৫০১৭",
+      "department": "কারিগরি ও মাদ্রাসা শিক্ষা বিভাগ",
+      "website": "https://tmed.portal.gov.bd/site/page/019714fd-0e3f-4ded-8224-a0fde12307f4",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "সৈয়দ আসগর আলী",
+      "designation": "সিনিয়র সহকারী সচিব",
+      "ministry": "কারিগরি ও মাদ্রাসা শিক্ষা বিভাগ",
+      "email": "asmad1@tmed.gov.bd",
+      "phone": "01537414701",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "department": "কারিগরি ও মাদ্রাসা শিক্ষা বিভাগ",
+      "website": "https://tmed.portal.gov.bd/site/page/019714fd-0e3f-4ded-8224-a0fde12307f4",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "জনাব ফারজানা খানম",
+      "designation": "সিনিয়র সহকারী সচিব",
+      "ministry": "বিদ্যুৎ, জ্বালানি ও খনিজ সম্পদ মন্ত্রণালয়",
+      "email": "c.affairs-2@pd.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "৮৮০১৮৪৩২৩৮৪৩৪",
+      "department": "বিদ্যুৎ বিভাগ",
+      "website": "https://powerdivision.gov.bd/site/page/90325f74-7a3a-4f2a-bfb0-5b11e41f2562",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "জনাব মোঃ মাজহারুল ইসলাম",
+      "designation": "সিনিয়র সহকারী সচিব",
+      "ministry": "বিদ্যুৎ, জ্বালানি ও খনিজ সম্পদ মন্ত্রণালয়",
+      "email": "re-1@pd.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "৮৮০১৮১৯১৪৭৭৬২",
+      "department": "বিদ্যুৎ বিভাগ",
+      "website": "https://powerdivision.gov.bd/site/page/90325f74-7a3a-4f2a-bfb0-5b11e41f2562",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "মোছা: লায়লাতুন ফেরদৌস",
+      "designation": "যুগ্মসচিব",
+      "ministry": "জ্বালানি ও খনিজ সম্পদ বিভাগ",
+      "email": "jsadmin2@emrd.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "৮৮০১৬৮২১৬৯৮৩৪",
+      "department": "জ্বালানি ও খনিজ সম্পদ বিভাগ",
+      "website": "https://emrd.gov.bd/site/view/information_officers//%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "মোঃ অলিউর রহমান",
+      "designation": "যুগ্মসচিব",
+      "ministry": "জ্বালানি ও খনিজ সম্পদ বিভাগ",
+      "email": "jsadmin3@emrd.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "৮৮০১৭১৬০৪৯৫১৭",
+      "department": "জ্বালানি ও খনিজ সম্পদ বিভাগ",
+      "website": "https://emrd.gov.bd/site/view/information_officers//%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "মোহাম্মদ রেজাউল করিম",
+      "designation": "যুগ্মসচিব",
+      "ministry": "পরিবেশ, বন ও জলবায়ু পরিবর্তন মন্ত্রণালয়",
+      "email": "jsenv1@moef.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৭৫০২৪০০১৪",
+      "website": "https://moef.portal.gov.bd/site/info_officers/ba40bf0f-01d9-4050-91ba-ba4888684ee5",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "ড. মোঃ সাইফুর রহমান",
+      "designation": "যুগ্মসচিব",
+      "ministry": "পরিবেশ, বন ও জলবায়ু পরিবর্তন মন্ত্রণালয়",
+      "email": "jsforest2@moef.gov.bd",
+      "phone": "01913144590",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "website": "https://moef.portal.gov.bd/site/info_officers/ba40bf0f-01d9-4050-91ba-ba4888684ee5",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "মোহাম্মদ আহম্মেদ আলী",
+      "designation": "উপসচিব",
+      "ministry": "মৎস্য ও প্রাণিসম্পদ মন্ত্রণালয়",
+      "email": "ds_budget@mofl.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৭১৬৬৬৯৭৬৮",
+      "website": "https://mofl.gov.bd/site/view/information_officers/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A7%80%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "মোঃ আবদুর রহমান",
+      "designation": "উপসচিব",
+      "ministry": "মৎস্য ও প্রাণিসম্পদ মন্ত্রণালয়",
+      "email": "fisheries-2@mofl.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৭১২৫৮২৩২৩",
+      "website": "https://mofl.gov.bd/site/view/information_officers/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A7%80%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "Shajia Afroz",
+      "designation": "Deputy Secretary",
+      "ministry": "অর্থ মন্ত্রণালয়",
+      "email": "admin-1@finance.gov.bd",
+      "phone": "55101357",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "department": "অর্থ বিভাগ",
+      "website": "https://mof.gov.bd/site/view/information_officers/Designated-Offi--&-Appellate-Autho-",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "Md Humayun Kabir",
+      "designation": "Deputy Secretary",
+      "ministry": "অর্থ মন্ত্রণালয়",
+      "email": "humayun@finance.gov.bd",
+      "phone": "01774973704",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "department": "অর্থ বিভাগ",
+      "website": "https://mof.gov.bd/site/view/information_officers/Designated-Offi--&-Appellate-Autho-",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "Ahammad Ali",
+      "designation": "Senior Assistant Secretary",
+      "ministry": "অর্থনৈতিক সম্পর্ক বিভাগ",
+      "email": "budget@erd.gov.bd",
+      "phone": "01842430919",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "department": "অর্থনৈতিক সম্পর্ক বিভাগ",
+      "website": "https://erd.gov.bd/site/info_officers/7e89d975-7dd2-42cb-ad11-1f7299ab0573/Designated-Officer-and-Appellate-Authority",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "Ridwanur Rahman",
+      "designation": "Senior Assistant Secretary",
+      "ministry": "অর্থনৈতিক সম্পর্ক বিভাগ",
+      "email": "admin4@erd.gov.bd",
+      "phone": "01777743238",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "department": "অর্থনৈতিক সম্পর্ক বিভাগ",
+      "website": "https://erd.gov.bd/site/info_officers/7e89d975-7dd2-42cb-ad11-1f7299ab0573/Designated-Officer-and-Appellate-Authority",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "জনাব মোঃ হুমায়ুন কবীর",
+      "designation": "দায়িত্বপ্রাপ্ত কর্মকর্তা",
+      "ministry": "অভ্যন্তরীণ সম্পদ বিভাগ",
+      "email": "humayun.kabir@ird.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "৮৮০১৭১৬-০৯১০৫২",
+      "department": "অভ্যন্তরীণ সম্পদ বিভাগ",
+      "website": "https://ird.portal.gov.bd/site/view/information_officers/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "মীনাক্ষী বর্মন",
+      "designation": "যুগ্ম সচিব",
+      "ministry": "আর্থিক প্রতিষ্ঠান বিভাগ",
+      "email": "ds.cbb@fid.gov.bd",
+      "phone": "01714031335",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "department": "আর্থিক প্রতিষ্ঠান বিভাগ",
+      "website": "https://fid.gov.bd/site/info_officers/f394edea-8bc1-4ffe-a907-e931d9025529/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "মোহাম্মদ হেলাল উদ্দিন",
+      "designation": "যুগ্ম সচিব",
+      "ministry": "আর্থিক প্রতিষ্ঠান বিভাগ",
+      "email": "ds.audit@fid.gov.bd",
+      "phone": "171268855801712688558",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "department": "আর্থিক প্রতিষ্ঠান বিভাগ",
+      "website": "https://fid.gov.bd/site/info_officers/f394edea-8bc1-4ffe-a907-e931d9025529/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "জনাব মোহাম্মদ রফিকুল আলম",
+      "designation": "পরিচালক",
+      "ministry": "পররাষ্ট্র মন্ত্রণালয়",
+      "email": "dgep@mofa.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "88০১৯৬৬২৬৮৪৭১",
+      "website": "https://mofa.gov.bd/site/page/b409b368-c8a3-4c56-aacb-8d9e1c10794a/Designated-Officer-&-Appellate-Authority",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "জনাব এ এইচ এম মাসুম বিল্লাহ",
+      "designation": "পরিচালক",
+      "ministry": "পররাষ্ট্র মন্ত্রণালয়",
+      "email": "dirpd@mofa.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৭৫৪০৬৮৫২০",
+      "website": "https://mofa.gov.bd/site/page/b409b368-c8a3-4c56-aacb-8d9e1c10794a/Designated-Officer-&-Appellate-Authority",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "মো: আবদুল্লাহ হারুন",
+      "designation": "উপসচিব",
+      "ministry": "স্বাস্থ্য শিক্ষা ও পরিবার কল্যাণ বিভাগ",
+      "email": "pi@mefwd.gov.bd",
+      "phone": "01712971786",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "department": "স্বাস্থ্য শিক্ষা ও পরিবার কল্যাণ বিভাগ",
+      "website": "https://mefwd.gov.bd/site/info_officers/a263a114-429c-4d90-ba67-4c625d5c6b1b/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7----",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "মুহাম্মদ মকবুল হোসেন",
+      "designation": "উপসচিব",
+      "ministry": "স্বাস্থ্য শিক্ষা ও পরিবার কল্যাণ বিভাগ",
+      "email": "per2@mefwd.gov.bd",
+      "phone": "01760223388",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "department": "স্বাস্থ্য শিক্ষা ও পরিবার কল্যাণ বিভাগ",
+      "website": "https://mefwd.gov.bd/site/info_officers/a263a114-429c-4d90-ba67-4c625d5c6b1b/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7----",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "মুহাম্মদ আবদুল্যাহ আল জাবেদ",
+      "designation": "উপসচিব",
+      "ministry": "স্বরাষ্ট্র মন্ত্রণালয়",
+      "email": "admin1@mhapsd.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "৮৮০১৭১২৫৭৪৯২৯",
+      "department": "জননিরাপত্তা বিভাগ",
+      "website": "https://mhapsd.gov.bd/site/view/information_officers",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "জাহাঙ্গীর আলম",
+      "designation": "উপসচিব",
+      "ministry": "স্বরাষ্ট্র মন্ত্রণালয়",
+      "email": "admin2@mhapsd.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "৮৮০১৭১৭৫১৭৬৫০",
+      "department": "জননিরাপত্তা বিভাগ",
+      "website": "https://mhapsd.gov.bd/site/view/information_officers",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "মোহাম্মদ আবদুল কাদের শেখ",
+      "designation": "সিনিয়র সহকারী সচিব",
+      "ministry": "সুরক্ষা সেবা বিভাগ",
+      "email": "rti@ssd.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৮৫১৮৮৯৮৫০",
+      "department": "সুরক্ষা সেবা বিভাগ",
+      "website": "https://ssd.gov.bd/site/view/information_officers//%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A7%80%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "নাইমা আফরোজ ইমা",
+      "designation": "সিনিয়র সহকারী সচিব",
+      "ministry": "সুরক্ষা সেবা বিভাগ",
+      "email": "law1@ssd.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৬৮৮২৫৫৯০৮",
+      "department": "সুরক্ষা সেবা বিভাগ",
+      "website": "https://ssd.gov.bd/site/view/information_officers//%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A7%80%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "জনাব মোহাম্মদ আবদুল আওয়াল",
+      "designation": "উপসচিব",
+      "ministry": "গৃহায়ন ও গণপূর্ত মন্ত্রণালয়",
+      "email": "dsadmin2@mohpw.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৫১২৫৫৫৬৬৬",
+      "website": "https://mohpw.portal.gov.bd/site/view/information_officers/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "জনাব তাসমিন ফারহানা",
+      "designation": "উপসচিব",
+      "ministry": "গৃহায়ন ও গণপূর্ত মন্ত্রণালয়",
+      "email": "plansection1@mohpw.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৮১৬-৮৮৯২৩৫",
+      "website": "https://mohpw.portal.gov.bd/site/view/information_officers/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "জনাব নূরুন নাহার",
+      "designation": "সিনিয়র সহকারী সচিব",
+      "ministry": "শিল্প মন্ত্রণালয়",
+      "email": "dsdps@moind.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৫৫০১৫৩৬১২",
+      "website": "https://moind.gov.bd/site/view/information_officers/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "জনাব সিদ্ধার্থ ভৌমিক",
+      "designation": "সিনিয়র সহকারী সচিব",
+      "ministry": "শিল্প মন্ত্রণালয়",
+      "email": "sasest@moind.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৭১৮০৯৫২৭১",
+      "website": "https://moind.gov.bd/site/view/information_officers/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "খাদিজা তাহেরা ববি",
+      "designation": "উপসচিব",
+      "ministry": "তথ্য ও সম্প্রচার মন্ত্রণালয়",
+      "email": "press2@moi.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৭১১৯৫৪৩৮৭",
+      "website": "https://moi.gov.bd/site/view/information_officers/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE,-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "মোঃ মাসুদ খাঁন",
+      "designation": "উপসচিব",
+      "ministry": "তথ্য ও সম্প্রচার মন্ত্রণালয়",
+      "email": "press1@moi.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৭১১১১৩৯৭১",
+      "website": "https://moi.gov.bd/site/view/information_officers/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE,-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "জনাব রায়না আহমদ",
+      "designation": "সিনিয়র সহকারী সচিব",
+      "ministry": "বস্ত্র ও পাট মন্ত্রণালয়",
+      "email": "raina.ahmad@yahoo.com",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৭১১৩৯৪৯৭৯",
+      "website": "https://motj.gov.bd/site/view/information_officers",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "ফাতেমা তুজ জোহরা উপমা",
+      "designation": "সিনিয়র সহকারী সচিব",
+      "ministry": "বস্ত্র ও পাট মন্ত্রণালয়",
+      "email": "upoma62@gmail.com",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৫৫৬৩২২৯০৩",
+      "website": "https://motj.gov.bd/site/view/information_officers",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "জনাব সারবিন চৌধুরী",
+      "designation": "সহকারী সচিব",
+      "ministry": "শ্রম ও কর্মসংস্থান মন্ত্রণালয়",
+      "email": "section8@mole.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৫৫২৩৬২৬৯১",
+      "website": "https://mole.gov.bd/site/view/information_officers/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE,-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "জনাব মোঃ মোস্তাফিজুর রহমান",
+      "designation": "সহকারী সচিব",
+      "ministry": "শ্রম ও কর্মসংস্থান মন্ত্রণালয়",
+      "email": "section2@mole.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৭৪২৭৫৬৮৫২",
+      "website": "https://mole.gov.bd/site/view/information_officers/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE,-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "শাহরিয়ার আরাফাত",
+      "designation": "সিনিয়র সহকারী সচিব",
+      "ministry": "আইন, বিচার ও সংসদ বিষয়ক মন্ত্রণালয়",
+      "email": "ds.opinion3@gmail.com",
+      "phone": "01819436048",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "department": "আইন ও বিচার বিভাগ",
+      "website": "https://lawjusticediv.portal.gov.bd/site/info_officers/9a64aa87-2b1f-44df-886d-f6584f4094e2/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A7%80%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7-",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "মোঃ আব্বাস উদ্দীন",
+      "designation": "সিনিয়র সহকারী সচিব",
+      "ministry": "আইন, বিচার ও সংসদ বিষয়ক মন্ত্রণালয়",
+      "email": "sas.training1@lawjusticediv.gov.bd",
+      "phone": "01674059174",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "department": "আইন ও বিচার বিভাগ",
+      "website": "https://lawjusticediv.portal.gov.bd/site/info_officers/9a64aa87-2b1f-44df-886d-f6584f4094e2/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A7%80%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7-",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "মোঃ মুনিরুজ্জামান",
+      "designation": "সিনিয়র সহকারী সচিব (ড্রাফটিং) ও সচিবের একান্ত সচিব",
+      "ministry": "লেজিসলেটিভ ও সংসদ বিষয়ক বিভাগ",
+      "email": "munir@legislativediv.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৭১২৬৮১৮১৩",
+      "department": "লেজিসলেটিভ ও সংসদ বিষয়ক বিভাগ",
+      "website": "https://legislativediv.gov.bd/site/view/information_officers/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE,-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "মোঃ আশিকুজ্জামান",
+      "designation": "সিনিয়র সহকারী সচিব (ড্রাফটিং) ও সচিবের একান্ত সচিব",
+      "ministry": "লেজিসলেটিভ ও সংসদ বিষয়ক বিভাগ",
+      "email": "ma.zaman@legislativediv.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৯১২৮০৪৩৫২",
+      "department": "লেজিসলেটিভ ও সংসদ বিষয়ক বিভাগ",
+      "website": "https://legislativediv.gov.bd/site/view/information_officers/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE,-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "মোহাম্মদ তোফাজ্জল হোসেন",
+      "designation": "সিনিয়র সহকারী সচিব",
+      "ministry": "ভূমি মন্ত্রণালয়",
+      "email": "audit@minland.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "৮৮০১৭১১১৪১৫০৯",
+      "website": "https://minland.portal.gov.bd/site/info_officers/6faa7434-38bc-4d3b-b619-5f3aa6b36d50",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "তুষার আহমেদ",
+      "designation": "সিনিয়র সহকারী সচিব",
+      "ministry": "ভূমি মন্ত্রণালয়",
+      "email": "law4@minland.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "৮৮০১৮১৬৭১৮১৮৪",
+      "website": "https://minland.portal.gov.bd/site/info_officers/6faa7434-38bc-4d3b-b619-5f3aa6b36d50",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "মুহাম্মদ মাহবুবুল হক",
+      "designation": "সিনিয়র সহকারী সচিব",
+      "ministry": "স্থানীয় সরকার, পল্লী উন্নয়ন ও সমবায় মন্ত্রণালয়",
+      "email": "mebr@lgd.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৭১২০৯৭৭৩৩",
+      "department": "স্থানীয় সরকার বিভাগ",
+      "website": "https://lgd.gov.bd/site/view/information_officers/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "মো: মোশারেফ হোসেন",
+      "designation": "সিনিয়র সহকারী সচিব",
+      "ministry": "স্থানীয় সরকার, পল্লী উন্নয়ন ও সমবায় মন্ত্রণালয়",
+      "email": "lgmoni1@lgd.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৭২৩২০০৯১১",
+      "department": "স্থানীয় সরকার বিভাগ",
+      "website": "https://lgd.gov.bd/site/view/information_officers/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "তাহমিনা তাছলীম",
+      "designation": "সহকারী সচিব",
+      "ministry": "পরিকল্পনা মন্ত্রণালয়",
+      "email": "tahmina406@yahoo.com",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৭২৬৯০৫০৯৮",
+      "department": "পরিকল্পনা বিভাগ",
+      "website": "https://plandiv.gov.bd/site/view/information_officers/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A7%80%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "শিউলী রাণী বালা",
+      "designation": "সহকারী সচিব",
+      "ministry": "পরিকল্পনা মন্ত্রণালয়",
+      "email": "shewlybala13@gmail.com",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৬১২৪১৪০৫৫",
+      "department": "পরিকল্পনা বিভাগ",
+      "website": "https://plandiv.gov.bd/site/view/information_officers/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A7%80%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "মোঃ মাহবুর রহমান শেখ",
+      "designation": "উপসচিব",
+      "ministry": "পরিসংখ্যান ও তথ্য ব্যবস্থাপনা বিভাগ",
+      "email": "info1@sid.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৮৬৫৬৭৩০৩০",
+      "department": "পরিসংখ্যান ও তথ্য ব্যবস্থাপনা বিভাগ",
+      "website": "https://sid.gov.bd/site/view/information_officers/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "মুনিরা ইসলাম",
+      "designation": "উপসচিব",
+      "ministry": "পরিসংখ্যান ও তথ্য ব্যবস্থাপনা বিভাগ",
+      "email": "info2@sid.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৭১৬৫৯৩২২৬",
+      "department": "পরিসংখ্যান ও তথ্য ব্যবস্থাপনা বিভাগ",
+      "website": "https://sid.gov.bd/site/view/information_officers/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "রহিমা খাতুন",
+      "designation": "প্রোগ্রামার",
+      "ministry": "বাস্তবায়ন পরিবীক্ষণ ও মূল্যায়ন বিভাগ",
+      "email": "dscord@imed.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৭৩৪৬৭৩৯১২",
+      "department": "বাস্তবায়ন পরিবীক্ষণ ও মূল্যায়ন বিভাগ",
+      "website": "https://imed.gov.bd/site/view/information_officers/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "মোহাম্মদ মোয়াজ্জেম হোসেন",
+      "designation": "প্রোগ্রামার",
+      "ministry": "বাস্তবায়ন পরিবীক্ষণ ও মূল্যায়ন বিভাগ",
+      "email": "prog_plan@imed.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৭১৮৩৬৯৩০৩",
+      "department": "বাস্তবায়ন পরিবীক্ষণ ও মূল্যায়ন বিভাগ",
+      "website": "https://imed.gov.bd/site/view/information_officers/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "মোঃ মামুনুর রশিদ",
+      "designation": "প্রোগ্রামার",
+      "ministry": "ডাক, টেলিযোগাযোগ ও তথ্যপ্রযুক্তি মন্ত্রণালয়",
+      "email": "telecom1@ptd.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৭১২-২৯৪২৭০",
+      "department": "ডাক ও টেলিযোগাযোগ বিভাগ",
+      "website": "https://ptd.gov.bd/site/view/information_officers/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A7%80%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7--",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "মোঃ জাকির হোসেন",
+      "designation": "প্রোগ্রামার",
+      "ministry": "ডাক, টেলিযোগাযোগ ও তথ্যপ্রযুক্তি মন্ত্রণালয়",
+      "email": "programmer@ptd.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "৮৮-০১৯১২১২১৭৪৫",
+      "department": "ডাক ও টেলিযোগাযোগ বিভাগ",
+      "website": "https://ptd.gov.bd/site/view/information_officers/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A7%80%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7--",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "মোহাম্মদ আমিনুল এহসান",
+      "designation": "সিনিয়র সহকারী সচিব",
+      "ministry": "তথ্য ও যোগাযোগ প্রযুক্তি বিভাগ",
+      "email": "rti@ictd.gov.bd",
+      "phone": "01721993832",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "department": "তথ্য ও যোগাযোগ প্রযুক্তি বিভাগ",
+      "website": "https://ictd.gov.bd/site/info_officers/b9497d6f-5bfc-4ba0-b17d-1cbf4f4a5c66/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A7%80%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7-",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "শাহানারা খানম",
+      "designation": "সিনিয়র সহকারী সচিব",
+      "ministry": "তথ্য ও যোগাযোগ প্রযুক্তি বিভাগ",
+      "email": "rti@ictd.gov.bd",
+      "phone": "01680246756",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z"
+    },
+    {
+      "name": "মো: আব্দুল্লা-আল-শাহীন",
+      "designation": "উপসচিব",
+      "ministry": "ধর্ম বিষয়ক মন্ত্রণালয়",
+      "email": "ds_law@mora.gov.bd",
+      "phone": "01711473876",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "website": "https://mora.gov.bd/site/info_officers/ed611342-9564-47bc-b63c-968f20a11621/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A7%80%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "মোহা: রুহুল আমিন",
+      "designation": "উপসচিব",
+      "ministry": "ধর্ম বিষয়ক মন্ত্রণালয়",
+      "email": "ds_org@mora.gov.bd",
+      "phone": "01778079999",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "website": "https://mora.gov.bd/site/info_officers/ed611342-9564-47bc-b63c-968f20a11621/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A7%80%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "আবু দাউদ মোঃ গোলাম মোস্তফা",
+      "designation": "উপ সচিব",
+      "ministry": "দুর্যোগ ব্যবস্থাপনা ও ত্রাণ মন্ত্রণালয়",
+      "email": "jsadmin@modmr.gov.bd",
+      "phone": "01711581821",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "website": "https://modmr.gov.bd/site/info_officers/5096d45a-ba12-45c5-b332-0ed4a5c2e50e/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE,-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "মো: জাহাঙ্গীর আলম",
+      "designation": "উপ সচিব",
+      "ministry": "দুর্যোগ ব্যবস্থাপনা ও ত্রাণ মন্ত্রণালয়",
+      "email": "dsadmin@modmr.gov.bd",
+      "phone": "01718560636",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "website": "https://modmr.gov.bd/site/info_officers/5096d45a-ba12-45c5-b332-0ed4a5c2e50e/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE,-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "মোঃ গোলাম রাব্বী",
+      "designation": "সিনিয়র সহকারী সচিব",
+      "ministry": "নৌ-পরিবহন মন্ত্রণালয়",
+      "email": "js.planning@mos.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৭১৬-৭৯৫৭১১",
+      "website": "https://mos.gov.bd/site/view/information_officers/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A7%80%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "এ. টি. এম. মোর্শেদ",
+      "designation": "সিনিয়র সহকারী সচিব",
+      "ministry": "নৌ-পরিবহন মন্ত্রণালয়",
+      "email": "sas.law@mos.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৬৭২-০১৯৬৫৬",
+      "website": "https://mos.gov.bd/site/view/information_officers/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A7%80%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "মোছা: হাজেরা খাতুন",
+      "designation": "সহকারী সচিব",
+      "ministry": "সমাজকল্যাণ মন্ত্রণালয়",
+      "email": "jslaw@msw.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৮৩১৫২৫৯৮৮",
+      "website": "https://msw.portal.gov.bd/site/info_officers/924985d2-41d2-40b6-b580-82ccbfdecfb2",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "মাহমুদা ইয়াছমিন",
+      "designation": "সহকারী সচিব",
+      "ministry": "সমাজকল্যাণ মন্ত্রণালয়",
+      "email": "yeasminmahmoda@yahoo.com",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "৮৮০ ০১৭৪৬১১১৭০১",
+      "website": "https://msw.portal.gov.bd/site/info_officers/924985d2-41d2-40b6-b580-82ccbfdecfb2",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "জনাব শাহীন আক্তার",
+      "designation": "উপসচিব",
+      "ministry": "মহিলা ও শিশু বিষয়ক মন্ত্রণালয়",
+      "email": "admin-3@mowca.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "৮৮০১৭৮০৮৭৪৭৭৪",
+      "website": "https://mowca.gov.bd/site/view/information_officers//%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A7%80%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "সাবিহা ইয়াসমীন",
+      "designation": "উপসচিব",
+      "ministry": "মহিলা ও শিশু বিষয়ক মন্ত্রণালয়",
+      "email": "dsadmin@mowca.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "৮৮০১৭৮৭৬৬০৪১৪",
+      "website": "https://mowca.gov.bd/site/view/information_officers//%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A7%80%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "মো: মাসুম রেজা",
+      "designation": "সিনিয়র সহকারী সচিব",
+      "ministry": "পানি সম্পদ মন্ত্রণালয়",
+      "email": "admin1@mowr.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৭১৬৪৮৮৫৪৮",
+      "website": "https://mowr.gov.bd/site/view/information_officers/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "মো: আবু রায়হান দোলন",
+      "designation": "সিনিয়র সহকারী সচিব",
+      "ministry": "পানি সম্পদ মন্ত্রণালয়",
+      "email": "admin3@mowr.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৭১১০৪৫৮৪৫",
+      "website": "https://mowr.gov.bd/site/view/information_officers/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "জনাব মোঃ লিয়াকত আলী",
+      "designation": "উপসচিব",
+      "ministry": "যুব ও ক্রীড়া মন্ত্রণালয়",
+      "email": "js.coordination@moysports.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৭১১৯০৪৪৬৮",
+      "website": "https://moysports.gov.bd/site/view/information_officers/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A7%80%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "জনাব মোহাম্মদ সিরাজুর রহমান ভূঞা",
+      "designation": "উপসচিব",
+      "ministry": "যুব ও ক্রীড়া মন্ত্রণালয়",
+      "email": "saraj.bhuiyan@yahoo.com",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৭১৩৩১০৯৬০",
+      "website": "https://moysports.gov.bd/site/view/information_officers/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A7%80%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "আব্দুল্লাহ আল খায়রুম",
+      "designation": "উপসচিব",
+      "ministry": "মুক্তিযুদ্ধ বিষয়ক মন্ত্রণালয়",
+      "email": "khayrum25bcs@yahoo.com",
+      "phone": "01712444752",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "website": "https://molwa.gov.bd/site/info_officers/c148ccf5-ea86-41eb-86df-c40892261f51/%E0%A6%A4%E0%A6%A5%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A6%E0%A6%BE%E0%A6%A8%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%80-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A7%80%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "শিমুল কুমার সাহা",
+      "designation": "সিনিয়র সহকারী সচিব",
+      "ministry": "প্রবাসী কল্যাণ ও বৈদেশিক কর্মসংস্থান মন্ত্রণালয়",
+      "email": "dsparliament@probashi.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০২-৪১০৩০২৪৯",
+      "website": "https://probashi.gov.bd/site/view/information_officers/-%E0%A6%A4%E0%A6%A5%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A6%E0%A6%BE%E0%A6%A8%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%80-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "রোজলিন শহীদ চৌধুরী",
+      "designation": "সিনিয়র সহকারী সচিব",
+      "ministry": "প্রবাসী কল্যাণ ও বৈদেশিক কর্মসংস্থান মন্ত্রণালয়",
+      "email": "sasadmin@probashi.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৯৫৫৩৮৩৬০৩",
+      "website": "https://probashi.gov.bd/site/view/information_officers/-%E0%A6%A4%E0%A6%A5%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A6%E0%A6%BE%E0%A6%A8%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%80-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "জনাব মোহাম্মদ জামাল হোসেন",
+      "designation": "উপসচিব",
+      "ministry": "রেলপথ মন্ত্রণালয়",
+      "email": "dsime@mor.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৮১৮৩৯৮৪১১",
+      "website": "https://mor.gov.bd/site/info_officers/e0fe01e0-b266-4997-aed1-7f9b40fa4f6f/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE--%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A7%80%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7-",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "জনাব মোঃ সাইফুল ইসলাম",
+      "designation": "উপসচিব",
+      "ministry": "রেলপথ মন্ত্রণালয়",
+      "email": "saifuldrdls@gmail.com",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৭১২৫৩২৯০৮",
+      "website": "https://mor.gov.bd/site/info_officers/e0fe01e0-b266-4997-aed1-7f9b40fa4f6f/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE--%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A7%80%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7-",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "দেবাশিস কুমার দাস",
+      "designation": "সিনিয়র সহকারী সচিব",
+      "ministry": "বিজ্ঞান ও প্রযুক্তি মন্ত্রণালয়",
+      "email": "admin3@most.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৭১১-৫০৪০২৩",
+      "website": "https://most.gov.bd/site/view/information_officers/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "মোহাম্মদ আলী সিদ্দিকী",
+      "designation": "সিনিয়র সহকারী সচিব",
+      "ministry": "বিজ্ঞান ও প্রযুক্তি মন্ত্রণালয়",
+      "email": "admin4@most.gov.bd",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৭৭২ ১১৬৩৩১",
+      "website": "https://most.gov.bd/site/view/information_officers/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "জনাব মোহাম্মদ আব্দুল মান্নান",
+      "designation": "সিনিয়র সহকারী পরিচালক",
+      "ministry": "বাংলাদেশ বিশ্ববিদ্যালয় মঞ্জুরী কমিশন",
+      "email": "mamannan_dh@yahoo.com",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৭৩১-৩৬৯২৯১",
+      "department": "বাংলাদেশ বিশ্ববিদ্যালয় মঞ্জুরী কমিশন",
+      "website": "https://ugc.gov.bd/site/page/4d2cc957-75c8-4015-917a-ef5d41b5ddc9/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A7%80%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "designated",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "মোঃ ইমরান হোসেন",
+      "designation": "সিনিয়র সহকারী পরিচালক",
+      "ministry": "বাংলাদেশ বিশ্ববিদ্যালয় মঞ্জুরী কমিশন",
+      "email": "imran.dumcj@gmail.com",
+      "source": "scraped_contacts/rti_officers_all.json",
+      "scrapedAt": "2026-01-02T14:47:21.025Z",
+      "phone": "০১৯১৬-২৪৩৫৫৫",
+      "department": "বাংলাদেশ বিশ্ববিদ্যালয় মঞ্জুরী কমিশন",
+      "website": "https://ugc.gov.bd/site/page/4d2cc957-75c8-4015-917a-ef5d41b5ddc9/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A7%80%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "role": "alternate",
+      "sources": [
+        "scraped_contacts/rti_officers_all.json",
+        "RTI officers - Sheet3.csv"
+      ]
+    },
+    {
+      "name": "নাম",
+      "designation": "ড. শেখ আব্দুর রশীদ (১৫৩০)",
+      "email": null,
+      "phone": null,
+      "ministry": "মন্ত্রিপরিষদ বিভাগ",
+      "ministryEnglish": "Cabinet Division",
+      "source": "https://cabinet.gov.bd/pages/officers/"
+    },
+    {
+      "name": "পদবি",
+      "designation": null,
+      "email": null,
+      "phone": null,
+      "ministry": "মন্ত্রিপরিষদ বিভাগ",
+      "ministryEnglish": "Cabinet Division",
+      "source": "https://cabinet.gov.bd/pages/officers/"
+    },
+    {
+      "name": "অফিস",
+      "designation": "মন্ত্রিপরিষদ বিভাগ",
+      "email": null,
+      "phone": null,
+      "ministry": "মন্ত্রিপরিষদ বিভাগ",
+      "ministryEnglish": "Cabinet Division",
+      "source": "https://cabinet.gov.bd/pages/officers/"
+    },
+    {
+      "name": "ইমেইল",
+      "designation": "cab_secy@cabinet.gov.bd",
+      "email": "cab_secy@cabinet.gov.bd",
+      "phone": null,
+      "ministry": "মন্ত্রিপরিষদ বিভাগ",
+      "ministryEnglish": "Cabinet Division",
+      "source": "https://cabinet.gov.bd/pages/officers/"
+    },
+    {
+      "name": "ফোন (অফিস)",
+      "designation": "০২-২২৬৬৪১৪৪৪",
+      "email": null,
+      "phone": null,
+      "ministry": "মন্ত্রিপরিষদ বিভাগ",
+      "ministryEnglish": "Cabinet Division",
+      "source": "https://cabinet.gov.bd/pages/officers/"
+    },
+    {
+      "name": "ইন্টারকম",
+      "designation": "১০১",
+      "email": null,
+      "phone": null,
+      "ministry": "মন্ত্রিপরিষদ বিভাগ",
+      "ministryEnglish": "Cabinet Division",
+      "source": "https://cabinet.gov.bd/pages/officers/"
+    },
+    {
+      "name": "কক্ষ নম্বর",
+      "designation": "৪০১",
+      "email": null,
+      "phone": null,
+      "ministry": "মন্ত্রিপরিষদ বিভাগ",
+      "ministryEnglish": "Cabinet Division",
+      "source": "https://cabinet.gov.bd/pages/officers/"
+    },
+    {
+      "name": "মোবাইল",
+      "designation": "+৮৮০১৩১০৩০৮১১৯",
+      "email": null,
+      "phone": null,
+      "ministry": "মন্ত্রিপরিষদ বিভাগ",
+      "ministryEnglish": "Cabinet Division",
+      "source": "https://cabinet.gov.bd/pages/officers/"
+    },
+    {
+      "name": "ফ্যাক্স",
+      "designation": "২২৩৩৮৬৫৫৯",
+      "email": null,
+      "phone": null,
+      "ministry": "মন্ত্রিপরিষদ বিভাগ",
+      "ministryEnglish": "Cabinet Division",
+      "source": "https://cabinet.gov.bd/pages/officers/"
+    },
+    {
+      "name": "নাম",
+      "designation": "ড. মুহাম্মদ ইউনূস",
+      "email": null,
+      "phone": null,
+      "ministry": "জনপ্রশাসন মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Public Administration",
+      "source": "https://mopa.gov.bd/pages/officers/"
+    },
+    {
+      "name": "পদবি",
+      "designation": null,
+      "email": null,
+      "phone": null,
+      "ministry": "জনপ্রশাসন মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Public Administration",
+      "source": "https://mopa.gov.bd/pages/officers/"
+    },
+    {
+      "name": "অফিস",
+      "designation": "জনপ্রশাসন মন্ত্রণালয়",
+      "email": null,
+      "phone": null,
+      "ministry": "জনপ্রশাসন মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Public Administration",
+      "source": "https://mopa.gov.bd/pages/officers/"
+    },
+    {
+      "name": "ইমেইল",
+      "designation": "secretary@mopa.gov.bd",
+      "email": "secretary@mopa.gov.bd",
+      "phone": null,
+      "ministry": "জনপ্রশাসন মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Public Administration",
+      "source": "https://mopa.gov.bd/pages/officers/"
+    },
+    {
+      "name": "ফোন (অফিস)",
+      "designation": "+৮৮-০২-২২৩৩৯০১০০",
+      "email": null,
+      "phone": null,
+      "ministry": "জনপ্রশাসন মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Public Administration",
+      "source": "https://mopa.gov.bd/pages/officers/"
+    },
+    {
+      "name": "ইন্টারকম",
+      "designation": "১০১",
+      "email": null,
+      "phone": null,
+      "ministry": "জনপ্রশাসন মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Public Administration",
+      "source": "https://mopa.gov.bd/pages/officers/"
+    },
+    {
+      "name": "কক্ষ নম্বর",
+      "designation": "-",
+      "email": null,
+      "phone": null,
+      "ministry": "জনপ্রশাসন মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Public Administration",
+      "source": "https://mopa.gov.bd/pages/officers/"
+    },
+    {
+      "name": "মোবাইল",
+      "designation": "০১৭০০৭১৭৭১১",
+      "email": null,
+      "phone": null,
+      "ministry": "জনপ্রশাসন মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Public Administration",
+      "source": "https://mopa.gov.bd/pages/officers/"
+    },
+    {
+      "name": "ফ্যাক্স",
+      "designation": null,
+      "email": null,
+      "phone": null,
+      "ministry": "জনপ্রশাসন মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Public Administration",
+      "source": "https://mopa.gov.bd/pages/officers/"
+    },
+    {
+      "name": "নাম",
+      "designation": "সৈয়দা রিজওয়ানা হাসান",
+      "email": null,
+      "phone": null,
+      "ministry": "তথ্য ও সম্প্রচার মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Information",
+      "source": "https://moi.gov.bd/pages/officers/"
+    },
+    {
+      "name": "পদবি",
+      "designation": null,
+      "email": null,
+      "phone": null,
+      "ministry": "তথ্য ও সম্প্রচার মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Information",
+      "source": "https://moi.gov.bd/pages/officers/"
+    },
+    {
+      "name": "অফিস",
+      "designation": "তথ্য ও সম্প্রচার মন্ত্রণালয়",
+      "email": null,
+      "phone": null,
+      "ministry": "তথ্য ও সম্প্রচার মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Information",
+      "source": "https://moi.gov.bd/pages/officers/"
+    },
+    {
+      "name": "ইমেইল",
+      "designation": "adviser@moi.gov.bd",
+      "email": "adviser@moi.gov.bd",
+      "phone": null,
+      "ministry": "তথ্য ও সম্প্রচার মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Information",
+      "source": "https://moi.gov.bd/pages/officers/"
+    },
+    {
+      "name": "ফোন (অফিস)",
+      "designation": "৫৫১০০০২২",
+      "email": null,
+      "phone": null,
+      "ministry": "তথ্য ও সম্প্রচার মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Information",
+      "source": "https://moi.gov.bd/pages/officers/"
+    },
+    {
+      "name": "ইন্টারকম",
+      "designation": null,
+      "email": null,
+      "phone": null,
+      "ministry": "তথ্য ও সম্প্রচার মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Information",
+      "source": "https://moi.gov.bd/pages/officers/"
+    },
+    {
+      "name": "কক্ষ নম্বর",
+      "designation": null,
+      "email": null,
+      "phone": null,
+      "ministry": "তথ্য ও সম্প্রচার মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Information",
+      "source": "https://moi.gov.bd/pages/officers/"
+    },
+    {
+      "name": "মোবাইল",
+      "designation": "০১৭১২১২৭০১০",
+      "email": null,
+      "phone": null,
+      "ministry": "তথ্য ও সম্প্রচার মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Information",
+      "source": "https://moi.gov.bd/pages/officers/"
+    },
+    {
+      "name": "ফ্যাক্স",
+      "designation": "০২২২৩৩৫৬৬১৭",
+      "email": null,
+      "phone": null,
+      "ministry": "তথ্য ও সম্প্রচার মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Information",
+      "source": "https://moi.gov.bd/pages/officers/"
+    },
+    {
+      "name": "নাম",
+      "designation": "লেফটেন্যান্ট জেনারেল মোঃ জাহাঙ্গীর আলম চৌধুরী (অব.)",
+      "email": null,
+      "phone": null,
+      "ministry": "স্বরাষ্ট্র মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Home Affairs",
+      "source": "https://moha.gov.bd/pages/officers/"
+    },
+    {
+      "name": "পদবি",
+      "designation": null,
+      "email": null,
+      "phone": null,
+      "ministry": "স্বরাষ্ট্র মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Home Affairs",
+      "source": "https://moha.gov.bd/pages/officers/"
+    },
+    {
+      "name": "অফিস",
+      "designation": "স্বরাষ্ট্র মন্ত্রণালয়",
+      "email": null,
+      "phone": null,
+      "ministry": "স্বরাষ্ট্র মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Home Affairs",
+      "source": "https://moha.gov.bd/pages/officers/"
+    },
+    {
+      "name": "ইমেইল",
+      "designation": "adviser@moha.gov.bd",
+      "email": "adviser@moha.gov.bd",
+      "phone": null,
+      "ministry": "স্বরাষ্ট্র মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Home Affairs",
+      "source": "https://moha.gov.bd/pages/officers/"
+    },
+    {
+      "name": "ফোন (অফিস)",
+      "designation": "+৮৮০২২২৩৩৫৪৮০০",
+      "email": null,
+      "phone": null,
+      "ministry": "স্বরাষ্ট্র মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Home Affairs",
+      "source": "https://moha.gov.bd/pages/officers/"
+    },
+    {
+      "name": "ইন্টারকম",
+      "designation": "২০১",
+      "email": null,
+      "phone": null,
+      "ministry": "স্বরাষ্ট্র মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Home Affairs",
+      "source": "https://moha.gov.bd/pages/officers/"
+    },
+    {
+      "name": "কক্ষ নম্বর",
+      "designation": "৩০৭",
+      "email": null,
+      "phone": null,
+      "ministry": "স্বরাষ্ট্র মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Home Affairs",
+      "source": "https://moha.gov.bd/pages/officers/"
+    },
+    {
+      "name": "মোবাইল",
+      "designation": "০১৫৫০০৬৪২০১",
+      "email": null,
+      "phone": null,
+      "ministry": "স্বরাষ্ট্র মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Home Affairs",
+      "source": "https://moha.gov.bd/pages/officers/"
+    },
+    {
+      "name": "ফ্যাক্স",
+      "designation": "০২-৯৫৭৪৫০০",
+      "email": null,
+      "phone": null,
+      "ministry": "স্বরাষ্ট্র মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Home Affairs",
+      "source": "https://moha.gov.bd/pages/officers/"
+    },
+    {
+      "name": "নাম",
+      "designation": "জনাব মোঃ তৌহিদ হোসেন",
+      "email": null,
+      "phone": null,
+      "ministry": "পররাষ্ট্র মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Foreign Affairs",
+      "source": "https://mofa.gov.bd/pages/officers/"
+    },
+    {
+      "name": "পদবি",
+      "designation": null,
+      "email": null,
+      "phone": null,
+      "ministry": "পররাষ্ট্র মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Foreign Affairs",
+      "source": "https://mofa.gov.bd/pages/officers/"
+    },
+    {
+      "name": "অফিস",
+      "designation": "মাননীয় উপদেষ্টার দপ্তর",
+      "email": null,
+      "phone": null,
+      "ministry": "পররাষ্ট্র মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Foreign Affairs",
+      "source": "https://mofa.gov.bd/pages/officers/"
+    },
+    {
+      "name": "ইমেইল",
+      "designation": "fa@mofa.gov.bd",
+      "email": "fa@mofa.gov.bd",
+      "phone": null,
+      "ministry": "পররাষ্ট্র মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Foreign Affairs",
+      "source": "https://mofa.gov.bd/pages/officers/"
+    },
+    {
+      "name": "ফোন (অফিস)",
+      "designation": "০২২২৩৩৮২৮৫২",
+      "email": null,
+      "phone": null,
+      "ministry": "পররাষ্ট্র মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Foreign Affairs",
+      "source": "https://mofa.gov.bd/pages/officers/"
+    },
+    {
+      "name": "ইন্টারকম",
+      "designation": null,
+      "email": null,
+      "phone": null,
+      "ministry": "পররাষ্ট্র মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Foreign Affairs",
+      "source": "https://mofa.gov.bd/pages/officers/"
+    },
+    {
+      "name": "কক্ষ নম্বর",
+      "designation": null,
+      "email": null,
+      "phone": null,
+      "ministry": "পররাষ্ট্র মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Foreign Affairs",
+      "source": "https://mofa.gov.bd/pages/officers/"
+    },
+    {
+      "name": "মোবাইল",
+      "designation": "০১৫৫৩৫৪৩৮৭৫",
+      "email": null,
+      "phone": null,
+      "ministry": "পররাষ্ট্র মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Foreign Affairs",
+      "source": "https://mofa.gov.bd/pages/officers/"
+    },
+    {
+      "name": "ফ্যাক্স",
+      "designation": null,
+      "email": null,
+      "phone": null,
+      "ministry": "পররাষ্ট্র মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Foreign Affairs",
+      "source": "https://mofa.gov.bd/pages/officers/"
+    },
+    {
+      "name": "নাম",
+      "designation": null,
+      "email": null,
+      "phone": null,
+      "ministry": "স্বাস্থ্য ও পরিবার কল্যাণ মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Health and Family Welfare",
+      "source": "https://mohfw.gov.bd/pages/officers/"
+    },
+    {
+      "name": "পদবি",
+      "designation": null,
+      "email": null,
+      "phone": null,
+      "ministry": "স্বাস্থ্য ও পরিবার কল্যাণ মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Health and Family Welfare",
+      "source": "https://mohfw.gov.bd/pages/officers/"
+    },
+    {
+      "name": "অফিস",
+      "designation": null,
+      "email": null,
+      "phone": null,
+      "ministry": "স্বাস্থ্য ও পরিবার কল্যাণ মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Health and Family Welfare",
+      "source": "https://mohfw.gov.bd/pages/officers/"
+    },
+    {
+      "name": "ইমেইল",
+      "designation": null,
+      "email": null,
+      "phone": null,
+      "ministry": "স্বাস্থ্য ও পরিবার কল্যাণ মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Health and Family Welfare",
+      "source": "https://mohfw.gov.bd/pages/officers/"
+    },
+    {
+      "name": "ফোন (অফিস)",
+      "designation": null,
+      "email": null,
+      "phone": null,
+      "ministry": "স্বাস্থ্য ও পরিবার কল্যাণ মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Health and Family Welfare",
+      "source": "https://mohfw.gov.bd/pages/officers/"
+    },
+    {
+      "name": "ইন্টারকম",
+      "designation": null,
+      "email": null,
+      "phone": null,
+      "ministry": "স্বাস্থ্য ও পরিবার কল্যাণ মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Health and Family Welfare",
+      "source": "https://mohfw.gov.bd/pages/officers/"
+    },
+    {
+      "name": "কক্ষ নম্বর",
+      "designation": null,
+      "email": null,
+      "phone": null,
+      "ministry": "স্বাস্থ্য ও পরিবার কল্যাণ মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Health and Family Welfare",
+      "source": "https://mohfw.gov.bd/pages/officers/"
+    },
+    {
+      "name": "মোবাইল",
+      "designation": null,
+      "email": null,
+      "phone": null,
+      "ministry": "স্বাস্থ্য ও পরিবার কল্যাণ মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Health and Family Welfare",
+      "source": "https://mohfw.gov.bd/pages/officers/"
+    },
+    {
+      "name": "ফ্যাক্স",
+      "designation": null,
+      "email": null,
+      "phone": null,
+      "ministry": "স্বাস্থ্য ও পরিবার কল্যাণ মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Health and Family Welfare",
+      "source": "https://mohfw.gov.bd/pages/officers/"
+    },
+    {
+      "name": "নাম",
+      "designation": "লেফটেন্যান্ট জেনারেল মোঃ জাহাঙ্গীর আলম চৌধুরী (অব.)",
+      "email": null,
+      "phone": null,
+      "ministry": "কৃষি মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Agriculture",
+      "source": "https://moa.gov.bd/pages/officers/"
+    },
+    {
+      "name": "পদবি",
+      "designation": null,
+      "email": null,
+      "phone": null,
+      "ministry": "কৃষি মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Agriculture",
+      "source": "https://moa.gov.bd/pages/officers/"
+    },
+    {
+      "name": "অফিস",
+      "designation": "কৃষি মন্ত্রণালয়",
+      "email": null,
+      "phone": null,
+      "ministry": "কৃষি মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Agriculture",
+      "source": "https://moa.gov.bd/pages/officers/"
+    },
+    {
+      "name": "ইমেইল",
+      "designation": "adviser@moa.gov.bd",
+      "email": "adviser@moa.gov.bd",
+      "phone": null,
+      "ministry": "কৃষি মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Agriculture",
+      "source": "https://moa.gov.bd/pages/officers/"
+    },
+    {
+      "name": "ফোন (অফিস)",
+      "designation": "০২-৫৫১০০৩৫৯",
+      "email": null,
+      "phone": null,
+      "ministry": "কৃষি মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Agriculture",
+      "source": "https://moa.gov.bd/pages/officers/"
+    },
+    {
+      "name": "ইন্টারকম",
+      "designation": "১১২",
+      "email": null,
+      "phone": null,
+      "ministry": "কৃষি মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Agriculture",
+      "source": "https://moa.gov.bd/pages/officers/"
+    },
+    {
+      "name": "কক্ষ নম্বর",
+      "designation": "৪২৪",
+      "email": null,
+      "phone": null,
+      "ministry": "কৃষি মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Agriculture",
+      "source": "https://moa.gov.bd/pages/officers/"
+    },
+    {
+      "name": "মোবাইল",
+      "designation": "০১৯১২৭২১২৩৬",
+      "email": null,
+      "phone": null,
+      "ministry": "কৃষি মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Agriculture",
+      "source": "https://moa.gov.bd/pages/officers/"
+    },
+    {
+      "name": "ফ্যাক্স",
+      "designation": "--",
+      "email": null,
+      "phone": null,
+      "ministry": "কৃষি মন্ত্রণালয়",
+      "ministryEnglish": "Ministry of Agriculture",
+      "source": "https://moa.gov.bd/pages/officers/"
+    },
+    {
+      "name": "ডাঃ মোহাম্মদ মহিবুল হাসান",
+      "designation": "",
+      "ministry": "প্রধান উপদেষ্টার কার্যালয়",
+      "department": "",
+      "phone": "৮৮-০২-৫৫০২৯৪৩৪",
+      "email": "",
+      "website": "https://cao.gov.bd/site/page/2124cdf9-2bef-4cef-a920-50a44e339506/%E0%A6%A4%E0%A6%A5%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A6%E0%A6%BE%E0%A6%A8%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%80-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE",
+      "lastChecked": "",
+      "role": "designated",
+      "source": "RTI officers - Sheet3.csv",
+      "scrapedAt": "2026-01-02T15:09:43.253Z"
+    },
+    {
+      "name": "র. হ. ম. আলাওল কবির",
+      "designation": "পরিচালক-১২",
+      "ministry": "প্রধান উপদেষ্টার কার্যালয়",
+      "department": "",
+      "phone": "৮৮-০২-৫৫০২৯৪৩২",
+      "email": "",
+      "website": "https://cao.gov.bd/site/page/2124cdf9-2bef-4cef-a920-50a44e339506/%E0%A6%A4%E0%A6%A5%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A6%E0%A6%BE%E0%A6%A8%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%80-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE",
+      "lastChecked": "",
+      "role": "alternate",
+      "source": "RTI officers - Sheet3.csv",
+      "scrapedAt": "2026-01-02T15:09:43.253Z"
+    },
+    {
+      "name": "জনাব মো: সাইফুদ্দিন গিয়াস",
+      "designation": "",
+      "ministry": "জনপ্রশাসন মন্ত্রণালয়",
+      "department": "",
+      "phone": "০১৭১০১৭৩৭৭০",
+      "email": "adminfa@mopa.gov.bd",
+      "website": "https://mopa.gov.bd/site/view/mopa_rti/RTI%20Designated%20officer/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "lastChecked": "",
+      "role": "designated",
+      "source": "RTI officers - Sheet3.csv",
+      "scrapedAt": "2026-01-02T15:09:43.253Z"
+    },
+    {
+      "name": "জনাব মোঃ আলমগীর কবীর",
+      "designation": "সিনিয়র সহকারী সচিব",
+      "ministry": "জনপ্রশাসন মন্ত্রণালয়",
+      "department": "",
+      "phone": "০১৭১৭৪৫৪৫৬৭",
+      "email": "adminprint@mopa.gov.bd",
+      "website": "https://mopa.gov.bd/site/view/mopa_rti/RTI%20Designated%20officer/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7",
+      "lastChecked": "",
+      "role": "alternate",
+      "source": "RTI officers - Sheet3.csv",
+      "scrapedAt": "2026-01-02T15:09:43.253Z"
+    },
+    {
+      "name": "মোঃ রাশেদুজ্জামান সরকার",
+      "designation": "",
+      "ministry": "",
+      "department": "বাংলাদেশ সরকারী কর্মকমিশন সচিবালয়",
+      "phone": "৫৫০০৬৫৮৯",
+      "email": "",
+      "website": "https://bpsc.gov.bd/site/view/information_officers/%E0%A6%A4%E0%A6%A5%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A6%E0%A6%BE%E0%A6%A8%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%80-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE",
+      "lastChecked": "",
+      "role": "designated",
+      "source": "RTI officers - Sheet3.csv",
+      "scrapedAt": "2026-01-02T15:09:43.253Z"
+    },
+    {
+      "name": "উম্মে আছমা আয়শা",
+      "designation": "বি.সি.এস (ক্যাডার) এবং পরিচালক",
+      "ministry": "",
+      "department": "বাংলাদেশ সরকারী কর্মকমিশন সচিবালয়",
+      "phone": "৫৫০০৬৬৪৭",
+      "email": "",
+      "website": "https://bpsc.gov.bd/site/view/information_officers/%E0%A6%A4%E0%A6%A5%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A6%E0%A6%BE%E0%A6%A8%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%80-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE",
+      "lastChecked": "",
+      "role": "alternate",
+      "source": "RTI officers - Sheet3.csv",
+      "scrapedAt": "2026-01-02T15:09:43.253Z"
+    },
+    {
+      "name": "মোঃ আবু সুফিয়ান",
+      "designation": "",
+      "ministry": "স্বাস্থ্য ও পরিবার কল্যাণ মন্ত্রণালয়",
+      "department": "স্বাস্থ্য সেবা বিভাগ",
+      "phone": "০১৭১৭-৪৭৩২৪২",
+      "email": "admin2@hsd.gov.bd",
+      "website": "https://hsd.gov.bd/site/info_officers/deaf2c33-b065-4725-b544-90bedb2deea9/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE",
+      "lastChecked": "",
+      "role": "designated",
+      "source": "RTI officers - Sheet3.csv",
+      "scrapedAt": "2026-01-02T15:09:43.253Z"
+    },
+    {
+      "name": "স্নেহাশীষ দাশ",
+      "designation": "সিনিয়র সহকারী সচিব",
+      "ministry": "স্বাস্থ্য ও পরিবার কল্যাণ মন্ত্রণালয়",
+      "department": "স্বাস্থ্য সেবা বিভাগ",
+      "phone": "০১৭১১-৭০১৭৫৭",
+      "email": "health2@hsd.gov.bd",
+      "website": "https://hsd.gov.bd/site/info_officers/deaf2c33-b065-4725-b544-90bedb2deea9/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE",
+      "lastChecked": "",
+      "role": "alternate",
+      "source": "RTI officers - Sheet3.csv",
+      "scrapedAt": "2026-01-02T15:09:43.253Z"
+    },
+    {
+      "name": "তাহ্‌নিয়া রহমান চৌধুরী",
+      "designation": "",
+      "ministry": "",
+      "department": "পল্লী উন্নয়ন ও সমবায় বিভাগ",
+      "phone": "৮৮-০১৭১৬-৩৯৩১১৩",
+      "email": "plan3.section@rdcd.gov.bd",
+      "website": "https://rdcd.portal.gov.bd/site/view/information_officers//%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7-",
+      "lastChecked": "",
+      "role": "designated",
+      "source": "RTI officers - Sheet3.csv",
+      "scrapedAt": "2026-01-02T15:09:43.253Z"
+    },
+    {
+      "name": "এস, টি, এ, পারভীন",
+      "designation": "সহকারী সচিব",
+      "ministry": "",
+      "department": "পল্লী উন্নয়ন ও সমবায় বিভাগ",
+      "phone": "৮৮-০১৭৩৩-৭৩১৬৩২",
+      "email": "as.budget1@rdcd.gov.bd",
+      "website": "https://rdcd.portal.gov.bd/site/view/information_officers//%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%83%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7-",
+      "lastChecked": "",
+      "role": "alternate",
+      "source": "RTI officers - Sheet3.csv",
+      "scrapedAt": "2026-01-02T15:09:43.253Z"
+    },
+    {
+      "name": "ড. সৈয়দা ফারহানা নূর চৌধুরী",
+      "designation": "",
+      "ministry": "মুক্তিযুদ্ধ বিষয়ক মন্ত্রণালয়",
+      "department": "",
+      "phone": "০১৭১১১৭৪৫৩৭",
+      "email": "",
+      "website": "https://molwa.gov.bd/site/info_officers/c148ccf5-ea86-41eb-86df-c40892261f51/%E0%A6%A4%E0%A6%A5%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A6%E0%A6%BE%E0%A6%A8%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%80-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A7%80%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE",
+      "lastChecked": "",
+      "role": "designated",
+      "source": "RTI officers - Sheet3.csv",
+      "scrapedAt": "2026-01-02T15:09:43.253Z"
+    }
+  ]
+}
